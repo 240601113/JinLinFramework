@@ -1,0 +1,2630 @@
+﻿[log][2025-10-29 11:20:38]已正常进入游戏
+[log][2025-10-29 11:20:38]UnityEngine.Debug:Log (object)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:19)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-29 11:20:38]异步场景加载进度：0%
+[log][2025-10-29 11:20:38]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:355)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+SceneMgr:LoadSceneAsync (string,System.Action`2<bool, UnityEngine.SceneManagement.Scene>,System.Action`1<single>,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Framework/Scripts/Managers/SceneMgr.cs:98)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:67)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-29 11:20:38]异步场景加载进度：90%
+[log][2025-10-29 11:20:38]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:355)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-29 11:20:38]异步加载场景成功，场景名为：Main
+[log][2025-10-29 11:20:38]UnityEngine.Debug:Log (object)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:129)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-29 11:20:38]日志管理器测试！！！
+[log][2025-10-29 11:20:38]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:234)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:80)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Warning][2025-10-29 11:21:29]Assets\Framework\Scripts\Managers\SoundMgr.cs(14,17): warning CS0414: The field 'SoundMgr.curIndex' is assigned but its value is never used
+[Warning][2025-10-29 11:21:29]
+[log][2025-10-29 11:21:39]已正常进入游戏
+[log][2025-10-29 11:21:39]UnityEngine.Debug:Log (object)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:19)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-29 11:21:39]异步场景加载进度：0%
+[log][2025-10-29 11:21:39]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:355)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+SceneMgr:LoadSceneAsync (string,System.Action`2<bool, UnityEngine.SceneManagement.Scene>,System.Action`1<single>,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Framework/Scripts/Managers/SceneMgr.cs:98)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:67)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-29 11:21:39]异步场景加载进度：90%
+[log][2025-10-29 11:21:39]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:355)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-29 11:21:39]异步加载场景成功，场景名为：Main
+[log][2025-10-29 11:21:39]UnityEngine.Debug:Log (object)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:129)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-29 11:21:39]日志管理器测试！！！
+[log][2025-10-29 11:21:39]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:234)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:80)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-29 11:31:12]已正常进入游戏
+[log][2025-10-29 11:31:12]UnityEngine.Debug:Log (object)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:19)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-29 11:31:12]异步场景加载进度：0%
+[log][2025-10-29 11:31:12]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:355)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+SceneMgr:LoadSceneAsync (string,System.Action`2<bool, UnityEngine.SceneManagement.Scene>,System.Action`1<single>,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Framework/Scripts/Managers/SceneMgr.cs:98)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:67)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-29 11:31:12]异步场景加载进度：90%
+[log][2025-10-29 11:31:12]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:355)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-29 11:31:12]异步加载场景成功，场景名为：Main
+[log][2025-10-29 11:31:12]UnityEngine.Debug:Log (object)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:129)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-29 11:31:12]日志管理器测试！！！
+[log][2025-10-29 11:31:12]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:80)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-29 12:27:56]已正常进入游戏
+[log][2025-10-29 12:27:56]UnityEngine.Debug:Log (object)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:19)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-29 12:27:56]异步场景加载进度：0%
+[log][2025-10-29 12:27:56]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:356)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+SceneMgr:LoadSceneAsync (string,System.Action`2<bool, UnityEngine.SceneManagement.Scene>,System.Action`1<single>,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Framework/Scripts/Managers/SceneMgr.cs:98)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:67)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-29 12:27:56]异步场景加载进度：90%
+[log][2025-10-29 12:27:56]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:356)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-29 12:27:56]异步加载场景成功，场景名为：Main
+[log][2025-10-29 12:27:56]UnityEngine.Debug:Log (object)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:129)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-29 12:27:56]日志管理器测试！！！
+[log][2025-10-29 12:27:56]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:80)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Warning][2025-10-29 12:28:06]Assets\Framework\Scripts\Managers\SoundMgr.cs(14,17): warning CS0414: The field 'SoundMgr.curIndex' is assigned but its value is never used
+[Warning][2025-10-29 12:28:06]
+[log][2025-10-29 12:30:27]已正常进入游戏
+[log][2025-10-29 12:30:27]UnityEngine.Debug:Log (object)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:19)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-29 12:30:27]异步场景加载进度：0%
+[log][2025-10-29 12:30:27]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:356)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+SceneMgr:LoadSceneAsync (string,System.Action`2<bool, UnityEngine.SceneManagement.Scene>,System.Action`1<single>,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Framework/Scripts/Managers/SceneMgr.cs:98)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:67)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-29 12:30:27]异步场景加载进度：90%
+[log][2025-10-29 12:30:27]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:356)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-29 12:30:27]异步加载场景成功，场景名为：Main
+[log][2025-10-29 12:30:27]UnityEngine.Debug:Log (object)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:129)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-29 12:31:44]已正常进入游戏
+[log][2025-10-29 12:31:44]UnityEngine.Debug:Log (object)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:19)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-29 12:31:44]异步场景加载进度：0%
+[log][2025-10-29 12:31:44]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:360)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+SceneMgr:LoadSceneAsync (string,System.Action`2<bool, UnityEngine.SceneManagement.Scene>,System.Action`1<single>,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Framework/Scripts/Managers/SceneMgr.cs:98)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:67)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-29 12:31:44]异步场景加载进度：90%
+[log][2025-10-29 12:31:44]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:360)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-29 12:31:44]异步加载场景成功，场景名为：Main
+[log][2025-10-29 12:31:44]UnityEngine.Debug:Log (object)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:129)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-29 12:31:44]预制体加载成功！！！
+[log][2025-10-29 12:31:44]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:92)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-29 12:34:06]已正常进入游戏
+[log][2025-10-29 12:34:06]UnityEngine.Debug:Log (object)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:19)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-29 12:34:06]异步场景加载进度：0%
+[log][2025-10-29 12:34:06]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:361)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+SceneMgr:LoadSceneAsync (string,System.Action`2<bool, UnityEngine.SceneManagement.Scene>,System.Action`1<single>,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Framework/Scripts/Managers/SceneMgr.cs:98)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:67)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-29 12:34:06]异步场景加载进度：90%
+[log][2025-10-29 12:34:06]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:361)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-29 12:34:06]异步加载场景成功，场景名为：Main
+[log][2025-10-29 12:34:06]UnityEngine.Debug:Log (object)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:129)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-29 12:34:06]资源加载进度：0.0%
+[log][2025-10-29 12:34:06]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+ResMgr/<LoadAssetIEnumerat>d__3`1<UnityEngine.GameObject>:MoveNext () (at Assets/Framework/Scripts/Managers/ResMgr.cs:77)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+ResMgr:LoadAssetAsync<UnityEngine.GameObject> (string,UnityEngine.Events.UnityAction`1<UnityEngine.GameObject>) (at Assets/Framework/Scripts/Managers/ResMgr.cs:56)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:100)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-29 12:34:06]资源加载进度：90.0%
+[log][2025-10-29 12:34:06]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+ResMgr/<LoadAssetIEnumerat>d__3`1<UnityEngine.GameObject>:MoveNext () (at Assets/Framework/Scripts/Managers/ResMgr.cs:77)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-29 12:34:06]资源加载完毕
+[log][2025-10-29 12:34:06]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+ResMgr/<LoadAssetIEnumerat>d__3`1<UnityEngine.GameObject>:MoveNext () (at Assets/Framework/Scripts/Managers/ResMgr.cs:81)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-29 12:34:06]异步加载测试成功！！！
+[log][2025-10-29 12:34:06]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadRes (UnityEngine.GameObject) (at Assets/Game/Scripts/GameApp.cs:370)
+ResMgr/<LoadAssetIEnumerat>d__3`1<UnityEngine.GameObject>:MoveNext () (at Assets/Framework/Scripts/Managers/ResMgr.cs:82)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-29 12:40:14]已正常进入游戏
+[log][2025-10-29 12:40:14]UnityEngine.Debug:Log (object)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:19)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-29 12:40:14]异步场景加载进度：0%
+[log][2025-10-29 12:40:14]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:365)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+SceneMgr:LoadSceneAsync (string,System.Action`2<bool, UnityEngine.SceneManagement.Scene>,System.Action`1<single>,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Framework/Scripts/Managers/SceneMgr.cs:98)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:67)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-29 12:40:14]异步场景加载进度：90%
+[log][2025-10-29 12:40:14]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:365)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-29 12:40:14]异步加载场景成功，场景名为：Main
+[log][2025-10-29 12:40:14]UnityEngine.Debug:Log (object)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:129)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-29 12:40:14]资源加载进度：0.0%
+[log][2025-10-29 12:40:14]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+ResMgr/<LoadAssetIEnumerat>d__3`1<UnityEngine.GameObject>:MoveNext () (at Assets/Framework/Scripts/Managers/ResMgr.cs:77)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+ResMgr:LoadAssetAsync<UnityEngine.GameObject> (string,UnityEngine.Events.UnityAction`1<UnityEngine.GameObject>) (at Assets/Framework/Scripts/Managers/ResMgr.cs:56)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:100)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-29 12:40:14]Assets/Game/Resources
+[log][2025-10-29 12:40:14]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:107)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-29 12:40:14].prefab
+[log][2025-10-29 12:40:14]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:113)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-29 12:40:14]资源加载进度：90.0%
+[log][2025-10-29 12:40:14]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+ResMgr/<LoadAssetIEnumerat>d__3`1<UnityEngine.GameObject>:MoveNext () (at Assets/Framework/Scripts/Managers/ResMgr.cs:77)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-29 12:40:15]资源加载完毕
+[log][2025-10-29 12:40:15]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+ResMgr/<LoadAssetIEnumerat>d__3`1<UnityEngine.GameObject>:MoveNext () (at Assets/Framework/Scripts/Managers/ResMgr.cs:81)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-29 12:40:15]异步加载资源测试成功！！！
+[log][2025-10-29 12:40:15]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadRes (UnityEngine.GameObject) (at Assets/Game/Scripts/GameApp.cs:374)
+ResMgr/<LoadAssetIEnumerat>d__3`1<UnityEngine.GameObject>:MoveNext () (at Assets/Framework/Scripts/Managers/ResMgr.cs:82)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Warning][2025-10-29 12:40:37]Assets\Framework\Scripts\Managers\SoundMgr.cs(14,17): warning CS0414: The field 'SoundMgr.curIndex' is assigned but its value is never used
+[Warning][2025-10-29 12:40:37]
+[log][2025-10-29 12:40:44]已正常进入游戏
+[log][2025-10-29 12:40:44]UnityEngine.Debug:Log (object)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:19)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-29 12:40:44]异步场景加载进度：0%
+[log][2025-10-29 12:40:44]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:365)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+SceneMgr:LoadSceneAsync (string,System.Action`2<bool, UnityEngine.SceneManagement.Scene>,System.Action`1<single>,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Framework/Scripts/Managers/SceneMgr.cs:98)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:67)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-29 12:40:44]异步场景加载进度：90%
+[log][2025-10-29 12:40:44]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:365)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-29 12:40:44]异步加载场景成功，场景名为：Main
+[log][2025-10-29 12:40:44]UnityEngine.Debug:Log (object)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:129)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-29 12:40:44]Assets/Game/Resources
+[log][2025-10-29 12:40:44]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:107)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-29 12:40:44].prefab
+[log][2025-10-29 12:40:44]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:113)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Warning][2025-10-29 12:41:19]Assets\Framework\Scripts\Managers\SoundMgr.cs(14,17): warning CS0414: The field 'SoundMgr.curIndex' is assigned but its value is never used
+[Warning][2025-10-29 12:41:19]
+[log][2025-10-29 12:49:25]已正常进入游戏
+[log][2025-10-29 12:49:25]UnityEngine.Debug:Log (object)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:19)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-29 12:49:25]异步场景加载进度：0%
+[log][2025-10-29 12:49:25]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:353)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+SceneMgr:LoadSceneAsync (string,System.Action`2<bool, UnityEngine.SceneManagement.Scene>,System.Action`1<single>,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Framework/Scripts/Managers/SceneMgr.cs:98)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:67)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-29 12:49:25]异步场景加载进度：90%
+[log][2025-10-29 12:49:25]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:353)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-29 12:49:25]异步加载场景成功，场景名为：Main
+[log][2025-10-29 12:49:25]UnityEngine.Debug:Log (object)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:129)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Error][2025-10-29 12:49:25]NullReferenceException: Object reference not set to an instance of an object
+[Error][2025-10-29 12:49:25]EventMgr.AddListener (System.String eventName, EventMgr+OnEventAction onEvent) (at Assets/Framework/Scripts/Managers/EventMgr.cs:21)
+GameApp.TestRunningContent (System.Boolean success, UnityEngine.SceneManagement.Scene scene) (at Assets/Game/Scripts/GameApp.cs:306)
+SceneMgr+<AsyncLoadCoroutine>d__3.MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine.InvokeMoveNext (System.Collections.IEnumerator enumerator, System.IntPtr returnValueAddress) (at <f68865d630f84dbe83e4490ea2afd98a>:0)
+
+[log][2025-10-29 12:50:57]已正常进入游戏
+[log][2025-10-29 12:50:57]UnityEngine.Debug:Log (object)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:19)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-29 12:50:57]异步场景加载进度：0%
+[log][2025-10-29 12:50:57]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:353)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+SceneMgr:LoadSceneAsync (string,System.Action`2<bool, UnityEngine.SceneManagement.Scene>,System.Action`1<single>,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Framework/Scripts/Managers/SceneMgr.cs:98)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:67)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-29 12:50:57]异步场景加载进度：90%
+[log][2025-10-29 12:50:57]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:353)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-29 12:50:57]异步加载场景成功，场景名为：Main
+[log][2025-10-29 12:50:57]UnityEngine.Debug:Log (object)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:129)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Error][2025-10-29 12:50:57]NullReferenceException: Object reference not set to an instance of an object
+[Error][2025-10-29 12:50:57]EventMgr.AddListener (System.String eventName, EventMgr+OnEventAction onEvent) (at Assets/Framework/Scripts/Managers/EventMgr.cs:21)
+GameApp.TestRunningContent (System.Boolean success, UnityEngine.SceneManagement.Scene scene) (at Assets/Game/Scripts/GameApp.cs:306)
+SceneMgr+<AsyncLoadCoroutine>d__3.MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine.InvokeMoveNext (System.Collections.IEnumerator enumerator, System.IntPtr returnValueAddress) (at <f68865d630f84dbe83e4490ea2afd98a>:0)
+
+[Warning][2025-10-29 12:54:27]Assets\Framework\Scripts\Managers\SoundMgr.cs(14,17): warning CS0414: The field 'SoundMgr.curIndex' is assigned but its value is never used
+[Warning][2025-10-29 12:54:27]
+[log][2025-10-29 12:59:28]已正常进入游戏
+[log][2025-10-29 12:59:28]UnityEngine.Debug:Log (object)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:19)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-29 12:59:28]异步场景加载进度：0%
+[log][2025-10-29 12:59:28]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:352)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+SceneMgr:LoadSceneAsync (string,System.Action`2<bool, UnityEngine.SceneManagement.Scene>,System.Action`1<single>,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Framework/Scripts/Managers/SceneMgr.cs:98)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:67)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-29 12:59:28]异步场景加载进度：90%
+[log][2025-10-29 12:59:28]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:352)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-29 12:59:28]异步加载场景成功，场景名为：Main
+[log][2025-10-29 12:59:28]UnityEngine.Debug:Log (object)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:129)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-29 12:59:28]测试事件订阅与发布管理模块：7777
+[log][2025-10-29 12:59:28]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+GameApp:OnTestCall (string,object) (at Assets/Game/Scripts/GameApp.cs:369)
+EventMgr:Emit (string,object) (at Assets/Framework/Scripts/Managers/EventMgr.cs:60)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:306)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-29 13:05:56]已正常进入游戏
+[log][2025-10-29 13:05:56]UnityEngine.Debug:Log (object)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:19)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-29 13:05:56]异步场景加载进度：0%
+[log][2025-10-29 13:05:56]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:352)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+SceneMgr:LoadSceneAsync (string,System.Action`2<bool, UnityEngine.SceneManagement.Scene>,System.Action`1<single>,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Framework/Scripts/Managers/SceneMgr.cs:98)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:67)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-29 13:05:56]异步场景加载进度：90%
+[log][2025-10-29 13:05:56]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:352)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-29 13:05:56]异步加载场景成功，场景名为：Main
+[log][2025-10-29 13:05:56]UnityEngine.Debug:Log (object)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:129)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-29 13:05:56]测试事件订阅与发布管理模块：7777
+[log][2025-10-29 13:05:56]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+GameApp:OnTestCall (string,object) (at Assets/Game/Scripts/GameApp.cs:369)
+EventMgr:EmitEvent (string,object) (at Assets/Framework/Scripts/Managers/EventMgr.cs:60)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:306)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-29 15:14:47]已正常进入游戏
+[log][2025-10-29 15:14:47]UnityEngine.Debug:Log (object)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:19)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-29 15:14:47]异步场景加载进度：0%
+[log][2025-10-29 15:14:47]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:348)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+SceneMgr:LoadSceneAsync (string,System.Action`2<bool, UnityEngine.SceneManagement.Scene>,System.Action`1<single>,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Framework/Scripts/Managers/SceneMgr.cs:98)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:67)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-29 15:14:47]异步场景加载进度：90%
+[log][2025-10-29 15:14:47]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:348)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-29 15:14:47]异步加载场景成功，场景名为：Main
+[log][2025-10-29 15:14:47]UnityEngine.Debug:Log (object)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:129)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-29 15:14:50]测试定时器，3秒后第一次触发定时器，触发后每个2秒触发一次，无限触发
+[log][2025-10-29 15:14:50]UnityEngine.Debug:Log (object)
+GameApp/<>c:<TestRunningContent>b__2_1 (object) (at Assets/Game/Scripts/GameApp.cs:318)
+TimerMgr:Update () (at Assets/Framework/Scripts/Managers/TimerMgr.cs:137)
+
+[log][2025-10-29 15:14:52]测试定时器，5秒后触发
+[log][2025-10-29 15:14:52]UnityEngine.Debug:Log (object)
+GameApp/<>c:<TestRunningContent>b__2_0 (object) (at Assets/Game/Scripts/GameApp.cs:313)
+TimerMgr:Update () (at Assets/Framework/Scripts/Managers/TimerMgr.cs:137)
+
+[log][2025-10-29 15:14:52]测试定时器，3秒后第一次触发定时器，触发后每个2秒触发一次，无限触发
+[log][2025-10-29 15:14:52]UnityEngine.Debug:Log (object)
+GameApp/<>c:<TestRunningContent>b__2_1 (object) (at Assets/Game/Scripts/GameApp.cs:318)
+TimerMgr:Update () (at Assets/Framework/Scripts/Managers/TimerMgr.cs:137)
+
+[log][2025-10-29 15:14:54]测试定时器，3秒后第一次触发定时器，触发后每个2秒触发一次，无限触发
+[log][2025-10-29 15:14:54]UnityEngine.Debug:Log (object)
+GameApp/<>c:<TestRunningContent>b__2_1 (object) (at Assets/Game/Scripts/GameApp.cs:318)
+TimerMgr:Update () (at Assets/Framework/Scripts/Managers/TimerMgr.cs:137)
+
+[log][2025-10-29 15:14:56]测试定时器，3秒后第一次触发定时器，触发后每个2秒触发一次，无限触发
+[log][2025-10-29 15:14:56]UnityEngine.Debug:Log (object)
+GameApp/<>c:<TestRunningContent>b__2_1 (object) (at Assets/Game/Scripts/GameApp.cs:318)
+TimerMgr:Update () (at Assets/Framework/Scripts/Managers/TimerMgr.cs:137)
+
+[log][2025-10-29 15:14:57]测试定时器，10秒后关闭timeID的定时器
+[log][2025-10-29 15:14:57]UnityEngine.Debug:Log (object)
+GameApp/<>c__DisplayClass2_0:<TestRunningContent>b__2 (object) (at Assets/Game/Scripts/GameApp.cs:323)
+TimerMgr:Update () (at Assets/Framework/Scripts/Managers/TimerMgr.cs:137)
+
+[Error][2025-10-29 17:02:45]NullReferenceException: Object reference not set to an instance of an object
+[Error][2025-10-29 17:02:45]UIMgr.Init () (at Assets/Framework/Scripts/Managers/UIMgr.cs:77)
+Boot+<InitFramework>d__3.MoveNext () (at Assets/Boot/Scripts/Boot.cs:50)
+UnityEngine.SetupCoroutine.InvokeMoveNext (System.Collections.IEnumerator enumerator, System.IntPtr returnValueAddress) (at <f68865d630f84dbe83e4490ea2afd98a>:0)
+
+[Error][2025-10-29 17:03:10]NullReferenceException: Object reference not set to an instance of an object
+[Error][2025-10-29 17:03:10]UIMgr.Init () (at Assets/Framework/Scripts/Managers/UIMgr.cs:77)
+Boot+<InitFramework>d__3.MoveNext () (at Assets/Boot/Scripts/Boot.cs:50)
+UnityEngine.SetupCoroutine.InvokeMoveNext (System.Collections.IEnumerator enumerator, System.IntPtr returnValueAddress) (at <f68865d630f84dbe83e4490ea2afd98a>:0)
+
+[log][2025-10-29 17:04:13]已正常进入游戏
+[log][2025-10-29 17:04:13]UnityEngine.Debug:Log (object)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:19)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-29 17:04:13]异步场景加载进度：0%
+[log][2025-10-29 17:04:13]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:380)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+SceneMgr:LoadSceneAsync (string,System.Action`2<bool, UnityEngine.SceneManagement.Scene>,System.Action`1<single>,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Framework/Scripts/Managers/SceneMgr.cs:98)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:67)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-29 17:04:13]异步场景加载进度：90%
+[log][2025-10-29 17:04:13]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:380)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-29 17:04:13]异步加载场景成功，场景名为：Main
+[log][2025-10-29 17:04:13]UnityEngine.Debug:Log (object)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:129)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Error][2025-10-29 17:05:41]NullReferenceException: Object reference not set to an instance of an object
+[Error][2025-10-29 17:05:41]UIMgr.Init () (at Assets/Framework/Scripts/Managers/UIMgr.cs:77)
+Boot+<InitFramework>d__3.MoveNext () (at Assets/Boot/Scripts/Boot.cs:50)
+UnityEngine.SetupCoroutine.InvokeMoveNext (System.Collections.IEnumerator enumerator, System.IntPtr returnValueAddress) (at <f68865d630f84dbe83e4490ea2afd98a>:0)
+
+[log][2025-10-29 17:05:59]已正常进入游戏
+[log][2025-10-29 17:05:59]UnityEngine.Debug:Log (object)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:19)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-29 17:05:59]异步场景加载进度：0%
+[log][2025-10-29 17:05:59]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:380)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+SceneMgr:LoadSceneAsync (string,System.Action`2<bool, UnityEngine.SceneManagement.Scene>,System.Action`1<single>,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Framework/Scripts/Managers/SceneMgr.cs:98)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:67)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-29 17:05:59]异步场景加载进度：90%
+[log][2025-10-29 17:05:59]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:380)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-29 17:05:59]异步加载场景成功，场景名为：Main
+[log][2025-10-29 17:05:59]UnityEngine.Debug:Log (object)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:129)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-29 17:06:55]已正常进入游戏
+[log][2025-10-29 17:06:55]UnityEngine.Debug:Log (object)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:19)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-29 17:06:55]异步场景加载进度：0%
+[log][2025-10-29 17:06:55]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:380)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+SceneMgr:LoadSceneAsync (string,System.Action`2<bool, UnityEngine.SceneManagement.Scene>,System.Action`1<single>,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Framework/Scripts/Managers/SceneMgr.cs:98)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:67)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-29 17:06:56]异步场景加载进度：90%
+[log][2025-10-29 17:06:56]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:380)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-29 17:06:56]异步加载场景成功，场景名为：Main
+[log][2025-10-29 17:06:56]UnityEngine.Debug:Log (object)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:129)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-29 18:21:14]已正常进入游戏
+[log][2025-10-29 18:21:14]UnityEngine.Debug:Log (object)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:21)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-29 18:21:14]异步场景加载进度：0%
+[log][2025-10-29 18:21:14]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:401)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+SceneMgr:LoadSceneAsync (string,System.Action`2<bool, UnityEngine.SceneManagement.Scene>,System.Action`1<single>,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Framework/Scripts/Managers/SceneMgr.cs:98)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:69)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-29 18:21:14]异步场景加载进度：90%
+[log][2025-10-29 18:21:14]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:401)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-29 18:21:14]异步加载场景成功，场景名为：Main
+[log][2025-10-29 18:21:14]UnityEngine.Debug:Log (object)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:129)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Error][2025-10-29 18:21:14]NullReferenceException: Object reference not set to an instance of an object
+[Error][2025-10-29 18:21:14]UIMgr.ShowUIView (System.String namePath) (at Assets/Framework/Scripts/Managers/UIMgr.cs:87)
+GameApp.TestRunningContent (System.Boolean success, UnityEngine.SceneManagement.Scene scene) (at Assets/Game/Scripts/GameApp.cs:355)
+SceneMgr+<AsyncLoadCoroutine>d__3.MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine.InvokeMoveNext (System.Collections.IEnumerator enumerator, System.IntPtr returnValueAddress) (at <f68865d630f84dbe83e4490ea2afd98a>:0)
+
+[log][2025-10-29 18:22:14]已正常进入游戏
+[log][2025-10-29 18:22:14]UnityEngine.Debug:Log (object)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:21)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-29 18:22:14]异步场景加载进度：0%
+[log][2025-10-29 18:22:14]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:401)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+SceneMgr:LoadSceneAsync (string,System.Action`2<bool, UnityEngine.SceneManagement.Scene>,System.Action`1<single>,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Framework/Scripts/Managers/SceneMgr.cs:98)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:69)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-29 18:22:14]异步场景加载进度：90%
+[log][2025-10-29 18:22:14]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:401)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-29 18:22:14]异步加载场景成功，场景名为：Main
+[log][2025-10-29 18:22:14]UnityEngine.Debug:Log (object)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:129)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Warning][2025-10-29 18:22:14]Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning][2025-10-29 18:22:14]UnityEngine.Transform:set_parent (UnityEngine.Transform)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:346)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-29 18:24:51]已正常进入游戏
+[log][2025-10-29 18:24:51]UnityEngine.Debug:Log (object)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:21)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-29 18:24:51]异步场景加载进度：0%
+[log][2025-10-29 18:24:51]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:402)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+SceneMgr:LoadSceneAsync (string,System.Action`2<bool, UnityEngine.SceneManagement.Scene>,System.Action`1<single>,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Framework/Scripts/Managers/SceneMgr.cs:98)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:69)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-29 18:24:51]异步场景加载进度：90%
+[log][2025-10-29 18:24:51]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:402)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-29 18:24:51]异步加载场景成功，场景名为：Main
+[log][2025-10-29 18:24:51]UnityEngine.Debug:Log (object)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:129)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Warning][2025-10-29 18:24:51]Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning][2025-10-29 18:24:51]UnityEngine.Transform:set_parent (UnityEngine.Transform)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:347)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-29 18:43:06]已正常进入游戏
+[log][2025-10-29 18:43:06]UnityEngine.Debug:Log (object)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:21)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-29 18:43:06]异步场景加载进度：0%
+[log][2025-10-29 18:43:06]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:399)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+SceneMgr:LoadSceneAsync (string,System.Action`2<bool, UnityEngine.SceneManagement.Scene>,System.Action`1<single>,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Framework/Scripts/Managers/SceneMgr.cs:98)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:69)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-29 18:43:06]异步场景加载进度：90%
+[log][2025-10-29 18:43:06]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:399)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-29 18:43:06]异步加载场景成功，场景名为：Main
+[log][2025-10-29 18:43:06]UnityEngine.Debug:Log (object)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:129)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Warning][2025-10-29 18:43:06]Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning][2025-10-29 18:43:06]UnityEngine.Transform:set_parent (UnityEngine.Transform)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:344)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-29 18:44:19]已正常进入游戏
+[log][2025-10-29 18:44:19]UnityEngine.Debug:Log (object)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:21)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-29 18:44:19]异步场景加载进度：0%
+[log][2025-10-29 18:44:19]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:399)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+SceneMgr:LoadSceneAsync (string,System.Action`2<bool, UnityEngine.SceneManagement.Scene>,System.Action`1<single>,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Framework/Scripts/Managers/SceneMgr.cs:98)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:69)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-29 18:44:19]异步场景加载进度：90%
+[log][2025-10-29 18:44:19]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:399)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-29 18:44:19]异步加载场景成功，场景名为：Main
+[log][2025-10-29 18:44:19]UnityEngine.Debug:Log (object)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:129)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Warning][2025-10-29 18:44:19]Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning][2025-10-29 18:44:19]UnityEngine.Transform:set_parent (UnityEngine.Transform)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:344)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-29 18:46:20]已正常进入游戏
+[log][2025-10-29 18:46:20]UnityEngine.Debug:Log (object)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:21)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-29 18:46:20]异步场景加载进度：0%
+[log][2025-10-29 18:46:20]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:399)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+SceneMgr:LoadSceneAsync (string,System.Action`2<bool, UnityEngine.SceneManagement.Scene>,System.Action`1<single>,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Framework/Scripts/Managers/SceneMgr.cs:98)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:69)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-29 18:46:20]异步场景加载进度：90%
+[log][2025-10-29 18:46:20]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:399)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-29 18:46:20]异步加载场景成功，场景名为：Main
+[log][2025-10-29 18:46:20]UnityEngine.Debug:Log (object)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:129)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Warning][2025-10-29 18:46:20]Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning][2025-10-29 18:46:20]UnityEngine.Transform:set_parent (UnityEngine.Transform)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:344)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-29 18:46:38]已正常进入游戏
+[log][2025-10-29 18:46:38]UnityEngine.Debug:Log (object)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:21)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-29 18:46:38]异步场景加载进度：0%
+[log][2025-10-29 18:46:38]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:399)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+SceneMgr:LoadSceneAsync (string,System.Action`2<bool, UnityEngine.SceneManagement.Scene>,System.Action`1<single>,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Framework/Scripts/Managers/SceneMgr.cs:98)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:69)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-29 18:46:38]异步场景加载进度：90%
+[log][2025-10-29 18:46:38]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:399)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-29 18:46:38]异步加载场景成功，场景名为：Main
+[log][2025-10-29 18:46:38]UnityEngine.Debug:Log (object)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:129)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Warning][2025-10-29 18:46:38]Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning][2025-10-29 18:46:38]UnityEngine.Transform:set_parent (UnityEngine.Transform)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:344)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-29 18:47:50]已正常进入游戏
+[log][2025-10-29 18:47:50]UnityEngine.Debug:Log (object)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:21)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-29 18:47:50]异步场景加载进度：0%
+[log][2025-10-29 18:47:50]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:399)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+SceneMgr:LoadSceneAsync (string,System.Action`2<bool, UnityEngine.SceneManagement.Scene>,System.Action`1<single>,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Framework/Scripts/Managers/SceneMgr.cs:98)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:69)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-29 18:47:50]异步场景加载进度：90%
+[log][2025-10-29 18:47:50]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:399)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-29 18:47:50]异步加载场景成功，场景名为：Main
+[log][2025-10-29 18:47:50]UnityEngine.Debug:Log (object)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:129)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Warning][2025-10-29 18:47:50]Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning][2025-10-29 18:47:50]UnityEngine.Transform:set_parent (UnityEngine.Transform)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:344)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-29 18:47:50]AddButtonListener执行！！!
+[log][2025-10-29 18:47:50]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+UICtrl:AddButtonListener (string,UnityEngine.Events.UnityAction) (at Assets/Framework/Scripts/Managers/UIMgr.cs:40)
+UIHomeUICtrl:Start () (at Assets/Game/Scripts/UIControllers/UIHomeUICtrl.cs:15)
+
+[Warning][2025-10-29 18:48:11]Assets\Framework\Scripts\Managers\SoundMgr.cs(14,17): warning CS0414: The field 'SoundMgr.curIndex' is assigned but its value is never used
+[Warning][2025-10-29 18:48:11]
+[log][2025-10-29 18:48:19]已正常进入游戏
+[log][2025-10-29 18:48:19]UnityEngine.Debug:Log (object)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:21)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-29 18:48:19]异步场景加载进度：0%
+[log][2025-10-29 18:48:19]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:399)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+SceneMgr:LoadSceneAsync (string,System.Action`2<bool, UnityEngine.SceneManagement.Scene>,System.Action`1<single>,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Framework/Scripts/Managers/SceneMgr.cs:98)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:69)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-29 18:48:19]异步场景加载进度：90%
+[log][2025-10-29 18:48:19]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:399)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-29 18:48:19]异步加载场景成功，场景名为：Main
+[log][2025-10-29 18:48:19]UnityEngine.Debug:Log (object)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:129)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Warning][2025-10-29 18:48:19]Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning][2025-10-29 18:48:19]UnityEngine.Transform:set_parent (UnityEngine.Transform)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:344)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-29 18:48:19]AddButtonListener执行！！!
+[log][2025-10-29 18:48:19]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+UICtrl:AddButtonListener (string,UnityEngine.Events.UnityAction) (at Assets/Framework/Scripts/Managers/UIMgr.cs:47)
+UIHomeUICtrl:Start () (at Assets/Game/Scripts/UIControllers/UIHomeUICtrl.cs:15)
+
+[log][2025-10-29 18:49:08]已正常进入游戏
+[log][2025-10-29 18:49:08]UnityEngine.Debug:Log (object)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:21)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-29 18:49:08]异步场景加载进度：0%
+[log][2025-10-29 18:49:08]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:400)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+SceneMgr:LoadSceneAsync (string,System.Action`2<bool, UnityEngine.SceneManagement.Scene>,System.Action`1<single>,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Framework/Scripts/Managers/SceneMgr.cs:98)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:69)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-29 18:49:08]异步场景加载进度：90%
+[log][2025-10-29 18:49:08]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:400)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-29 18:49:08]异步加载场景成功，场景名为：Main
+[log][2025-10-29 18:49:08]UnityEngine.Debug:Log (object)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:129)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Warning][2025-10-29 18:49:08]Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning][2025-10-29 18:49:08]UnityEngine.Transform:set_parent (UnityEngine.Transform)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:344)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Error][2025-10-29 18:49:08]KeyNotFoundException: The given key 'Button1' was not present in the dictionary.
+[Error][2025-10-29 18:49:08]System.Collections.Generic.Dictionary`2[TKey,TValue].get_Item (TKey key) (at <1fd52158108c4fe3a6817b50854eb75e>:0)
+UICtrl.AddButtonListener (System.String buttonPath, UnityEngine.Events.UnityAction onClick) (at Assets/Framework/Scripts/Managers/UIMgr.cs:41)
+UIHomeUICtrl.Start () (at Assets/Game/Scripts/UIControllers/UIHomeUICtrl.cs:15)
+
+[log][2025-10-29 18:49:49]已正常进入游戏
+[log][2025-10-29 18:49:49]UnityEngine.Debug:Log (object)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:21)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-29 18:49:49]异步场景加载进度：0%
+[log][2025-10-29 18:49:49]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:400)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+SceneMgr:LoadSceneAsync (string,System.Action`2<bool, UnityEngine.SceneManagement.Scene>,System.Action`1<single>,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Framework/Scripts/Managers/SceneMgr.cs:98)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:69)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-29 18:49:49]异步场景加载进度：90%
+[log][2025-10-29 18:49:49]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:400)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-29 18:49:49]异步加载场景成功，场景名为：Main
+[log][2025-10-29 18:49:49]UnityEngine.Debug:Log (object)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:129)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Warning][2025-10-29 18:49:49]Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning][2025-10-29 18:49:49]UnityEngine.Transform:set_parent (UnityEngine.Transform)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:344)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-29 18:49:49]AddButtonListener执行！！!
+[log][2025-10-29 18:49:49]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+UICtrl:AddButtonListener (string,UnityEngine.Events.UnityAction) (at Assets/Framework/Scripts/Managers/UIMgr.cs:47)
+UIHomeUICtrl:Start () (at Assets/Game/Scripts/UIControllers/UIHomeUICtrl.cs:15)
+
+[log][2025-10-29 18:55:45]已正常进入游戏
+[log][2025-10-29 18:55:45]UnityEngine.Debug:Log (object)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:21)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-29 18:55:45]异步场景加载进度：0%
+[log][2025-10-29 18:55:45]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:400)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+SceneMgr:LoadSceneAsync (string,System.Action`2<bool, UnityEngine.SceneManagement.Scene>,System.Action`1<single>,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Framework/Scripts/Managers/SceneMgr.cs:98)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:69)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-29 18:55:45]异步场景加载进度：90%
+[log][2025-10-29 18:55:45]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:400)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-29 18:55:45]异步加载场景成功，场景名为：Main
+[log][2025-10-29 18:55:45]UnityEngine.Debug:Log (object)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:129)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Warning][2025-10-29 18:55:45]Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning][2025-10-29 18:55:45]UnityEngine.Transform:set_parent (UnityEngine.Transform)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:344)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-29 18:55:45]AddButtonListener执行！！!
+[log][2025-10-29 18:55:45]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+UICtrl:AddButtonListener (string,UnityEngine.Events.UnityAction) (at Assets/Framework/Scripts/Managers/UIMgr.cs:47)
+UIHomeUICtrl:Start () (at Assets/Game/Scripts/UIControllers/UIHomeUICtrl.cs:15)
+
+[log][2025-10-29 18:55:48]UI按钮执行回调！！！
+[log][2025-10-29 18:55:48]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+UIHomeUICtrl:ButtonCallback () (at Assets/Game/Scripts/UIControllers/UIHomeUICtrl.cs:20)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:530)
+
+[log][2025-10-29 19:01:19]已正常进入游戏
+[log][2025-10-29 19:01:19]UnityEngine.Debug:Log (object)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:21)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-29 19:01:19]异步场景加载进度：0%
+[log][2025-10-29 19:01:19]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:400)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+SceneMgr:LoadSceneAsync (string,System.Action`2<bool, UnityEngine.SceneManagement.Scene>,System.Action`1<single>,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Framework/Scripts/Managers/SceneMgr.cs:98)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:69)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-29 19:01:19]异步场景加载进度：90%
+[log][2025-10-29 19:01:19]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:400)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-29 19:01:19]异步加载场景成功，场景名为：Main
+[log][2025-10-29 19:01:19]UnityEngine.Debug:Log (object)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:129)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Warning][2025-10-29 19:01:19]Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning][2025-10-29 19:01:19]UnityEngine.Transform:set_parent (UnityEngine.Transform)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:344)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-29 19:01:19]AddButtonListener执行！！!
+[log][2025-10-29 19:01:19]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+UICtrl:AddButtonListener (string,UnityEngine.Events.UnityAction) (at Assets/Framework/Scripts/Managers/UIMgr.cs:47)
+UIHomeUICtrl:Start () (at Assets/Game/Scripts/UIControllers/UIHomeUICtrl.cs:15)
+
+[log][2025-10-29 19:01:21]UI按钮执行回调！！！
+[log][2025-10-29 19:01:21]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+UIHomeUICtrl:ButtonCallback () (at Assets/Game/Scripts/UIControllers/UIHomeUICtrl.cs:29)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:530)
+
+[log][2025-10-29 19:01:36]已正常进入游戏
+[log][2025-10-29 19:01:36]UnityEngine.Debug:Log (object)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:21)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-29 19:01:36]异步场景加载进度：0%
+[log][2025-10-29 19:01:36]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:400)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+SceneMgr:LoadSceneAsync (string,System.Action`2<bool, UnityEngine.SceneManagement.Scene>,System.Action`1<single>,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Framework/Scripts/Managers/SceneMgr.cs:98)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:69)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-29 19:01:36]异步场景加载进度：90%
+[log][2025-10-29 19:01:36]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:400)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-29 19:01:36]异步加载场景成功，场景名为：Main
+[log][2025-10-29 19:01:36]UnityEngine.Debug:Log (object)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:129)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Warning][2025-10-29 19:01:36]Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning][2025-10-29 19:01:36]UnityEngine.Transform:set_parent (UnityEngine.Transform)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:344)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-29 19:01:36]AddButtonListener执行！！!
+[log][2025-10-29 19:01:36]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+UICtrl:AddButtonListener (string,UnityEngine.Events.UnityAction) (at Assets/Framework/Scripts/Managers/UIMgr.cs:47)
+UIHomeUICtrl:Start () (at Assets/Game/Scripts/UIControllers/UIHomeUICtrl.cs:15)
+
+[log][2025-10-29 19:01:37]UI按钮执行回调！！！
+[log][2025-10-29 19:01:37]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+UIHomeUICtrl:ButtonCallback () (at Assets/Game/Scripts/UIControllers/UIHomeUICtrl.cs:29)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:530)
+
+[log][2025-10-30 12:22:27]已正常进入游戏
+[log][2025-10-30 12:22:27]UnityEngine.Debug:Log (object)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:21)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-30 12:22:27]异步场景加载进度：0%
+[log][2025-10-30 12:22:27]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:400)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+SceneMgr:LoadSceneAsync (string,System.Action`2<bool, UnityEngine.SceneManagement.Scene>,System.Action`1<single>,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Framework/Scripts/Managers/SceneMgr.cs:98)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:69)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-30 12:22:27]异步场景加载进度：90%
+[log][2025-10-30 12:22:27]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:400)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-30 12:22:27]异步加载场景成功，场景名为：Main
+[log][2025-10-30 12:22:27]UnityEngine.Debug:Log (object)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:129)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Warning][2025-10-30 12:22:27]Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning][2025-10-30 12:22:27]UnityEngine.Transform:set_parent (UnityEngine.Transform)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:344)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-30 12:22:27]AddButtonListener执行！！!
+[log][2025-10-30 12:22:27]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+UICtrl:AddButtonListener (string,UnityEngine.Events.UnityAction) (at Assets/Framework/Scripts/Managers/UIMgr.cs:47)
+UIHomeUICtrl:Start () (at Assets/Game/Scripts/UIControllers/UIHomeUICtrl.cs:15)
+
+[log][2025-10-30 12:22:29]UI按钮执行回调！！！
+[log][2025-10-30 12:22:29]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+UIHomeUICtrl:ButtonCallback () (at Assets/Game/Scripts/UIControllers/UIHomeUICtrl.cs:29)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:530)
+
+[log][2025-10-30 12:48:11]已正常进入游戏
+[log][2025-10-30 12:48:11]UnityEngine.Debug:Log (object)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:21)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-30 12:48:11]异步场景加载进度：0%
+[log][2025-10-30 12:48:11]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:400)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+SceneMgr:LoadSceneAsync (string,System.Action`2<bool, UnityEngine.SceneManagement.Scene>,System.Action`1<single>,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Framework/Scripts/Managers/SceneMgr.cs:98)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:69)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-30 12:48:11]异步场景加载进度：90%
+[log][2025-10-30 12:48:11]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:400)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-30 12:48:11]异步加载场景成功，场景名为：Main
+[log][2025-10-30 12:48:11]UnityEngine.Debug:Log (object)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:129)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Warning][2025-10-30 12:48:11]Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning][2025-10-30 12:48:11]UnityEngine.Transform:set_parent (UnityEngine.Transform)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:344)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-30 12:48:11]AddButtonListener执行！！!
+[log][2025-10-30 12:48:11]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+UICtrl:AddButtonListener (string,UnityEngine.Events.UnityAction) (at Assets/Framework/Scripts/Managers/UIMgr.cs:47)
+UIHomeUICtrl:Start () (at Assets/Game/Scripts/UIControllers/UIHomeUICtrl.cs:15)
+
+[log][2025-10-30 12:56:17]已正常进入游戏
+[log][2025-10-30 12:56:17]UnityEngine.Debug:Log (object)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:21)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-30 12:56:17]异步场景加载进度：0%
+[log][2025-10-30 12:56:17]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:403)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+SceneMgr:LoadSceneAsync (string,System.Action`2<bool, UnityEngine.SceneManagement.Scene>,System.Action`1<single>,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Framework/Scripts/Managers/SceneMgr.cs:98)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:69)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-30 12:56:17]异步场景加载进度：90%
+[log][2025-10-30 12:56:17]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:403)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-30 12:56:17]异步加载场景成功，场景名为：Main
+[log][2025-10-30 12:56:17]UnityEngine.Debug:Log (object)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:129)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Warning][2025-10-30 12:56:17]Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning][2025-10-30 12:56:17]UnityEngine.Transform:set_parent (UnityEngine.Transform)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:344)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-30 12:56:17]AddButtonListener执行！！!
+[log][2025-10-30 12:56:17]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+UICtrl:AddButtonListener (string,UnityEngine.Events.UnityAction) (at Assets/Framework/Scripts/Managers/UIMgr.cs:47)
+UIHomeUICtrl:Start () (at Assets/Game/Scripts/UIControllers/UIHomeUICtrl.cs:15)
+
+[log][2025-10-31 14:07:02]已正常进入游戏
+[log][2025-10-31 14:07:02]UnityEngine.Debug:Log (object)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:21)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-31 14:07:02]异步场景加载进度：0%
+[log][2025-10-31 14:07:02]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:404)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+SceneMgr:LoadSceneAsync (string,System.Action`2<bool, UnityEngine.SceneManagement.Scene>,System.Action`1<single>,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Framework/Scripts/Managers/SceneMgr.cs:98)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:69)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-31 14:07:02]异步场景加载进度：90%
+[log][2025-10-31 14:07:02]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:404)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-31 14:07:02]异步加载场景成功，场景名为：Main
+[log][2025-10-31 14:07:02]UnityEngine.Debug:Log (object)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:129)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Warning][2025-10-31 14:07:02]Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning][2025-10-31 14:07:02]UnityEngine.Transform:set_parent (UnityEngine.Transform)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:344)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-31 14:07:02]AddButtonListener执行！！!
+[log][2025-10-31 14:07:02]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+UICtrl:AddButtonListener (string,UnityEngine.Events.UnityAction) (at Assets/Framework/Scripts/Managers/UIMgr.cs:47)
+UIHomeUICtrl:Start () (at Assets/Game/Scripts/UIControllers/UIHomeUICtrl.cs:15)
+
+[log][2025-10-31 14:07:04]UI按钮执行回调！！！
+[log][2025-10-31 14:07:04]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+UIHomeUICtrl:ButtonCallback () (at Assets/Game/Scripts/UIControllers/UIHomeUICtrl.cs:29)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:530)
+
+[log][2025-10-31 14:07:04]UI按钮执行回调！！！
+[log][2025-10-31 14:07:04]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+UIHomeUICtrl:ButtonCallback () (at Assets/Game/Scripts/UIControllers/UIHomeUICtrl.cs:29)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:530)
+
+[log][2025-10-31 14:07:06]UI按钮执行回调！！！
+[log][2025-10-31 14:07:06]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+UIHomeUICtrl:ButtonCallback () (at Assets/Game/Scripts/UIControllers/UIHomeUICtrl.cs:29)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:530)
+
+[log][2025-10-31 14:26:13]已正常进入游戏
+[log][2025-10-31 14:26:13]UnityEngine.Debug:Log (object)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:21)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-31 14:26:13]异步场景加载进度：0%
+[log][2025-10-31 14:26:13]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:411)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+SceneMgr:LoadSceneAsync (string,System.Action`2<bool, UnityEngine.SceneManagement.Scene>,System.Action`1<single>,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Framework/Scripts/Managers/SceneMgr.cs:98)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:69)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-31 14:26:13]异步场景加载进度：90%
+[log][2025-10-31 14:26:13]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:411)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-31 14:26:13]异步加载场景成功，场景名为：Main
+[log][2025-10-31 14:26:13]UnityEngine.Debug:Log (object)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:129)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Warning][2025-10-31 14:26:13]Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning][2025-10-31 14:26:13]UnityEngine.Transform:set_parent (UnityEngine.Transform)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:351)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-31 14:26:13]AddButtonListener执行！！!
+[log][2025-10-31 14:26:13]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+UICtrl:AddButtonListener (string,UnityEngine.Events.UnityAction) (at Assets/Framework/Scripts/Managers/UIMgr.cs:47)
+UIHomeUICtrl:Start () (at Assets/Game/Scripts/UIControllers/UIHomeUICtrl.cs:15)
+
+[log][2025-10-31 14:26:39]UI按钮执行回调！！！
+[log][2025-10-31 14:26:39]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+UIHomeUICtrl:ButtonCallback () (at Assets/Game/Scripts/UIControllers/UIHomeUICtrl.cs:29)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:530)
+
+[log][2025-10-31 14:26:40]UI按钮执行回调！！！
+[log][2025-10-31 14:26:40]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+UIHomeUICtrl:ButtonCallback () (at Assets/Game/Scripts/UIControllers/UIHomeUICtrl.cs:29)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:530)
+
+[log][2025-10-31 14:34:42]已正常进入游戏
+[log][2025-10-31 14:34:42]UnityEngine.Debug:Log (object)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:21)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-31 14:34:42]异步场景加载进度：0%
+[log][2025-10-31 14:34:42]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:448)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+SceneMgr:LoadSceneAsync (string,System.Action`2<bool, UnityEngine.SceneManagement.Scene>,System.Action`1<single>,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Framework/Scripts/Managers/SceneMgr.cs:98)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:69)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-31 14:34:42]异步场景加载进度：90%
+[log][2025-10-31 14:34:42]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:448)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-31 14:34:42]异步加载场景成功，场景名为：Main
+[log][2025-10-31 14:34:42]UnityEngine.Debug:Log (object)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:129)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-31 14:34:42]预制体加载成功！！！
+[log][2025-10-31 14:34:42]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:397)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-31 14:34:42]预制体加载成功！！！
+[log][2025-10-31 14:34:42]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:413)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-31 14:37:46]已正常进入游戏
+[log][2025-10-31 14:37:46]UnityEngine.Debug:Log (object)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:21)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-31 14:37:46]异步场景加载进度：0%
+[log][2025-10-31 14:37:46]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:451)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+SceneMgr:LoadSceneAsync (string,System.Action`2<bool, UnityEngine.SceneManagement.Scene>,System.Action`1<single>,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Framework/Scripts/Managers/SceneMgr.cs:98)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:69)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-31 14:37:46]异步场景加载进度：90%
+[log][2025-10-31 14:37:46]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:451)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-31 14:37:46]异步加载场景成功，场景名为：Main
+[log][2025-10-31 14:37:46]UnityEngine.Debug:Log (object)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:129)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-31 14:37:46]预制体加载成功！！！
+[log][2025-10-31 14:37:46]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:397)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-31 14:37:46]预制体加载成功！！！
+[log][2025-10-31 14:37:46]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:415)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-31 14:41:59]已正常进入游戏
+[log][2025-10-31 14:41:59]UnityEngine.Debug:Log (object)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:21)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-31 14:41:59]异步场景加载进度：0%
+[log][2025-10-31 14:41:59]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:464)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+SceneMgr:LoadSceneAsync (string,System.Action`2<bool, UnityEngine.SceneManagement.Scene>,System.Action`1<single>,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Framework/Scripts/Managers/SceneMgr.cs:98)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:69)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-31 14:41:59]异步场景加载进度：90%
+[log][2025-10-31 14:41:59]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:464)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-31 14:41:59]异步加载场景成功，场景名为：Main
+[log][2025-10-31 14:41:59]UnityEngine.Debug:Log (object)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:129)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-31 14:41:59]预制体加载成功！！！
+[log][2025-10-31 14:41:59]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:410)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-31 14:41:59]预制体加载成功！！！
+[log][2025-10-31 14:41:59]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:428)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-31 14:42:06]已正常进入游戏
+[log][2025-10-31 14:42:06]UnityEngine.Debug:Log (object)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:21)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-31 14:42:06]异步场景加载进度：0%
+[log][2025-10-31 14:42:06]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:464)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+SceneMgr:LoadSceneAsync (string,System.Action`2<bool, UnityEngine.SceneManagement.Scene>,System.Action`1<single>,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Framework/Scripts/Managers/SceneMgr.cs:98)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:69)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-31 14:42:06]异步场景加载进度：90%
+[log][2025-10-31 14:42:06]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:464)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-31 14:42:06]异步加载场景成功，场景名为：Main
+[log][2025-10-31 14:42:06]UnityEngine.Debug:Log (object)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:129)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-31 14:42:06]预制体加载成功！！！
+[log][2025-10-31 14:42:06]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:410)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-31 14:42:06]预制体加载成功！！！
+[log][2025-10-31 14:42:06]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:428)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-31 14:49:28]已正常进入游戏
+[log][2025-10-31 14:49:28]UnityEngine.Debug:Log (object)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:21)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-31 14:49:28]异步场景加载进度：36%
+[log][2025-10-31 14:49:28]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:468)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+SceneMgr:LoadSceneAsync (string,System.Action`2<bool, UnityEngine.SceneManagement.Scene>,System.Action`1<single>,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Framework/Scripts/Managers/SceneMgr.cs:98)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:69)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-31 14:49:28]异步场景加载进度：90%
+[log][2025-10-31 14:49:28]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:468)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-31 14:49:28]异步加载场景成功，场景名为：Main
+[log][2025-10-31 14:49:28]UnityEngine.Debug:Log (object)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:129)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-31 14:49:28]预制体加载成功！！！
+[log][2025-10-31 14:49:28]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:410)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-31 14:49:28]预制体加载成功！！！
+[log][2025-10-31 14:49:28]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:428)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Error][2025-10-31 14:49:28]NullReferenceException: Object reference not set to an instance of an object
+[Error][2025-10-31 14:49:28]UIMgr.ShowUIView (System.String namePath) (at Assets/Framework/Scripts/Managers/UIMgr.cs:88)
+GameApp.TestRunningContent (System.Boolean success, UnityEngine.SceneManagement.Scene scene) (at Assets/Game/Scripts/GameApp.cs:436)
+SceneMgr+<AsyncLoadCoroutine>d__3.MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine.InvokeMoveNext (System.Collections.IEnumerator enumerator, System.IntPtr returnValueAddress) (at <f68865d630f84dbe83e4490ea2afd98a>:0)
+
+[log][2025-10-31 14:50:55]已正常进入游戏
+[log][2025-10-31 14:50:55]UnityEngine.Debug:Log (object)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:21)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-31 14:50:55]异步场景加载进度：0%
+[log][2025-10-31 14:50:55]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:470)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+SceneMgr:LoadSceneAsync (string,System.Action`2<bool, UnityEngine.SceneManagement.Scene>,System.Action`1<single>,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Framework/Scripts/Managers/SceneMgr.cs:98)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:69)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-31 14:50:55]异步场景加载进度：90%
+[log][2025-10-31 14:50:55]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:470)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-31 14:50:55]异步加载场景成功，场景名为：Main
+[log][2025-10-31 14:50:55]UnityEngine.Debug:Log (object)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:129)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Warning][2025-10-31 14:50:55]Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning][2025-10-31 14:50:55]UnityEngine.Transform:set_parent (UnityEngine.Transform)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:387)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-31 14:50:55]预制体加载成功！！！
+[log][2025-10-31 14:50:55]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:412)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-10-31 14:50:55]预制体加载成功！！！
+[log][2025-10-31 14:50:55]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:430)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Warning][2025-10-31 14:50:55]The referenced script on this Behaviour (Game Object '<null>') is missing!
+[Warning][2025-10-31 14:50:55]UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject)
+UIMgr:ShowUIView (string) (at Assets/Framework/Scripts/Managers/UIMgr.cs:90)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:438)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Warning][2025-10-31 14:50:55]The referenced script on this Behaviour (Game Object 'Joystick') is missing!
+[Warning][2025-10-31 14:50:55]UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject)
+UIMgr:ShowUIView (string) (at Assets/Framework/Scripts/Managers/UIMgr.cs:90)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:438)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Warning][2025-10-31 14:50:55]The referenced script on this Behaviour (Game Object 'Joystick') is missing!
+[Warning][2025-10-31 14:50:55]UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject)
+UIMgr:ShowUIView (string) (at Assets/Framework/Scripts/Managers/UIMgr.cs:90)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:438)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-02 19:30:03]已正常进入游戏
+[log][2025-11-02 19:30:03]UnityEngine.Debug:Log (object)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:21)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-02 19:30:03]异步场景加载进度：0%
+[log][2025-11-02 19:30:03]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:470)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+SceneMgr:LoadSceneAsync (string,System.Action`2<bool, UnityEngine.SceneManagement.Scene>,System.Action`1<single>,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Framework/Scripts/Managers/SceneMgr.cs:98)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:69)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-02 19:30:03]异步场景加载进度：90%
+[log][2025-11-02 19:30:03]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:470)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Warning][2025-11-02 19:30:03]The referenced script on this Behaviour (Game Object '') is missing!
+[Warning][2025-11-02 19:30:03]
+[Warning][2025-11-02 19:30:03]The referenced script on this Behaviour (Game Object 'Joystick') is missing!
+[Warning][2025-11-02 19:30:03]
+[log][2025-11-02 19:30:03]异步加载场景成功，场景名为：Main
+[log][2025-11-02 19:30:03]UnityEngine.Debug:Log (object)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:129)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Warning][2025-11-02 19:30:03]Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning][2025-11-02 19:30:03]UnityEngine.Transform:set_parent (UnityEngine.Transform)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:351)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-02 19:30:03]AddButtonListener执行！！!
+[log][2025-11-02 19:30:03]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+UICtrl:AddButtonListener (string,UnityEngine.Events.UnityAction) (at Assets/Framework/Scripts/Managers/UIMgr.cs:51)
+UIHomeUICtrl:Start () (at Assets/Game/Scripts/UIControllers/UIHomeUICtrl.cs:15)
+
+[log][2025-11-02 19:31:50]已正常进入游戏
+[log][2025-11-02 19:31:50]UnityEngine.Debug:Log (object)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:21)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-02 19:31:50]异步场景加载进度：0%
+[log][2025-11-02 19:31:50]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:470)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+SceneMgr:LoadSceneAsync (string,System.Action`2<bool, UnityEngine.SceneManagement.Scene>,System.Action`1<single>,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Framework/Scripts/Managers/SceneMgr.cs:98)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:69)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-02 19:31:50]异步场景加载进度：90%
+[log][2025-11-02 19:31:50]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:470)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Warning][2025-11-02 19:31:50]The referenced script on this Behaviour (Game Object '') is missing!
+[Warning][2025-11-02 19:31:50]
+[Warning][2025-11-02 19:31:50]The referenced script on this Behaviour (Game Object 'Joystick') is missing!
+[Warning][2025-11-02 19:31:50]
+[log][2025-11-02 19:31:50]异步加载场景成功，场景名为：Main
+[log][2025-11-02 19:31:50]UnityEngine.Debug:Log (object)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:129)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Warning][2025-11-02 19:31:50]Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning][2025-11-02 19:31:50]UnityEngine.Transform:set_parent (UnityEngine.Transform)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:351)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Error][2025-11-02 19:31:50]KeyNotFoundException: The given key 'Button' was not present in the dictionary.
+[Error][2025-11-02 19:31:50]System.Collections.Generic.Dictionary`2[TKey,TValue].get_Item (TKey key) (at <1fd52158108c4fe3a6817b50854eb75e>:0)
+UICtrl.AddButtonListener (System.String buttonPath, UnityEngine.Events.UnityAction onClick) (at Assets/Framework/Scripts/Managers/UIMgr.cs:45)
+UIHomeUICtrl.Start () (at Assets/Game/Scripts/UIControllers/UIHomeUICtrl.cs:15)
+
+[Warning][2025-11-02 19:32:28]Assets\Framework\Scripts\Managers\SoundMgr.cs(14,17): warning CS0414: The field 'SoundMgr.curIndex' is assigned but its value is never used
+[Warning][2025-11-02 19:32:28]
+[log][2025-11-02 19:32:35]已正常进入游戏
+[log][2025-11-02 19:32:35]UnityEngine.Debug:Log (object)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:21)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-02 19:32:35]异步场景加载进度：0%
+[log][2025-11-02 19:32:35]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:470)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+SceneMgr:LoadSceneAsync (string,System.Action`2<bool, UnityEngine.SceneManagement.Scene>,System.Action`1<single>,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Framework/Scripts/Managers/SceneMgr.cs:98)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:69)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-02 19:32:35]异步场景加载进度：90%
+[log][2025-11-02 19:32:35]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:470)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Warning][2025-11-02 19:32:35]The referenced script on this Behaviour (Game Object '') is missing!
+[Warning][2025-11-02 19:32:35]
+[Warning][2025-11-02 19:32:35]The referenced script on this Behaviour (Game Object 'Joystick') is missing!
+[Warning][2025-11-02 19:32:35]
+[log][2025-11-02 19:32:35]异步加载场景成功，场景名为：Main
+[log][2025-11-02 19:32:35]UnityEngine.Debug:Log (object)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:129)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Warning][2025-11-02 19:32:35]Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning][2025-11-02 19:32:35]UnityEngine.Transform:set_parent (UnityEngine.Transform)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:351)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Error][2025-11-02 19:32:35]KeyNotFoundException: The given key 'IT_Button' was not present in the dictionary.
+[Error][2025-11-02 19:32:35]System.Collections.Generic.Dictionary`2[TKey,TValue].get_Item (TKey key) (at <1fd52158108c4fe3a6817b50854eb75e>:0)
+UICtrl.AddButtonListener (System.String buttonPath, UnityEngine.Events.UnityAction onClick) (at Assets/Framework/Scripts/Managers/UIMgr.cs:45)
+UIHomeUICtrl.Start () (at Assets/Game/Scripts/UIControllers/UIHomeUICtrl.cs:15)
+
+[log][2025-11-02 19:33:16]已正常进入游戏
+[log][2025-11-02 19:33:16]UnityEngine.Debug:Log (object)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:21)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-02 19:33:16]异步场景加载进度：0%
+[log][2025-11-02 19:33:16]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:470)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+SceneMgr:LoadSceneAsync (string,System.Action`2<bool, UnityEngine.SceneManagement.Scene>,System.Action`1<single>,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Framework/Scripts/Managers/SceneMgr.cs:98)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:69)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-02 19:33:16]异步场景加载进度：90%
+[log][2025-11-02 19:33:16]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:470)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Warning][2025-11-02 19:33:16]The referenced script on this Behaviour (Game Object '') is missing!
+[Warning][2025-11-02 19:33:16]
+[Warning][2025-11-02 19:33:16]The referenced script on this Behaviour (Game Object 'Joystick') is missing!
+[Warning][2025-11-02 19:33:16]
+[log][2025-11-02 19:33:16]异步加载场景成功，场景名为：Main
+[log][2025-11-02 19:33:16]UnityEngine.Debug:Log (object)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:129)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Warning][2025-11-02 19:33:16]Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning][2025-11-02 19:33:16]UnityEngine.Transform:set_parent (UnityEngine.Transform)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:351)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-02 19:33:16]AddButtonListener执行！！!
+[log][2025-11-02 19:33:16]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+UICtrl:AddButtonListener (string,UnityEngine.Events.UnityAction) (at Assets/Framework/Scripts/Managers/UIMgr.cs:51)
+UIHomeUICtrl:Start () (at Assets/Game/Scripts/UIControllers/UIHomeUICtrl.cs:15)
+
+[log][2025-11-02 19:34:01]已正常进入游戏
+[log][2025-11-02 19:34:01]UnityEngine.Debug:Log (object)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:21)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-02 19:34:01]异步场景加载进度：0%
+[log][2025-11-02 19:34:01]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:470)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+SceneMgr:LoadSceneAsync (string,System.Action`2<bool, UnityEngine.SceneManagement.Scene>,System.Action`1<single>,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Framework/Scripts/Managers/SceneMgr.cs:98)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:69)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-02 19:34:01]异步场景加载进度：90%
+[log][2025-11-02 19:34:01]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:470)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Warning][2025-11-02 19:34:01]The referenced script on this Behaviour (Game Object '') is missing!
+[Warning][2025-11-02 19:34:01]
+[Warning][2025-11-02 19:34:01]The referenced script on this Behaviour (Game Object 'Joystick') is missing!
+[Warning][2025-11-02 19:34:01]
+[log][2025-11-02 19:34:01]异步加载场景成功，场景名为：Main
+[log][2025-11-02 19:34:01]UnityEngine.Debug:Log (object)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:129)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Warning][2025-11-02 19:34:01]Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning][2025-11-02 19:34:01]UnityEngine.Transform:set_parent (UnityEngine.Transform)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:351)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-02 19:34:01]AddButtonListener执行！！!
+[log][2025-11-02 19:34:01]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+UICtrl:AddButtonListener (string,UnityEngine.Events.UnityAction) (at Assets/Framework/Scripts/Managers/UIMgr.cs:51)
+UIHomeUICtrl:Start () (at Assets/Game/Scripts/UIControllers/UIHomeUICtrl.cs:15)
+
+[log][2025-11-02 19:35:00]已正常进入游戏
+[log][2025-11-02 19:35:00]UnityEngine.Debug:Log (object)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:21)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-02 19:35:00]异步场景加载进度：0%
+[log][2025-11-02 19:35:00]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:470)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+SceneMgr:LoadSceneAsync (string,System.Action`2<bool, UnityEngine.SceneManagement.Scene>,System.Action`1<single>,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Framework/Scripts/Managers/SceneMgr.cs:98)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:69)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-02 19:35:00]异步场景加载进度：90%
+[log][2025-11-02 19:35:00]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:470)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Warning][2025-11-02 19:35:00]The referenced script on this Behaviour (Game Object '') is missing!
+[Warning][2025-11-02 19:35:00]
+[Warning][2025-11-02 19:35:00]The referenced script on this Behaviour (Game Object 'Joystick') is missing!
+[Warning][2025-11-02 19:35:00]
+[log][2025-11-02 19:35:00]异步加载场景成功，场景名为：Main
+[log][2025-11-02 19:35:00]UnityEngine.Debug:Log (object)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:129)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Warning][2025-11-02 19:35:00]Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning][2025-11-02 19:35:00]UnityEngine.Transform:set_parent (UnityEngine.Transform)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:351)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-02 19:35:00]IT_Button
+[log][2025-11-02 19:35:00]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+UICtrl:LoadUIAllObject (UnityEngine.GameObject,string) (at Assets/Framework/Scripts/Managers/UIMgr.cs:23)
+UICtrl:Awake () (at Assets/Framework/Scripts/Managers/UIMgr.cs:35)
+UIHomeUICtrl:Awake () (at Assets/Game/Scripts/UIControllers/UIHomeUICtrl.cs:11)
+UnityEngine.GameObject:AddComponent (System.Type)
+UIMgr:ShowUIView (string) (at Assets/Framework/Scripts/Managers/UIMgr.cs:106)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:364)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-02 19:35:00]IT_Text
+[log][2025-11-02 19:35:00]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+UICtrl:LoadUIAllObject (UnityEngine.GameObject,string) (at Assets/Framework/Scripts/Managers/UIMgr.cs:23)
+UICtrl:Awake () (at Assets/Framework/Scripts/Managers/UIMgr.cs:35)
+UIHomeUICtrl:Awake () (at Assets/Game/Scripts/UIControllers/UIHomeUICtrl.cs:11)
+UnityEngine.GameObject:AddComponent (System.Type)
+UIMgr:ShowUIView (string) (at Assets/Framework/Scripts/Managers/UIMgr.cs:106)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:364)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-02 19:35:00]AddButtonListener执行！！!
+[log][2025-11-02 19:35:00]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+UICtrl:AddButtonListener (string,UnityEngine.Events.UnityAction) (at Assets/Framework/Scripts/Managers/UIMgr.cs:52)
+UIHomeUICtrl:Start () (at Assets/Game/Scripts/UIControllers/UIHomeUICtrl.cs:15)
+
+[log][2025-11-02 19:36:02]已正常进入游戏
+[log][2025-11-02 19:36:02]UnityEngine.Debug:Log (object)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:21)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-02 19:36:02]异步场景加载进度：0%
+[log][2025-11-02 19:36:02]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:470)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+SceneMgr:LoadSceneAsync (string,System.Action`2<bool, UnityEngine.SceneManagement.Scene>,System.Action`1<single>,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Framework/Scripts/Managers/SceneMgr.cs:98)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:69)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-02 19:36:02]异步场景加载进度：90%
+[log][2025-11-02 19:36:02]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:470)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Warning][2025-11-02 19:36:02]The referenced script on this Behaviour (Game Object '') is missing!
+[Warning][2025-11-02 19:36:02]
+[Warning][2025-11-02 19:36:02]The referenced script on this Behaviour (Game Object 'Joystick') is missing!
+[Warning][2025-11-02 19:36:02]
+[log][2025-11-02 19:36:02]异步加载场景成功，场景名为：Main
+[log][2025-11-02 19:36:02]UnityEngine.Debug:Log (object)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:129)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Warning][2025-11-02 19:36:02]Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning][2025-11-02 19:36:02]UnityEngine.Transform:set_parent (UnityEngine.Transform)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:351)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-02 19:36:02]IT_Button
+[log][2025-11-02 19:36:02]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+UICtrl:LoadUIAllObject (UnityEngine.GameObject,string) (at Assets/Framework/Scripts/Managers/UIMgr.cs:23)
+UICtrl:Awake () (at Assets/Framework/Scripts/Managers/UIMgr.cs:35)
+UIHomeUICtrl:Awake () (at Assets/Game/Scripts/UIControllers/UIHomeUICtrl.cs:11)
+UnityEngine.GameObject:AddComponent (System.Type)
+UIMgr:ShowUIView (string) (at Assets/Framework/Scripts/Managers/UIMgr.cs:106)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:364)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-02 19:36:02]IT_Text
+[log][2025-11-02 19:36:02]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+UICtrl:LoadUIAllObject (UnityEngine.GameObject,string) (at Assets/Framework/Scripts/Managers/UIMgr.cs:23)
+UICtrl:Awake () (at Assets/Framework/Scripts/Managers/UIMgr.cs:35)
+UIHomeUICtrl:Awake () (at Assets/Game/Scripts/UIControllers/UIHomeUICtrl.cs:11)
+UnityEngine.GameObject:AddComponent (System.Type)
+UIMgr:ShowUIView (string) (at Assets/Framework/Scripts/Managers/UIMgr.cs:106)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:364)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-02 19:36:02]AddButtonListener执行！！!
+[log][2025-11-02 19:36:02]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+UICtrl:AddButtonListener (string,UnityEngine.Events.UnityAction) (at Assets/Framework/Scripts/Managers/UIMgr.cs:52)
+UIHomeUICtrl:Start () (at Assets/Game/Scripts/UIControllers/UIHomeUICtrl.cs:15)
+
+[log][2025-11-02 19:37:16]已正常进入游戏
+[log][2025-11-02 19:37:16]UnityEngine.Debug:Log (object)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:21)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-02 19:37:16]异步场景加载进度：0%
+[log][2025-11-02 19:37:16]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:470)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+SceneMgr:LoadSceneAsync (string,System.Action`2<bool, UnityEngine.SceneManagement.Scene>,System.Action`1<single>,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Framework/Scripts/Managers/SceneMgr.cs:98)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:69)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-02 19:37:16]异步场景加载进度：90%
+[log][2025-11-02 19:37:16]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:470)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Warning][2025-11-02 19:37:16]The referenced script on this Behaviour (Game Object '') is missing!
+[Warning][2025-11-02 19:37:16]
+[Warning][2025-11-02 19:37:16]The referenced script on this Behaviour (Game Object 'Joystick') is missing!
+[Warning][2025-11-02 19:37:16]
+[log][2025-11-02 19:37:16]异步加载场景成功，场景名为：Main
+[log][2025-11-02 19:37:16]UnityEngine.Debug:Log (object)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:129)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Warning][2025-11-02 19:37:16]Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning][2025-11-02 19:37:16]UnityEngine.Transform:set_parent (UnityEngine.Transform)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:351)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-02 19:37:16]IT_Button
+[log][2025-11-02 19:37:16]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+UICtrl:LoadUIAllObject (UnityEngine.GameObject,string) (at Assets/Framework/Scripts/Managers/UIMgr.cs:23)
+UICtrl:Awake () (at Assets/Framework/Scripts/Managers/UIMgr.cs:35)
+UIHomeUICtrl:Awake () (at Assets/Game/Scripts/UIControllers/UIHomeUICtrl.cs:11)
+UnityEngine.GameObject:AddComponent (System.Type)
+UIMgr:ShowUIView (string) (at Assets/Framework/Scripts/Managers/UIMgr.cs:106)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:364)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-02 19:37:16]IT_Text
+[log][2025-11-02 19:37:16]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+UICtrl:LoadUIAllObject (UnityEngine.GameObject,string) (at Assets/Framework/Scripts/Managers/UIMgr.cs:23)
+UICtrl:Awake () (at Assets/Framework/Scripts/Managers/UIMgr.cs:35)
+UIHomeUICtrl:Awake () (at Assets/Game/Scripts/UIControllers/UIHomeUICtrl.cs:11)
+UnityEngine.GameObject:AddComponent (System.Type)
+UIMgr:ShowUIView (string) (at Assets/Framework/Scripts/Managers/UIMgr.cs:106)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:364)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Error][2025-11-02 19:37:16]KeyNotFoundException: The given key 'Button' was not present in the dictionary.
+[Error][2025-11-02 19:37:16]System.Collections.Generic.Dictionary`2[TKey,TValue].get_Item (TKey key) (at <1fd52158108c4fe3a6817b50854eb75e>:0)
+UICtrl.AddButtonListener (System.String buttonPath, UnityEngine.Events.UnityAction onClick) (at Assets/Framework/Scripts/Managers/UIMgr.cs:46)
+UIHomeUICtrl.Start () (at Assets/Game/Scripts/UIControllers/UIHomeUICtrl.cs:15)
+
+[log][2025-11-02 19:38:00]已正常进入游戏
+[log][2025-11-02 19:38:00]UnityEngine.Debug:Log (object)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:21)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-02 19:38:00]异步场景加载进度：0%
+[log][2025-11-02 19:38:00]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:470)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+SceneMgr:LoadSceneAsync (string,System.Action`2<bool, UnityEngine.SceneManagement.Scene>,System.Action`1<single>,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Framework/Scripts/Managers/SceneMgr.cs:98)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:69)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-02 19:38:00]异步场景加载进度：90%
+[log][2025-11-02 19:38:00]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:470)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Warning][2025-11-02 19:38:00]The referenced script on this Behaviour (Game Object '') is missing!
+[Warning][2025-11-02 19:38:00]
+[Warning][2025-11-02 19:38:00]The referenced script on this Behaviour (Game Object 'Joystick') is missing!
+[Warning][2025-11-02 19:38:00]
+[log][2025-11-02 19:38:00]异步加载场景成功，场景名为：Main
+[log][2025-11-02 19:38:00]UnityEngine.Debug:Log (object)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:129)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Warning][2025-11-02 19:38:00]Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning][2025-11-02 19:38:00]UnityEngine.Transform:set_parent (UnityEngine.Transform)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:351)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-02 19:38:00]Button
+[log][2025-11-02 19:38:00]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+UICtrl:LoadUIAllObject (UnityEngine.GameObject,string) (at Assets/Framework/Scripts/Managers/UIMgr.cs:23)
+UICtrl:Awake () (at Assets/Framework/Scripts/Managers/UIMgr.cs:35)
+UIHomeUICtrl:Awake () (at Assets/Game/Scripts/UIControllers/UIHomeUICtrl.cs:11)
+UnityEngine.GameObject:AddComponent (System.Type)
+UIMgr:ShowUIView (string) (at Assets/Framework/Scripts/Managers/UIMgr.cs:106)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:364)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-02 19:38:00]Text
+[log][2025-11-02 19:38:00]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+UICtrl:LoadUIAllObject (UnityEngine.GameObject,string) (at Assets/Framework/Scripts/Managers/UIMgr.cs:23)
+UICtrl:LoadUIAllObject (UnityEngine.GameObject,string) (at Assets/Framework/Scripts/Managers/UIMgr.cs:29)
+UICtrl:Awake () (at Assets/Framework/Scripts/Managers/UIMgr.cs:35)
+UIHomeUICtrl:Awake () (at Assets/Game/Scripts/UIControllers/UIHomeUICtrl.cs:11)
+UnityEngine.GameObject:AddComponent (System.Type)
+UIMgr:ShowUIView (string) (at Assets/Framework/Scripts/Managers/UIMgr.cs:106)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:364)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-02 19:38:00]Text
+[log][2025-11-02 19:38:00]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+UICtrl:LoadUIAllObject (UnityEngine.GameObject,string) (at Assets/Framework/Scripts/Managers/UIMgr.cs:23)
+UICtrl:Awake () (at Assets/Framework/Scripts/Managers/UIMgr.cs:35)
+UIHomeUICtrl:Awake () (at Assets/Game/Scripts/UIControllers/UIHomeUICtrl.cs:11)
+UnityEngine.GameObject:AddComponent (System.Type)
+UIMgr:ShowUIView (string) (at Assets/Framework/Scripts/Managers/UIMgr.cs:106)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:364)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-02 19:38:00]AddButtonListener执行！！!
+[log][2025-11-02 19:38:00]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+UICtrl:AddButtonListener (string,UnityEngine.Events.UnityAction) (at Assets/Framework/Scripts/Managers/UIMgr.cs:52)
+UIHomeUICtrl:Start () (at Assets/Game/Scripts/UIControllers/UIHomeUICtrl.cs:15)
+
+[log][2025-11-02 19:38:03]UI按钮执行回调！！！
+[log][2025-11-02 19:38:03]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+UIHomeUICtrl:ButtonCallback () (at Assets/Game/Scripts/UIControllers/UIHomeUICtrl.cs:29)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:530)
+
+[log][2025-11-02 19:38:03]UI按钮执行回调！！！
+[log][2025-11-02 19:38:03]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+UIHomeUICtrl:ButtonCallback () (at Assets/Game/Scripts/UIControllers/UIHomeUICtrl.cs:29)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:530)
+
+[log][2025-11-02 19:38:10]已正常进入游戏
+[log][2025-11-02 19:38:10]UnityEngine.Debug:Log (object)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:21)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-02 19:38:10]异步场景加载进度：0%
+[log][2025-11-02 19:38:10]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:470)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+SceneMgr:LoadSceneAsync (string,System.Action`2<bool, UnityEngine.SceneManagement.Scene>,System.Action`1<single>,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Framework/Scripts/Managers/SceneMgr.cs:98)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:69)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-02 19:38:10]异步场景加载进度：90%
+[log][2025-11-02 19:38:10]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:470)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Warning][2025-11-02 19:38:10]The referenced script on this Behaviour (Game Object '') is missing!
+[Warning][2025-11-02 19:38:10]
+[Warning][2025-11-02 19:38:10]The referenced script on this Behaviour (Game Object 'Joystick') is missing!
+[Warning][2025-11-02 19:38:10]
+[log][2025-11-02 19:38:10]异步加载场景成功，场景名为：Main
+[log][2025-11-02 19:38:10]UnityEngine.Debug:Log (object)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:129)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Warning][2025-11-02 19:38:10]Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning][2025-11-02 19:38:10]UnityEngine.Transform:set_parent (UnityEngine.Transform)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:351)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-02 19:38:10]Button
+[log][2025-11-02 19:38:10]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+UICtrl:LoadUIAllObject (UnityEngine.GameObject,string) (at Assets/Framework/Scripts/Managers/UIMgr.cs:23)
+UICtrl:Awake () (at Assets/Framework/Scripts/Managers/UIMgr.cs:35)
+UIHomeUICtrl:Awake () (at Assets/Game/Scripts/UIControllers/UIHomeUICtrl.cs:11)
+UnityEngine.GameObject:AddComponent (System.Type)
+UIMgr:ShowUIView (string) (at Assets/Framework/Scripts/Managers/UIMgr.cs:106)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:364)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-02 19:38:10]Text
+[log][2025-11-02 19:38:10]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+UICtrl:LoadUIAllObject (UnityEngine.GameObject,string) (at Assets/Framework/Scripts/Managers/UIMgr.cs:23)
+UICtrl:LoadUIAllObject (UnityEngine.GameObject,string) (at Assets/Framework/Scripts/Managers/UIMgr.cs:29)
+UICtrl:Awake () (at Assets/Framework/Scripts/Managers/UIMgr.cs:35)
+UIHomeUICtrl:Awake () (at Assets/Game/Scripts/UIControllers/UIHomeUICtrl.cs:11)
+UnityEngine.GameObject:AddComponent (System.Type)
+UIMgr:ShowUIView (string) (at Assets/Framework/Scripts/Managers/UIMgr.cs:106)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:364)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-02 19:38:10]Text
+[log][2025-11-02 19:38:10]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+UICtrl:LoadUIAllObject (UnityEngine.GameObject,string) (at Assets/Framework/Scripts/Managers/UIMgr.cs:23)
+UICtrl:Awake () (at Assets/Framework/Scripts/Managers/UIMgr.cs:35)
+UIHomeUICtrl:Awake () (at Assets/Game/Scripts/UIControllers/UIHomeUICtrl.cs:11)
+UnityEngine.GameObject:AddComponent (System.Type)
+UIMgr:ShowUIView (string) (at Assets/Framework/Scripts/Managers/UIMgr.cs:106)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:364)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-02 19:38:10]AddButtonListener执行！！!
+[log][2025-11-02 19:38:10]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+UICtrl:AddButtonListener (string,UnityEngine.Events.UnityAction) (at Assets/Framework/Scripts/Managers/UIMgr.cs:52)
+UIHomeUICtrl:Start () (at Assets/Game/Scripts/UIControllers/UIHomeUICtrl.cs:15)
+
+[log][2025-11-02 19:38:18]UI按钮执行回调！！！
+[log][2025-11-02 19:38:18]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+UIHomeUICtrl:ButtonCallback () (at Assets/Game/Scripts/UIControllers/UIHomeUICtrl.cs:29)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:530)
+
+[log][2025-11-02 19:38:19]UI按钮执行回调！！！
+[log][2025-11-02 19:38:19]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+UIHomeUICtrl:ButtonCallback () (at Assets/Game/Scripts/UIControllers/UIHomeUICtrl.cs:29)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:530)
+
+[log][2025-11-02 19:38:19]UI按钮执行回调！！！
+[log][2025-11-02 19:38:19]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+UIHomeUICtrl:ButtonCallback () (at Assets/Game/Scripts/UIControllers/UIHomeUICtrl.cs:29)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:530)
+
+[log][2025-11-02 19:38:20]UI按钮执行回调！！！
+[log][2025-11-02 19:38:20]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+UIHomeUICtrl:ButtonCallback () (at Assets/Game/Scripts/UIControllers/UIHomeUICtrl.cs:29)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:530)
+
+[log][2025-11-02 19:38:20]UI按钮执行回调！！！
+[log][2025-11-02 19:38:20]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+UIHomeUICtrl:ButtonCallback () (at Assets/Game/Scripts/UIControllers/UIHomeUICtrl.cs:29)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:530)
+
+[log][2025-11-02 19:38:25]已正常进入游戏
+[log][2025-11-02 19:38:25]UnityEngine.Debug:Log (object)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:21)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-02 19:38:25]异步场景加载进度：0%
+[log][2025-11-02 19:38:25]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:470)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+SceneMgr:LoadSceneAsync (string,System.Action`2<bool, UnityEngine.SceneManagement.Scene>,System.Action`1<single>,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Framework/Scripts/Managers/SceneMgr.cs:98)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:69)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-02 19:38:25]异步场景加载进度：90%
+[log][2025-11-02 19:38:25]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:470)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Warning][2025-11-02 19:38:25]The referenced script on this Behaviour (Game Object '') is missing!
+[Warning][2025-11-02 19:38:25]
+[Warning][2025-11-02 19:38:25]The referenced script on this Behaviour (Game Object 'Joystick') is missing!
+[Warning][2025-11-02 19:38:25]
+[log][2025-11-02 19:38:25]异步加载场景成功，场景名为：Main
+[log][2025-11-02 19:38:25]UnityEngine.Debug:Log (object)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:129)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Warning][2025-11-02 19:38:25]Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning][2025-11-02 19:38:25]UnityEngine.Transform:set_parent (UnityEngine.Transform)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:351)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-02 19:38:25]Button
+[log][2025-11-02 19:38:25]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+UICtrl:LoadUIAllObject (UnityEngine.GameObject,string) (at Assets/Framework/Scripts/Managers/UIMgr.cs:23)
+UICtrl:Awake () (at Assets/Framework/Scripts/Managers/UIMgr.cs:35)
+UIHomeUICtrl:Awake () (at Assets/Game/Scripts/UIControllers/UIHomeUICtrl.cs:11)
+UnityEngine.GameObject:AddComponent (System.Type)
+UIMgr:ShowUIView (string) (at Assets/Framework/Scripts/Managers/UIMgr.cs:106)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:364)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-02 19:38:25]Text
+[log][2025-11-02 19:38:25]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+UICtrl:LoadUIAllObject (UnityEngine.GameObject,string) (at Assets/Framework/Scripts/Managers/UIMgr.cs:23)
+UICtrl:LoadUIAllObject (UnityEngine.GameObject,string) (at Assets/Framework/Scripts/Managers/UIMgr.cs:29)
+UICtrl:Awake () (at Assets/Framework/Scripts/Managers/UIMgr.cs:35)
+UIHomeUICtrl:Awake () (at Assets/Game/Scripts/UIControllers/UIHomeUICtrl.cs:11)
+UnityEngine.GameObject:AddComponent (System.Type)
+UIMgr:ShowUIView (string) (at Assets/Framework/Scripts/Managers/UIMgr.cs:106)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:364)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-02 19:38:25]Text
+[log][2025-11-02 19:38:25]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+UICtrl:LoadUIAllObject (UnityEngine.GameObject,string) (at Assets/Framework/Scripts/Managers/UIMgr.cs:23)
+UICtrl:Awake () (at Assets/Framework/Scripts/Managers/UIMgr.cs:35)
+UIHomeUICtrl:Awake () (at Assets/Game/Scripts/UIControllers/UIHomeUICtrl.cs:11)
+UnityEngine.GameObject:AddComponent (System.Type)
+UIMgr:ShowUIView (string) (at Assets/Framework/Scripts/Managers/UIMgr.cs:106)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:364)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-02 19:38:25]AddButtonListener执行！！!
+[log][2025-11-02 19:38:25]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+UICtrl:AddButtonListener (string,UnityEngine.Events.UnityAction) (at Assets/Framework/Scripts/Managers/UIMgr.cs:52)
+UIHomeUICtrl:Start () (at Assets/Game/Scripts/UIControllers/UIHomeUICtrl.cs:15)
+
+[log][2025-11-02 19:38:26]UI按钮执行回调！！！
+[log][2025-11-02 19:38:26]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+UIHomeUICtrl:ButtonCallback () (at Assets/Game/Scripts/UIControllers/UIHomeUICtrl.cs:29)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:530)
+
+[log][2025-11-02 19:39:52]已正常进入游戏
+[log][2025-11-02 19:39:52]UnityEngine.Debug:Log (object)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:21)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-02 19:39:52]异步场景加载进度：0%
+[log][2025-11-02 19:39:52]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:470)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+SceneMgr:LoadSceneAsync (string,System.Action`2<bool, UnityEngine.SceneManagement.Scene>,System.Action`1<single>,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Framework/Scripts/Managers/SceneMgr.cs:98)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:69)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-02 19:39:52]异步场景加载进度：90%
+[log][2025-11-02 19:39:52]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:470)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Warning][2025-11-02 19:39:52]The referenced script on this Behaviour (Game Object '') is missing!
+[Warning][2025-11-02 19:39:52]
+[Warning][2025-11-02 19:39:52]The referenced script on this Behaviour (Game Object 'Joystick') is missing!
+[Warning][2025-11-02 19:39:52]
+[log][2025-11-02 19:39:52]异步加载场景成功，场景名为：Main
+[log][2025-11-02 19:39:52]UnityEngine.Debug:Log (object)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:129)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Warning][2025-11-02 19:39:52]Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning][2025-11-02 19:39:52]UnityEngine.Transform:set_parent (UnityEngine.Transform)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:351)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-02 19:39:52]ITButton
+[log][2025-11-02 19:39:52]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+UICtrl:LoadUIAllObject (UnityEngine.GameObject,string) (at Assets/Framework/Scripts/Managers/UIMgr.cs:23)
+UICtrl:Awake () (at Assets/Framework/Scripts/Managers/UIMgr.cs:35)
+UIHomeUICtrl:Awake () (at Assets/Game/Scripts/UIControllers/UIHomeUICtrl.cs:11)
+UnityEngine.GameObject:AddComponent (System.Type)
+UIMgr:ShowUIView (string) (at Assets/Framework/Scripts/Managers/UIMgr.cs:106)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:364)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-02 19:39:52]ITText
+[log][2025-11-02 19:39:52]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+UICtrl:LoadUIAllObject (UnityEngine.GameObject,string) (at Assets/Framework/Scripts/Managers/UIMgr.cs:23)
+UICtrl:Awake () (at Assets/Framework/Scripts/Managers/UIMgr.cs:35)
+UIHomeUICtrl:Awake () (at Assets/Game/Scripts/UIControllers/UIHomeUICtrl.cs:11)
+UnityEngine.GameObject:AddComponent (System.Type)
+UIMgr:ShowUIView (string) (at Assets/Framework/Scripts/Managers/UIMgr.cs:106)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:364)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-02 19:39:52]AddButtonListener执行！！!
+[log][2025-11-02 19:39:52]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+UICtrl:AddButtonListener (string,UnityEngine.Events.UnityAction) (at Assets/Framework/Scripts/Managers/UIMgr.cs:52)
+UIHomeUICtrl:Start () (at Assets/Game/Scripts/UIControllers/UIHomeUICtrl.cs:15)
+
+[log][2025-11-02 19:39:54]UI按钮执行回调！！！
+[log][2025-11-02 19:39:54]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+UIHomeUICtrl:ButtonCallback () (at Assets/Game/Scripts/UIControllers/UIHomeUICtrl.cs:29)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:530)
+
+[log][2025-11-02 19:40:54]已正常进入游戏
+[log][2025-11-02 19:40:54]UnityEngine.Debug:Log (object)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:21)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-02 19:40:54]异步场景加载进度：0%
+[log][2025-11-02 19:40:54]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:470)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+SceneMgr:LoadSceneAsync (string,System.Action`2<bool, UnityEngine.SceneManagement.Scene>,System.Action`1<single>,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Framework/Scripts/Managers/SceneMgr.cs:98)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:69)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-02 19:40:54]异步场景加载进度：90%
+[log][2025-11-02 19:40:54]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:470)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Warning][2025-11-02 19:40:54]The referenced script on this Behaviour (Game Object '') is missing!
+[Warning][2025-11-02 19:40:54]
+[Warning][2025-11-02 19:40:54]The referenced script on this Behaviour (Game Object 'Joystick') is missing!
+[Warning][2025-11-02 19:40:54]
+[log][2025-11-02 19:40:54]异步加载场景成功，场景名为：Main
+[log][2025-11-02 19:40:54]UnityEngine.Debug:Log (object)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:129)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Warning][2025-11-02 19:40:54]Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning][2025-11-02 19:40:54]UnityEngine.Transform:set_parent (UnityEngine.Transform)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:351)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-02 19:40:54]IT_Button
+[log][2025-11-02 19:40:54]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+UICtrl:LoadUIAllObject (UnityEngine.GameObject,string) (at Assets/Framework/Scripts/Managers/UIMgr.cs:23)
+UICtrl:Awake () (at Assets/Framework/Scripts/Managers/UIMgr.cs:35)
+UIHomeUICtrl:Awake () (at Assets/Game/Scripts/UIControllers/UIHomeUICtrl.cs:11)
+UnityEngine.GameObject:AddComponent (System.Type)
+UIMgr:ShowUIView (string) (at Assets/Framework/Scripts/Managers/UIMgr.cs:106)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:364)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-02 19:40:54]IT_Text
+[log][2025-11-02 19:40:54]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+UICtrl:LoadUIAllObject (UnityEngine.GameObject,string) (at Assets/Framework/Scripts/Managers/UIMgr.cs:23)
+UICtrl:Awake () (at Assets/Framework/Scripts/Managers/UIMgr.cs:35)
+UIHomeUICtrl:Awake () (at Assets/Game/Scripts/UIControllers/UIHomeUICtrl.cs:11)
+UnityEngine.GameObject:AddComponent (System.Type)
+UIMgr:ShowUIView (string) (at Assets/Framework/Scripts/Managers/UIMgr.cs:106)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:364)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-02 19:40:54]AddButtonListener执行！！!
+[log][2025-11-02 19:40:54]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+UICtrl:AddButtonListener (string,UnityEngine.Events.UnityAction) (at Assets/Framework/Scripts/Managers/UIMgr.cs:52)
+UIHomeUICtrl:Start () (at Assets/Game/Scripts/UIControllers/UIHomeUICtrl.cs:15)
+
+[log][2025-11-02 19:40:56]UI按钮执行回调！！！
+[log][2025-11-02 19:40:56]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+UIHomeUICtrl:ButtonCallback () (at Assets/Game/Scripts/UIControllers/UIHomeUICtrl.cs:29)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:530)
+
+[log][2025-11-02 19:40:57]UI按钮执行回调！！！
+[log][2025-11-02 19:40:57]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+UIHomeUICtrl:ButtonCallback () (at Assets/Game/Scripts/UIControllers/UIHomeUICtrl.cs:29)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:530)
+
+[log][2025-11-02 19:40:58]UI按钮执行回调！！！
+[log][2025-11-02 19:40:58]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+UIHomeUICtrl:ButtonCallback () (at Assets/Game/Scripts/UIControllers/UIHomeUICtrl.cs:29)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:530)
+
+[log][2025-11-02 19:41:03]已正常进入游戏
+[log][2025-11-02 19:41:03]UnityEngine.Debug:Log (object)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:21)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-02 19:41:03]异步场景加载进度：0%
+[log][2025-11-02 19:41:03]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:470)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+SceneMgr:LoadSceneAsync (string,System.Action`2<bool, UnityEngine.SceneManagement.Scene>,System.Action`1<single>,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Framework/Scripts/Managers/SceneMgr.cs:98)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:69)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-02 19:41:03]异步场景加载进度：90%
+[log][2025-11-02 19:41:03]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:470)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Warning][2025-11-02 19:41:03]The referenced script on this Behaviour (Game Object '') is missing!
+[Warning][2025-11-02 19:41:03]
+[Warning][2025-11-02 19:41:03]The referenced script on this Behaviour (Game Object 'Joystick') is missing!
+[Warning][2025-11-02 19:41:03]
+[log][2025-11-02 19:41:03]异步加载场景成功，场景名为：Main
+[log][2025-11-02 19:41:03]UnityEngine.Debug:Log (object)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:129)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Warning][2025-11-02 19:41:03]Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning][2025-11-02 19:41:03]UnityEngine.Transform:set_parent (UnityEngine.Transform)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:351)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-02 19:41:03]IT_Button
+[log][2025-11-02 19:41:03]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+UICtrl:LoadUIAllObject (UnityEngine.GameObject,string) (at Assets/Framework/Scripts/Managers/UIMgr.cs:23)
+UICtrl:Awake () (at Assets/Framework/Scripts/Managers/UIMgr.cs:35)
+UIHomeUICtrl:Awake () (at Assets/Game/Scripts/UIControllers/UIHomeUICtrl.cs:11)
+UnityEngine.GameObject:AddComponent (System.Type)
+UIMgr:ShowUIView (string) (at Assets/Framework/Scripts/Managers/UIMgr.cs:106)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:364)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-02 19:41:03]IT_Text
+[log][2025-11-02 19:41:03]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+UICtrl:LoadUIAllObject (UnityEngine.GameObject,string) (at Assets/Framework/Scripts/Managers/UIMgr.cs:23)
+UICtrl:Awake () (at Assets/Framework/Scripts/Managers/UIMgr.cs:35)
+UIHomeUICtrl:Awake () (at Assets/Game/Scripts/UIControllers/UIHomeUICtrl.cs:11)
+UnityEngine.GameObject:AddComponent (System.Type)
+UIMgr:ShowUIView (string) (at Assets/Framework/Scripts/Managers/UIMgr.cs:106)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:364)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-02 19:41:03]AddButtonListener执行！！!
+[log][2025-11-02 19:41:03]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+UICtrl:AddButtonListener (string,UnityEngine.Events.UnityAction) (at Assets/Framework/Scripts/Managers/UIMgr.cs:52)
+UIHomeUICtrl:Start () (at Assets/Game/Scripts/UIControllers/UIHomeUICtrl.cs:15)
+
+[log][2025-11-02 19:41:04]UI按钮执行回调！！！
+[log][2025-11-02 19:41:04]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+UIHomeUICtrl:ButtonCallback () (at Assets/Game/Scripts/UIControllers/UIHomeUICtrl.cs:29)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:530)
+
