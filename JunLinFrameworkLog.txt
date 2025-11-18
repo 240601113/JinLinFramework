@@ -2671,3 +2671,2854 @@ LogMgr:Log (string) (at E:/01 UnityProject20241002/100 君麟科技游戏框架/
 UICtrl:AddButtonListener (string,UnityEngine.Events.UnityAction) (at E:/01 UnityProject20241002/100 君麟科技游戏框架/01 单机PC版/JunLinFramework1.0/Assets/Framework/Scripts/Managers/UIMgr.cs:51)
 UIHomeUICtrl:Start () (at E:/01 UnityProject20241002/100 君麟科技游戏框架/01 单机PC版/JunLinFramework1.0/Assets/Game/Scripts/UIControllers/UIHomeUICtrl.cs:15)
 
+[log][2025-11-18 19:59:27]已正常进入游戏
+[log][2025-11-18 19:59:28]UnityEngine.Debug:Log (object)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:21)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-18 19:59:28]异步场景加载进度：0%
+[log][2025-11-18 19:59:28]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:470)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+SceneMgr:LoadSceneAsync (string,System.Action`2<bool, UnityEngine.SceneManagement.Scene>,System.Action`1<single>,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Framework/Scripts/Managers/SceneMgr.cs:98)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:69)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-18 19:59:28]异步场景加载进度：90%
+[log][2025-11-18 19:59:28]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:470)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Warning][2025-11-18 19:59:28]The referenced script (Unknown) on this Behaviour is missing!
+[Warning][2025-11-18 19:59:28]
+[Warning][2025-11-18 19:59:28]The referenced script on this Behaviour (Game Object 'Joystick') is missing!
+[Warning][2025-11-18 19:59:28]
+[log][2025-11-18 19:59:28]异步加载场景成功，场景名为：Main
+[log][2025-11-18 19:59:28]UnityEngine.Debug:Log (object)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:129)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Warning][2025-11-18 19:59:28]Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning][2025-11-18 19:59:28]UnityEngine.Transform:set_parent (UnityEngine.Transform)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:351)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-18 19:59:28]AddButtonListener执行！！!
+[log][2025-11-18 19:59:28]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+UICtrl:AddButtonListener (string,UnityEngine.Events.UnityAction) (at Assets/Framework/Scripts/Managers/UIMgr.cs:51)
+UIHomeUICtrl:Start () (at Assets/Game/Scripts/UIControllers/UIHomeUICtrl.cs:15)
+
+[log][2025-11-18 19:59:30]81.08171
+[log][2025-11-18 19:59:30]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:30]82.46207
+[log][2025-11-18 19:59:30]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:30]83.84655
+[log][2025-11-18 19:59:30]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:30]85.80934
+[log][2025-11-18 19:59:30]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:30]87.19228
+[log][2025-11-18 19:59:30]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:30]89.15713
+[log][2025-11-18 19:59:30]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:30]90.53863
+[log][2025-11-18 19:59:30]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:30]91.92384
+[log][2025-11-18 19:59:30]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:30]93.31261
+[log][2025-11-18 19:59:30]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:30]95.26932
+[log][2025-11-18 19:59:30]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:30]97.23293
+[log][2025-11-18 19:59:30]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:30]98.61537
+[log][2025-11-18 19:59:30]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:30]100.0012
+[log][2025-11-18 19:59:30]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:30]102.7825
+[log][2025-11-18 19:59:30]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:30]104.7341
+[log][2025-11-18 19:59:30]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:30]106.6923
+[log][2025-11-18 19:59:30]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:30]108.6565
+[log][2025-11-18 19:59:30]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:30]110.6266
+[log][2025-11-18 19:59:30]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:30]112.0044
+[log][2025-11-18 19:59:30]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:30]113.9758
+[log][2025-11-18 19:59:30]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:30]115.9525
+[log][2025-11-18 19:59:30]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:30]117.3254
+[log][2025-11-18 19:59:30]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:30]117.9343
+[log][2025-11-18 19:59:30]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:30]118.559
+[log][2025-11-18 19:59:30]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:30]119.9208
+[log][2025-11-18 19:59:30]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:30]121.2023
+[log][2025-11-18 19:59:30]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:30]123.8799
+[log][2025-11-18 19:59:30]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:30]125.2647
+[log][2025-11-18 19:59:30]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:30]128.7487
+[log][2025-11-18 19:59:30]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:30]132.3111
+[log][2025-11-18 19:59:30]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:30]136.7516
+[log][2025-11-18 19:59:30]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:30]140.9512
+[log][2025-11-18 19:59:30]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:30]145.4166
+[log][2025-11-18 19:59:30]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:30]150.1241
+[log][2025-11-18 19:59:30]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:30]155.0516
+[log][2025-11-18 19:59:30]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:30]159.1383
+[log][2025-11-18 19:59:30]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:30]164.4483
+[log][2025-11-18 19:59:30]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:30]165.7181
+[log][2025-11-18 19:59:30]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:30]167.1533
+[log][2025-11-18 19:59:30]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:30]172.0356
+[log][2025-11-18 19:59:30]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:30]172.9226
+[log][2025-11-18 19:59:30]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:30]174.8785
+[log][2025-11-18 19:59:30]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:30]176.9781
+[log][2025-11-18 19:59:30]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:30]179.2163
+[log][2025-11-18 19:59:30]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:30]180.1284
+[log][2025-11-18 19:59:30]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:30]182.6978
+[log][2025-11-18 19:59:30]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:30]184.743
+[log][2025-11-18 19:59:30]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:30]185.6077
+[log][2025-11-18 19:59:30]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:30]188.8604
+[log][2025-11-18 19:59:30]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:30]192.0169
+[log][2025-11-18 19:59:30]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:30]193.8788
+[log][2025-11-18 19:59:30]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:30]195.4642
+[log][2025-11-18 19:59:30]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:30]197.5632
+[log][2025-11-18 19:59:30]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:30]201.9635
+[log][2025-11-18 19:59:30]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:30]202.7917
+[log][2025-11-18 19:59:30]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:30]203.6719
+[log][2025-11-18 19:59:30]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:30]204.3483
+[log][2025-11-18 19:59:30]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:30]205.5851
+[log][2025-11-18 19:59:30]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:30]206.6168
+[log][2025-11-18 19:59:30]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:30]206.4079
+[log][2025-11-18 19:59:30]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:30]207.6975
+[log][2025-11-18 19:59:30]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:30]207.1714
+[log][2025-11-18 19:59:30]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:30]206.742
+[log][2025-11-18 19:59:30]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:30]203.3255
+[log][2025-11-18 19:59:30]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:30]200.1224
+[log][2025-11-18 19:59:30]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:30]195.5025
+[log][2025-11-18 19:59:30]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:30]188.1701
+[log][2025-11-18 19:59:30]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:30]184.1534
+[log][2025-11-18 19:59:30]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:30]178.9839
+[log][2025-11-18 19:59:30]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:30]172.0966
+[log][2025-11-18 19:59:30]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:30]168.3515
+[log][2025-11-18 19:59:30]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:30]162.5123
+[log][2025-11-18 19:59:30]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:30]159.8155
+[log][2025-11-18 19:59:30]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:30]156.9745
+[log][2025-11-18 19:59:30]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:30]153.0751
+[log][2025-11-18 19:59:30]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:30]150.1541
+[log][2025-11-18 19:59:30]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:30]145.4733
+[log][2025-11-18 19:59:30]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:30]141.1001
+[log][2025-11-18 19:59:30]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:30]135.9126
+[log][2025-11-18 19:59:30]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:30]131.3783
+[log][2025-11-18 19:59:30]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:30]123.7619
+[log][2025-11-18 19:59:30]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:30]118.6729
+[log][2025-11-18 19:59:30]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:30]113.8508
+[log][2025-11-18 19:59:30]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:30]108.1133
+[log][2025-11-18 19:59:30]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:30]103.4517
+[log][2025-11-18 19:59:30]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:30]97.67931
+[log][2025-11-18 19:59:30]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:30]94.08107
+[log][2025-11-18 19:59:30]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:30]89.26644
+[log][2025-11-18 19:59:30]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:30]84.52365
+[log][2025-11-18 19:59:30]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:30]83.21807
+[log][2025-11-18 19:59:30]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:30]80.06245
+[log][2025-11-18 19:59:30]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:30]94.26025
+[log][2025-11-18 19:59:30]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:30]107.5744
+[log][2025-11-18 19:59:30]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:30]122.5041
+[log][2025-11-18 19:59:30]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:30]136.0918
+[log][2025-11-18 19:59:30]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:30]148.216
+[log][2025-11-18 19:59:30]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:30]162.1056
+[log][2025-11-18 19:59:30]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:30]174.6489
+[log][2025-11-18 19:59:30]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:30]185.6239
+[log][2025-11-18 19:59:30]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:30]196.65
+[log][2025-11-18 19:59:30]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:30]207.9663
+[log][2025-11-18 19:59:30]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]219.3655
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]229.367
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]241.2369
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]253.2079
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]263.4279
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]279.6855
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]299.9421
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]316.6275
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]334.8582
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]351.8
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]367.466
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]387.2031
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]397.1288
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]409.7267
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]420.3941
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]428.4311
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]436.5135
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]441.9468
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]446.706
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]450.1613
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]454.3677
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]456.5734
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]460.1111
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]462.377
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]467.5083
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]469.0682
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]473.501
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]476.7088
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]479.1498
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]481.6205
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]484.1203
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]485.8029
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]488.3505
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]490.0645
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]490.9262
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]491.7909
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]492.6586
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]493.5294
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]494.0648
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]494.6223
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]495.202
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]495.8036
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]493.4139
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]494.0496
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]494.7072
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]494.2128
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]493.7542
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]492.3784
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]492.1758
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]491.6223
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]492.2817
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]491.0117
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]489.7614
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]489.5378
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]488.4281
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]488.2499
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]488.1747
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]485.9311
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]484.8023
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]482.6223
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]481.5402
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]480.4823
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]478.4268
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]477.4861
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]474.4062
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]473.4686
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]472.5529
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]471.6593
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]469.7968
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]468.8083
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]467.9749
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]467.1641
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]464.455
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]465.6106
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]462.758
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]461.813
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]460.4175
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]459.4921
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]457.9241
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]456.4001
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]453.7127
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]451.9372
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]450.1747
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]449.6471
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]449.1439
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]448.2856
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]445.7311
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]444.8865
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]443.2076
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]442.7937
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]440.33
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]438.7055
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]437.5671
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]434.4157
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]432.0917
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]429.0469
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]426.8044
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]424.5977
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]421.0012
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]418.8929
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]416.8225
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]416.1328
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]413.493
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]412.1996
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]410.924
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]409.6663
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]408.4268
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]407.2057
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]406.0031
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]404.8191
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]403.6539
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]403.0785
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]401.9418
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]400.8245
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]400.273
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]399.1848
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]398.1162
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]397.0674
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]396.0385
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]395.5316
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]394.5329
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]394.0412
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]393.5546
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]391.6519
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]391.1739
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]390.701
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]390.2332
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]389.3135
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]388.8615
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]387.9732
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]387.1062
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]385.2418
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]384.8201
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]382.5497
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]381.7411
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]380.9544
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]380.1898
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]379.4473
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]377.9927
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]377.2698
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]375.1096
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]374.7666
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]374.4292
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]373.7716
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]373.4515
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]373.137
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]372.8284
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:31]371.0559
+[log][2025-11-18 19:59:31]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]370.7577
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]368.7058
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]368.424
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]366.4021
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]365.8777
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]363.8973
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]363.4188
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]362.9645
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]359.1549
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]358.4107
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]354.9338
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]354.3586
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]349.2914
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]347.441
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]344.105
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]339.5092
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]333.5633
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]327.9409
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]321.4502
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]313.8905
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]307.1482
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]298.2118
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]291.994
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]286.8123
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]280.7455
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]277.7521
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]271.5865
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]262.5738
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]252.4144
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]242.4232
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]232.622
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]224.2215
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]213.6937
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]206.8671
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]196.955
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]189.5521
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]183.4476
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]176.6388
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]169.9015
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]164.259
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]159.616
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]154.6302
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]150.9437
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]145.2619
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]141.156
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]138.3628
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]132.97
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]126.1478
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]118.7456
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]114.045
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]106.6888
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]99.35421
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]93.42509
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]84.77174
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]88.59597
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]100.7782
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]112.4389
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]124.1823
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]131.7431
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]142.1487
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]151.1572
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]160.1788
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]167.335
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]175.9602
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]183.5824
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]191.2067
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]196.9873
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]203.1705
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]211.8661
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]218.0504
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]223.8615
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]231.5005
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]240.2384
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]247.881
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]255.1789
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]265.4148
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]275.6706
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]285.9441
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]296.2334
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]305.0643
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]313.6312
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]322.2286
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]331.1001
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]342.4708
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]348.4024
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]357.0889
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]368.7699
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]377.5003
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]386.249
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]393.5241
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]400.8132
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]409.4585
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]418.2756
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]427.1057
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]434.4528
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]441.8102
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]447.6812
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]452.0641
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]456.5537
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]459.448
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]462.4419
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]462.3486
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]463.8459
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]465.3431
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]463.8459
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]462.3486
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]460.8514
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]459.3542
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]457.9511
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]456.4543
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]455.0571
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]453.5606
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]452.0641
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]450.5677
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]447.6812
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]444.8014
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]442.0512
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]436.2024
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]429.012
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]421.8536
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]414.7291
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]404.8534
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]393.364
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]379.4354
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]365.4182
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]348.6004
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]332.3075
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]314.8651
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]287.293
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]263.9682
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]241.56
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]221.0939
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]199.1344
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]181.9244
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]164.0122
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]153.0262
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]148.3678
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]149.2146
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]151.0406
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]156.4361
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]162.888
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]171.6953
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]181.2161
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]195.0186
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]208.7008
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]210.6396
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]209.5025
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]208.3699
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]206.119
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]205.0007
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]203.8873
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]202.7789
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:32]201.6756
+[log][2025-11-18 19:59:32]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:33]200.5774
+[log][2025-11-18 19:59:33]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:33]199.4844
+[log][2025-11-18 19:59:33]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:33]198.3968
+[log][2025-11-18 19:59:33]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:33]197.3145
+[log][2025-11-18 19:59:33]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:33]196.2378
+[log][2025-11-18 19:59:33]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:33]195.1667
+[log][2025-11-18 19:59:33]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:33]193.0415
+[log][2025-11-18 19:59:33]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:33]190.9398
+[log][2025-11-18 19:59:33]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:33]189.8981
+[log][2025-11-18 19:59:33]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:33]188.8624
+[log][2025-11-18 19:59:33]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:33]186.8101
+[log][2025-11-18 19:59:33]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:33]185.7936
+[log][2025-11-18 19:59:33]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:33]184.7837
+[log][2025-11-18 19:59:33]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:33]183.7805
+[log][2025-11-18 19:59:33]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:33]182.7841
+[log][2025-11-18 19:59:33]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:33]181.7946
+[log][2025-11-18 19:59:33]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:33]180.8121
+[log][2025-11-18 19:59:33]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:33]179.8368
+[log][2025-11-18 19:59:33]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:33]178.8687
+[log][2025-11-18 19:59:33]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:33]177.9081
+[log][2025-11-18 19:59:33]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:33]176.9549
+[log][2025-11-18 19:59:33]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:33]174.8443
+[log][2025-11-18 19:59:33]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:33]172.0357
+[log][2025-11-18 19:59:33]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:33]168.7499
+[log][2025-11-18 19:59:33]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:33]162.4316
+[log][2025-11-18 19:59:33]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:33]155.2039
+[log][2025-11-18 19:59:33]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:33]147.7041
+[log][2025-11-18 19:59:33]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:33]133.6198
+[log][2025-11-18 19:59:33]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:33]119.5513
+[log][2025-11-18 19:59:33]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:33]100.9418
+[log][2025-11-18 19:59:33]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:33]84.85577
+[log][2025-11-18 19:59:33]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:33]83.32615
+[log][2025-11-18 19:59:33]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:33]124.2034
+[log][2025-11-18 19:59:33]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:33]165.0128
+[log][2025-11-18 19:59:33]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:33]203.7455
+[log][2025-11-18 19:59:33]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:33]245.5325
+[log][2025-11-18 19:59:33]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:33]290.5069
+[log][2025-11-18 19:59:33]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:33]332.6357
+[log][2025-11-18 19:59:33]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:33]365.768
+[log][2025-11-18 19:59:33]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:33]407.9905
+[log][2025-11-18 19:59:33]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:33]441.2666
+[log][2025-11-18 19:59:33]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:33]471.4875
+[log][2025-11-18 19:59:33]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:33]495.7371
+[log][2025-11-18 19:59:33]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:33]520.0024
+[log][2025-11-18 19:59:33]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:33]539.56
+[log][2025-11-18 19:59:33]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:33]556.243
+[log][2025-11-18 19:59:33]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:33]571.1972
+[log][2025-11-18 19:59:33]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:33]583.2774
+[log][2025-11-18 19:59:33]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:33]590.7548
+[log][2025-11-18 19:59:33]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:33]596.7372
+[log][2025-11-18 19:59:33]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:33]604.2156
+[log][2025-11-18 19:59:33]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:33]607.2072
+[log][2025-11-18 19:59:33]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:33]611.5848
+[log][2025-11-18 19:59:33]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:33]613.0809
+[log][2025-11-18 19:59:33]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:33]614.3696
+[log][2025-11-18 19:59:33]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:33]615.8663
+[log][2025-11-18 19:59:33]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:33]617.3629
+[log][2025-11-18 19:59:33]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:33]618.7621
+[log][2025-11-18 19:59:33]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:33]618.6682
+[log][2025-11-18 19:59:33]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:33]618.5778
+[log][2025-11-18 19:59:33]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:33]619.9887
+[log][2025-11-18 19:59:33]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:33]621.4036
+[log][2025-11-18 19:59:33]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:33]621.3246
+[log][2025-11-18 19:59:33]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:33]622.7473
+[log][2025-11-18 19:59:33]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:33]624.1741
+[log][2025-11-18 19:59:33]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-11-18 19:59:33]618.1806
+[log][2025-11-18 19:59:33]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
