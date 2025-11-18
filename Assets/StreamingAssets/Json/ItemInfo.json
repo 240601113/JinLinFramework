@@ -1,0 +1,263 @@
+﻿[
+  {
+    "Id": 1,
+    "Name": "木箭",
+    "StrType": "WeaponTool",
+    "StrSubType": "Ammunition",
+    "Tips": "基础箭矢",
+    "MaxStack": 99,
+    "IconPath": "icon_"
+  },
+  {
+    "Id": 2,
+    "Name": "破损菜刀",
+    "StrType": "WeaponTool",
+    "StrSubType": "Weapon",
+    "Tips": "破损的近战武器",
+    "MaxStack": 1,
+    "IconPath": "icon_"
+  },
+  {
+    "Id": 3,
+    "Name": "羽毛箭",
+    "StrType": "WeaponTool",
+    "StrSubType": "Ammunition",
+    "Tips": "高级箭矢",
+    "MaxStack": 99,
+    "IconPath": "icon_"
+  },
+  {
+    "Id": 4,
+    "Name": "斧头",
+    "StrType": "WeaponTool",
+    "StrSubType": "Tool",
+    "Tips": "用于伐木",
+    "MaxStack": 1,
+    "IconPath": "icon_"
+  },
+  {
+    "Id": 5,
+    "Name": "稿子",
+    "StrType": "WeaponTool",
+    "StrSubType": "Tool",
+    "Tips": "挖掘石头",
+    "MaxStack": 1,
+    "IconPath": "icon_"
+  },
+  {
+    "Id": 6,
+    "Name": "鼠肉",
+    "StrType": "FoodDrug",
+    "StrSubType": "Food",
+    "Tips": "食物，可烹饪",
+    "MaxStack": 20,
+    "IconPath": "icon_"
+  },
+  {
+    "Id": 7,
+    "Name": "烤鼠",
+    "StrType": "FoodDrug",
+    "StrSubType": "Food",
+    "Tips": "烤制后的鼠肉",
+    "MaxStack": 20,
+    "IconPath": "icon_"
+  },
+  {
+    "Id": 8,
+    "Name": "鸡肉",
+    "StrType": "FoodDrug",
+    "StrSubType": "Food",
+    "Tips": "食物，可烹饪",
+    "MaxStack": 20,
+    "IconPath": "icon_"
+  },
+  {
+    "Id": 9,
+    "Name": "烤鸡",
+    "StrType": "FoodDrug",
+    "StrSubType": "Food",
+    "Tips": "烤制后的鸡肉",
+    "MaxStack": 20,
+    "IconPath": "icon_"
+  },
+  {
+    "Id": 10,
+    "Name": "羽毛",
+    "StrType": "Material",
+    "StrSubType": "Material",
+    "Tips": "制作羽毛箭用",
+    "MaxStack": 99,
+    "IconPath": "icon_"
+  },
+  {
+    "Id": 11,
+    "Name": "兔肉",
+    "StrType": "FoodDrug",
+    "StrSubType": "Food",
+    "Tips": "食物，可烹饪",
+    "MaxStack": 20,
+    "IconPath": "icon_"
+  },
+  {
+    "Id": 12,
+    "Name": "烤兔",
+    "StrType": "FoodDrug",
+    "StrSubType": "Food",
+    "Tips": "烤制后的兔肉",
+    "MaxStack": 20,
+    "IconPath": "icon_"
+  },
+  {
+    "Id": 13,
+    "Name": "野猪肉",
+    "StrType": "FoodDrug",
+    "StrSubType": "Food",
+    "Tips": "食物，可烹饪",
+    "MaxStack": 20,
+    "IconPath": "icon_"
+  },
+  {
+    "Id": 14,
+    "Name": "烧烤串",
+    "StrType": "FoodDrug",
+    "StrSubType": "Food",
+    "Tips": "烤制后的野猪肉",
+    "MaxStack": 20,
+    "IconPath": "icon_"
+  },
+  {
+    "Id": 15,
+    "Name": "竹笋",
+    "StrType": "FoodDrug",
+    "StrSubType": "Food",
+    "Tips": "食材",
+    "MaxStack": 20,
+    "IconPath": "icon_"
+  },
+  {
+    "Id": 16,
+    "Name": "竹笋炒肉",
+    "StrType": "FoodDrug",
+    "StrSubType": "Food",
+    "Tips": "烹饪后的竹笋料理",
+    "MaxStack": 20,
+    "IconPath": "icon_"
+  },
+  {
+    "Id": 17,
+    "Name": "蛇肉",
+    "StrType": "FoodDrug",
+    "StrSubType": "Food",
+    "Tips": "食材",
+    "MaxStack": 20,
+    "IconPath": "icon_"
+  },
+  {
+    "Id": 18,
+    "Name": "蛇羹",
+    "StrType": "FoodDrug",
+    "StrSubType": "Food",
+    "Tips": "烹饪后的蛇料理",
+    "MaxStack": 20,
+    "IconPath": "icon_"
+  },
+  {
+    "Id": 19,
+    "Name": "毒莲花",
+    "StrType": "Material",
+    "StrSubType": "Material",
+    "Tips": "喂食变异虎用",
+    "MaxStack": 10,
+    "IconPath": "icon_"
+  },
+  {
+    "Id": 20,
+    "Name": "虎尾酒",
+    "StrType": "FoodDrug",
+    "StrSubType": "Drug",
+    "Tips": "饮品",
+    "MaxStack": 10,
+    "IconPath": "icon_"
+  },
+  {
+    "Id": 21,
+    "Name": "白酒",
+    "StrType": "Material",
+    "StrSubType": "Material",
+    "Tips": "酒精饮品",
+    "MaxStack": 10,
+    "IconPath": "icon_"
+  },
+  {
+    "Id": 22,
+    "Name": "草药",
+    "StrType": "Material",
+    "StrSubType": "Material",
+    "Tips": "药用材料",
+    "MaxStack": 99,
+    "IconPath": "icon_"
+  },
+  {
+    "Id": 23,
+    "Name": "蛇胆",
+    "StrType": "Material",
+    "StrSubType": "Material",
+    "Tips": "药用材料",
+    "MaxStack": 1,
+    "IconPath": "icon_"
+  },
+  {
+    "Id": 24,
+    "Name": "铁矿",
+    "StrType": "Material",
+    "StrSubType": "Material",
+    "Tips": "矿石材料",
+    "MaxStack": 99,
+    "IconPath": "icon_"
+  },
+  {
+    "Id": 25,
+    "Name": "树枝",
+    "StrType": "Material",
+    "StrSubType": "Material",
+    "Tips": "制作陷阱用",
+    "MaxStack": 99,
+    "IconPath": "icon_"
+  },
+  {
+    "Id": 26,
+    "Name": "铁锭",
+    "StrType": "Material",
+    "StrSubType": "Material",
+    "Tips": "由铁矿熔炼而成",
+    "MaxStack": 99,
+    "IconPath": "icon_"
+  },
+  {
+    "Id": 27,
+    "Name": "木头",
+    "StrType": "Material",
+    "StrSubType": "Material",
+    "Tips": "伐木获得",
+    "MaxStack": 99,
+    "IconPath": "icon_"
+  },
+  {
+    "Id": 28,
+    "Name": "石头",
+    "StrType": "Material",
+    "StrSubType": "Material",
+    "Tips": "挖掘石头获得",
+    "MaxStack": 99,
+    "IconPath": "icon_"
+  },
+  {
+    "Id": 29,
+    "Name": "弓",
+    "StrType": "WeaponTool",
+    "StrSubType": "Weapon",
+    "Tips": "远程武器",
+    "MaxStack": 1,
+    "IconPath": "icon_"
+  }
+]
