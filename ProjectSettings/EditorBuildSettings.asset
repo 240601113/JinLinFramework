@@ -6,13 +6,13 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 0
-    path: "Assets/\u6846\u67B6\u6D4B\u8BD5/\u7B2C006\u8BFE\u8C03\u8BD5\u7A97\u53E3\u65E5\u5FD7\u6253\u5370\u6A21\u5757/TestLogMgr.unity"
+    path: "Assets/\u6E38\u620F\u6D4B\u8BD5/\u7B2C006\u8BFE\u8C03\u8BD5\u7A97\u53E3\u65E5\u5FD7\u6253\u5370\u6A21\u5757/TestLogMgr.unity"
     guid: e7515641c28c18c45ab4e689ce35fcfc
   - enabled: 1
-    path: "Assets/\u6846\u67B6\u6D4B\u8BD5/AssetDatabase\u6D4B\u8BD5/AssetDatabase\u6D4B\u8BD5.unity"
+    path: "Assets/\u6E38\u620F\u6D4B\u8BD5/AssetDatabase\u6D4B\u8BD5/AssetDatabase\u6D4B\u8BD5.unity"
     guid: 1f69a0eafed299a4b94e1041f9e5e762
   - enabled: 1
-    path: Assets/Boot/AssetsPackage/Scenes/Startup.unity
+    path: Assets/Boot/Resources/Scenes/Startup.unity
     guid: f23b1a4d8f7d85c4597ebab2f79c2003
   - enabled: 1
     path: Assets/Game/Resources/Scenes/Main.unity

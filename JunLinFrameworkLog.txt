@@ -2628,3 +2628,46 @@ LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
 UIHomeUICtrl:ButtonCallback () (at Assets/Game/Scripts/UIControllers/UIHomeUICtrl.cs:29)
 UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:530)
 
+[log][2025-11-18 18:08:14]已正常进入游戏
+[log][2025-11-18 18:08:15]UnityEngine.Debug:Log (object)
+GameApp:EnterGame () (at E:/01 UnityProject20241002/100 君麟科技游戏框架/01 单机PC版/JunLinFramework1.0/Assets/Game/Scripts/GameApp.cs:21)
+Boot/<BootStartup>d__1:MoveNext () (at E:/01 UnityProject20241002/100 君麟科技游戏框架/01 单机PC版/JunLinFramework1.0/Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-18 18:08:15]异步场景加载进度：0%
+[log][2025-11-18 18:08:15]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at E:/01 UnityProject20241002/100 君麟科技游戏框架/01 单机PC版/JunLinFramework1.0/Assets/Game/Scripts/GameApp.cs:470)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at E:/01 UnityProject20241002/100 君麟科技游戏框架/01 单机PC版/JunLinFramework1.0/Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+SceneMgr:LoadSceneAsync (string,System.Action`2<bool, UnityEngine.SceneManagement.Scene>,System.Action`1<single>,UnityEngine.SceneManagement.LoadSceneMode) (at E:/01 UnityProject20241002/100 君麟科技游戏框架/01 单机PC版/JunLinFramework1.0/Assets/Framework/Scripts/Managers/SceneMgr.cs:98)
+GameApp:EnterGame () (at E:/01 UnityProject20241002/100 君麟科技游戏框架/01 单机PC版/JunLinFramework1.0/Assets/Game/Scripts/GameApp.cs:69)
+Boot/<BootStartup>d__1:MoveNext () (at E:/01 UnityProject20241002/100 君麟科技游戏框架/01 单机PC版/JunLinFramework1.0/Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-18 18:08:15]异步场景加载进度：90%
+[log][2025-11-18 18:08:15]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at E:/01 UnityProject20241002/100 君麟科技游戏框架/01 单机PC版/JunLinFramework1.0/Assets/Game/Scripts/GameApp.cs:470)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at E:/01 UnityProject20241002/100 君麟科技游戏框架/01 单机PC版/JunLinFramework1.0/Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Warning][2025-11-18 18:08:15]The referenced script on this Behaviour (Game Object '') is missing!
+[Warning][2025-11-18 18:08:15]
+[Warning][2025-11-18 18:08:15]The referenced script on this Behaviour (Game Object 'Joystick') is missing!
+[Warning][2025-11-18 18:08:15]
+[log][2025-11-18 18:08:15]异步加载场景成功，场景名为：Main
+[log][2025-11-18 18:08:15]UnityEngine.Debug:Log (object)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at E:/01 UnityProject20241002/100 君麟科技游戏框架/01 单机PC版/JunLinFramework1.0/Assets/Framework/Scripts/Managers/SceneMgr.cs:129)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Warning][2025-11-18 18:08:15]Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning][2025-11-18 18:08:15]UnityEngine.Transform:set_parent (UnityEngine.Transform)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at E:/01 UnityProject20241002/100 君麟科技游戏框架/01 单机PC版/JunLinFramework1.0/Assets/Game/Scripts/GameApp.cs:351)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at E:/01 UnityProject20241002/100 君麟科技游戏框架/01 单机PC版/JunLinFramework1.0/Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-18 18:08:15]AddButtonListener执行！！!
+[log][2025-11-18 18:08:15]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at E:/01 UnityProject20241002/100 君麟科技游戏框架/01 单机PC版/JunLinFramework1.0/Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+UICtrl:AddButtonListener (string,UnityEngine.Events.UnityAction) (at E:/01 UnityProject20241002/100 君麟科技游戏框架/01 单机PC版/JunLinFramework1.0/Assets/Framework/Scripts/Managers/UIMgr.cs:51)
+UIHomeUICtrl:Start () (at E:/01 UnityProject20241002/100 君麟科技游戏框架/01 单机PC版/JunLinFramework1.0/Assets/Game/Scripts/UIControllers/UIHomeUICtrl.cs:15)
+
