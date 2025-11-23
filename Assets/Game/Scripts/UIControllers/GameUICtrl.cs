@@ -5,10 +5,13 @@ using UnityEngine.UI;
 
 public class GameUICtrl : MonoBehaviour
 {
-    private joystick stick;
+    public joystick stick;
     private Transform uiBloodRoot;
+
+     public static GameUICtrl  gameUICtrl = null;
     public void Init() 
     {
+        gameUICtrl = this;
         this.uiBloodRoot = this.transform.Find("UIBloodRoot");
         this.stick = this.transform.Find("Joystick").GetComponent<joystick>();
     }
@@ -22,15 +25,16 @@ public class GameUICtrl : MonoBehaviour
         // end 
     }
 
-    //public UIBlood CreateUIBlood() {
-    //    // 代码加载资源，实例化一个; 
-    //    GameObject blood = GameObject.Instantiate(FightMgr.Instance.uiBloodPrefab);
-    //    blood.transform.SetParent(this.uiBloodRoot, false);
+    public UIBlood CreateUIBlood()
+    {
+        // 代码加载资源，实例化一个; 
+        GameObject blood = GameObject.Instantiate(FightMgr.Instance.uiBloodPrefab);
+        blood.transform.SetParent(this.uiBloodRoot, false);
 
-    //    UIBlood uiBlood = blood.AddComponent<UIBlood>();
-    //    uiBlood.Init();
-    //    // end
+        UIBlood uiBlood = blood.AddComponent<UIBlood>();
+        uiBlood.Init();
+        // end
 
-    //    return uiBlood;
-    //}
+        return uiBlood;
+    }
 }

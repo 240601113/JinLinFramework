@@ -11,6 +11,9 @@ public class joystick : MonoBehaviour
     public float max_R = 80;  //滑动范围
 
     private Vector2 touch_dir = Vector2.zero;  //要传给人物移动的数据
+
+  public  float len;//拖动摇杆时的模长
+
     public Vector2 dir 
     {
         get 
@@ -38,7 +41,7 @@ public class joystick : MonoBehaviour
         //end
 
         //2、计算拖拽方向（供人物移动）
-        float len = pos.magnitude;  //获取位置模长
+        this.len = pos.magnitude;  //获取位置模长
         if (len <= 0) 
         {
             this.touch_dir = Vector2.zero;
@@ -65,6 +68,9 @@ public class joystick : MonoBehaviour
         this.mobileStick.localPosition = pos;
         //end
     }
+
+
+    
 
     /// <summary>
     /// 如果弹起来
