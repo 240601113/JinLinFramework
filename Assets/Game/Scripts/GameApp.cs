@@ -5,6 +5,8 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using LitJson;
+using System.IO;
 
 public class GameApp : UnitySingleton<GameApp>
 {
@@ -362,8 +364,8 @@ public class GameApp : UnitySingleton<GameApp>
         }
 
         UIMgr.Instance.ShowUIView("Assets/Game/Resources/UI/Prefabs/UIHome.prefab");  //显示UIHome界面
-        ////UIMgr.Instance.ShowUIViewWithCanvas 这个还没有测试。
-        //// end
+                                                                                      ////UIMgr.Instance.ShowUIViewWithCanvas 这个还没有测试。
+                                                                                      //// end
 
         #endregion
 
@@ -459,7 +461,31 @@ public class GameApp : UnitySingleton<GameApp>
         // end
         #endregion
 
+        #region//测试Json管理
+
+        //@测试文件读取
+        //List<itemInfo>it =  JsonMgr.Instance.LoadData<List<itemInfo>>("itemInfo");
+
+        //for (int i = 0; i < it.Count; i++)
+        //{
+        //   print(it[i].Name);
+        //}
+
+        //@测试文件写入
+
+        //itemInfo inf = new itemInfo();
+
+        //inf.Id = 0;
+        //inf.Name = "大强";
+
+        //inf.Maxsack = 1;
+
+        //JsonMgr.Instance.SaveData(inf, "玩家的背包数据", JsonType.LitJson);
+
+
+        #endregion
     }
+
     /// <summary>
     /// 异步场景加载进度
     /// </summary>

@@ -14,7 +14,7 @@ public class UIHomeUICtrl : UICtrl
 	{
 		this.AddButtonListener("IT_Button", this.ButtonCallback);
 	}
-
+    
     private void ButtonCallback()
     {
         Text text = this.UIView["IT_Text"].GetComponent<Text>();
@@ -23,7 +23,7 @@ public class UIHomeUICtrl : UICtrl
             LogMgr.Instance.Log("没有获取到对应的Text对象!");
             return;
         }
-
+        
         text.text = "君麟科技";
 
         LogMgr.Instance.Log("UI按钮执行回调！！！");

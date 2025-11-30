@@ -21,7 +21,7 @@ public class Player : MonoBehaviour
         this.speed = 5;
 
         //ÑªÌõ
-        this.uiBlood = FightMgr.Instance.uiGame.CreateUIBlood();
+        this.uiBlood = UIBloodUICtrl.CreateUIBlood();
         this.uiBlood.SetPercent(0.3f);
        // end
 

@@ -13282,3 +13282,2895 @@ LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
 joystick:OnStickDrag () (at Assets/Framework/Scripts/Tools/joystick.cs:58)
 UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
 
+[log][2025-11-26 01:28:29]已正常进入游戏
+[log][2025-11-26 01:28:29]UnityEngine.Debug:Log (object)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:21)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-26 01:28:29]异步场景加载进度：0%
+[log][2025-11-26 01:28:29]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:470)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+SceneMgr:LoadSceneAsync (string,System.Action`2<bool, UnityEngine.SceneManagement.Scene>,System.Action`1<single>,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Framework/Scripts/Managers/SceneMgr.cs:98)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:69)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-26 01:28:29]异步场景加载进度：90%
+[log][2025-11-26 01:28:29]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:470)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Warning][2025-11-26 01:28:30]The referenced script (Unknown) on this Behaviour is missing!
+[Warning][2025-11-26 01:28:30]
+[Warning][2025-11-26 01:28:30]The referenced script on this Behaviour (Game Object 'Joystick') is missing!
+[Warning][2025-11-26 01:28:30]
+[log][2025-11-26 01:28:30]异步加载场景成功，场景名为：Main
+[log][2025-11-26 01:28:30]UnityEngine.Debug:Log (object)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:129)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Warning][2025-11-26 01:28:30]Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning][2025-11-26 01:28:30]UnityEngine.Transform:set_parent (UnityEngine.Transform)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:351)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-26 01:28:30]AddButtonListener执行！！!
+[log][2025-11-26 01:28:30]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+UICtrl:AddButtonListener (string,UnityEngine.Events.UnityAction) (at Assets/Framework/Scripts/Managers/UIMgr.cs:51)
+UIHomeUICtrl:Start () (at Assets/Game/Scripts/UIControllers/UIHomeUICtrl.cs:15)
+
+[log][2025-11-30 00:56:20]已正常进入游戏
+[log][2025-11-30 00:56:20]UnityEngine.Debug:Log (object)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:23)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 00:56:20]异步场景加载进度：18%
+[log][2025-11-30 00:56:20]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:477)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+SceneMgr:LoadSceneAsync (string,System.Action`2<bool, UnityEngine.SceneManagement.Scene>,System.Action`1<single>,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Framework/Scripts/Managers/SceneMgr.cs:98)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:71)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 00:56:20]异步场景加载进度：90%
+[log][2025-11-30 00:56:20]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:477)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 00:56:20]异步场景加载进度：90%
+[log][2025-11-30 00:56:20]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:477)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Warning][2025-11-30 00:56:20]The referenced script (Unknown) on this Behaviour is missing!
+[Warning][2025-11-30 00:56:20]
+[Warning][2025-11-30 00:56:20]The referenced script on this Behaviour (Game Object 'Joystick') is missing!
+[Warning][2025-11-30 00:56:20]
+[log][2025-11-30 00:56:20]异步加载场景成功，场景名为：Main
+[log][2025-11-30 00:56:20]UnityEngine.Debug:Log (object)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:129)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Warning][2025-11-30 00:56:20]Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning][2025-11-30 00:56:20]UnityEngine.Transform:set_parent (UnityEngine.Transform)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:353)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Error][2025-11-30 00:56:20]DirectoryNotFoundException: Could not find a part of the path "F:\Arrsss\JinLinFramework\Assets\StreamingAssetsJson\itemInfo.json".
+[Error][2025-11-30 00:56:20]System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) (at <40c82fbb8a9645d5a6c0bfc1e0fa6dfd>:0)
+System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) (at <40c82fbb8a9645d5a6c0bfc1e0fa6dfd>:0)
+(wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize) (at <40c82fbb8a9645d5a6c0bfc1e0fa6dfd>:0)
+System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks) (at <40c82fbb8a9645d5a6c0bfc1e0fa6dfd>:0)
+(wrapper remoting-invoke-with-check) System.IO.StreamReader..ctor(string,System.Text.Encoding,bool)
+System.IO.File.InternalReadAllText (System.String path, System.Text.Encoding encoding) (at <40c82fbb8a9645d5a6c0bfc1e0fa6dfd>:0)
+System.IO.File.ReadAllText (System.String path) (at <40c82fbb8a9645d5a6c0bfc1e0fa6dfd>:0)
+GameApp.TestRunningContent (System.Boolean success, UnityEngine.SceneManagement.Scene scene) (at Assets/Game/Scripts/GameApp.cs:464)
+SceneMgr+<AsyncLoadCoroutine>d__3.MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine.InvokeMoveNext (System.Collections.IEnumerator enumerator, System.IntPtr returnValueAddress) (at <d49bb38cc01a4cf4956e9bfaaa21a6be>:0)
+
+[log][2025-11-30 00:56:20]AddButtonListener执行！！!
+[log][2025-11-30 00:56:20]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+UICtrl:AddButtonListener (string,UnityEngine.Events.UnityAction) (at Assets/Framework/Scripts/Managers/UIMgr.cs:51)
+UIHomeUICtrl:Start () (at Assets/Game/Scripts/UIControllers/UIHomeUICtrl.cs:15)
+
+[Warning][2025-11-30 00:58:21]Assets\Framework\ThirdParty\SDKs\LitJson\JsonWriter.cs(387,21): warning CS3021: 'JsonWriter.Write(ulong)' does not need a CLSCompliant attribute because the assembly does not have a CLSCompliant attribute
+[Warning][2025-11-30 00:58:21]
+[Warning][2025-11-30 00:58:21]Assets\Framework\Scripts\Managers\SoundMgr.cs(14,17): warning CS0414: The field 'SoundMgr.curIndex' is assigned but its value is never used
+[Warning][2025-11-30 00:58:21]
+[log][2025-11-30 00:58:28]已正常进入游戏
+[log][2025-11-30 00:58:28]UnityEngine.Debug:Log (object)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:23)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 00:58:28]异步场景加载进度：0%
+[log][2025-11-30 00:58:28]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:477)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+SceneMgr:LoadSceneAsync (string,System.Action`2<bool, UnityEngine.SceneManagement.Scene>,System.Action`1<single>,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Framework/Scripts/Managers/SceneMgr.cs:98)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:71)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 00:58:28]异步场景加载进度：90%
+[log][2025-11-30 00:58:28]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:477)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Warning][2025-11-30 00:58:28]The referenced script (Unknown) on this Behaviour is missing!
+[Warning][2025-11-30 00:58:28]
+[Warning][2025-11-30 00:58:28]The referenced script on this Behaviour (Game Object 'Joystick') is missing!
+[Warning][2025-11-30 00:58:28]
+[log][2025-11-30 00:58:28]异步加载场景成功，场景名为：Main
+[log][2025-11-30 00:58:28]UnityEngine.Debug:Log (object)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:129)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Warning][2025-11-30 00:58:28]Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning][2025-11-30 00:58:28]UnityEngine.Transform:set_parent (UnityEngine.Transform)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:353)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Error][2025-11-30 00:58:28]DirectoryNotFoundException: Could not find a part of the path "F:\Arrsss\JinLinFramework\StreamingAssets\Json\itemInfo.json".
+[Error][2025-11-30 00:58:28]System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) (at <40c82fbb8a9645d5a6c0bfc1e0fa6dfd>:0)
+System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) (at <40c82fbb8a9645d5a6c0bfc1e0fa6dfd>:0)
+(wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize) (at <40c82fbb8a9645d5a6c0bfc1e0fa6dfd>:0)
+System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks) (at <40c82fbb8a9645d5a6c0bfc1e0fa6dfd>:0)
+(wrapper remoting-invoke-with-check) System.IO.StreamReader..ctor(string,System.Text.Encoding,bool)
+System.IO.File.InternalReadAllText (System.String path, System.Text.Encoding encoding) (at <40c82fbb8a9645d5a6c0bfc1e0fa6dfd>:0)
+System.IO.File.ReadAllText (System.String path) (at <40c82fbb8a9645d5a6c0bfc1e0fa6dfd>:0)
+GameApp.TestRunningContent (System.Boolean success, UnityEngine.SceneManagement.Scene scene) (at Assets/Game/Scripts/GameApp.cs:464)
+SceneMgr+<AsyncLoadCoroutine>d__3.MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine.InvokeMoveNext (System.Collections.IEnumerator enumerator, System.IntPtr returnValueAddress) (at <d49bb38cc01a4cf4956e9bfaaa21a6be>:0)
+
+[log][2025-11-30 00:58:28]AddButtonListener执行！！!
+[log][2025-11-30 00:58:28]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+UICtrl:AddButtonListener (string,UnityEngine.Events.UnityAction) (at Assets/Framework/Scripts/Managers/UIMgr.cs:51)
+UIHomeUICtrl:Start () (at Assets/Game/Scripts/UIControllers/UIHomeUICtrl.cs:15)
+
+[log][2025-11-30 00:58:37]Recording playmode has started...
+[log][2025-11-30 00:58:37]
+[log][2025-11-30 00:58:40]Recording has ended.
+Click <a openprofiler="true">here</a> to open the profiler window.
+[log][2025-11-30 00:58:40]
+[Warning][2025-11-30 01:05:19]Assets\Framework\ThirdParty\SDKs\LitJson\JsonWriter.cs(387,21): warning CS3021: 'JsonWriter.Write(ulong)' does not need a CLSCompliant attribute because the assembly does not have a CLSCompliant attribute
+[Warning][2025-11-30 01:05:19]
+[Warning][2025-11-30 01:05:19]Assets\Framework\Scripts\Managers\SoundMgr.cs(14,17): warning CS0414: The field 'SoundMgr.curIndex' is assigned but its value is never used
+[Warning][2025-11-30 01:05:19]
+[log][2025-11-30 01:05:26]已正常进入游戏
+[log][2025-11-30 01:05:26]UnityEngine.Debug:Log (object)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:23)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 01:05:26]异步场景加载进度：0%
+[log][2025-11-30 01:05:26]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:477)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+SceneMgr:LoadSceneAsync (string,System.Action`2<bool, UnityEngine.SceneManagement.Scene>,System.Action`1<single>,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Framework/Scripts/Managers/SceneMgr.cs:98)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:71)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 01:05:27]异步场景加载进度：90%
+[log][2025-11-30 01:05:27]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:477)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Warning][2025-11-30 01:05:27]The referenced script (Unknown) on this Behaviour is missing!
+[Warning][2025-11-30 01:05:27]
+[Warning][2025-11-30 01:05:27]The referenced script on this Behaviour (Game Object 'Joystick') is missing!
+[Warning][2025-11-30 01:05:27]
+[log][2025-11-30 01:05:27]异步加载场景成功，场景名为：Main
+[log][2025-11-30 01:05:27]UnityEngine.Debug:Log (object)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:129)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Warning][2025-11-30 01:05:27]Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning][2025-11-30 01:05:27]UnityEngine.Transform:set_parent (UnityEngine.Transform)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:353)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Error][2025-11-30 01:05:27]DirectoryNotFoundException: Could not find a part of the path "C:\Users\lth\AppData\LocalLow\DefaultCompany\CYFramework\Json\itemInfo.json".
+[Error][2025-11-30 01:05:27]System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) (at <40c82fbb8a9645d5a6c0bfc1e0fa6dfd>:0)
+System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) (at <40c82fbb8a9645d5a6c0bfc1e0fa6dfd>:0)
+(wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize) (at <40c82fbb8a9645d5a6c0bfc1e0fa6dfd>:0)
+System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks) (at <40c82fbb8a9645d5a6c0bfc1e0fa6dfd>:0)
+(wrapper remoting-invoke-with-check) System.IO.StreamReader..ctor(string,System.Text.Encoding,bool)
+System.IO.File.InternalReadAllText (System.String path, System.Text.Encoding encoding) (at <40c82fbb8a9645d5a6c0bfc1e0fa6dfd>:0)
+System.IO.File.ReadAllText (System.String path) (at <40c82fbb8a9645d5a6c0bfc1e0fa6dfd>:0)
+GameApp.TestRunningContent (System.Boolean success, UnityEngine.SceneManagement.Scene scene) (at Assets/Game/Scripts/GameApp.cs:464)
+SceneMgr+<AsyncLoadCoroutine>d__3.MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine.InvokeMoveNext (System.Collections.IEnumerator enumerator, System.IntPtr returnValueAddress) (at <d49bb38cc01a4cf4956e9bfaaa21a6be>:0)
+
+[log][2025-11-30 01:05:27]AddButtonListener执行！！!
+[log][2025-11-30 01:05:27]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+UICtrl:AddButtonListener (string,UnityEngine.Events.UnityAction) (at Assets/Framework/Scripts/Managers/UIMgr.cs:51)
+UIHomeUICtrl:Start () (at Assets/Game/Scripts/UIControllers/UIHomeUICtrl.cs:15)
+
+[log][2025-11-30 01:11:29]已正常进入游戏
+[log][2025-11-30 01:11:29]UnityEngine.Debug:Log (object)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:23)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 01:11:29]异步场景加载进度：0%
+[log][2025-11-30 01:11:29]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:477)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+SceneMgr:LoadSceneAsync (string,System.Action`2<bool, UnityEngine.SceneManagement.Scene>,System.Action`1<single>,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Framework/Scripts/Managers/SceneMgr.cs:98)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:71)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 01:11:29]异步场景加载进度：90%
+[log][2025-11-30 01:11:29]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:477)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Warning][2025-11-30 01:11:29]The referenced script (Unknown) on this Behaviour is missing!
+[Warning][2025-11-30 01:11:29]
+[Warning][2025-11-30 01:11:29]The referenced script on this Behaviour (Game Object 'Joystick') is missing!
+[Warning][2025-11-30 01:11:29]
+[log][2025-11-30 01:11:29]异步加载场景成功，场景名为：Main
+[log][2025-11-30 01:11:29]UnityEngine.Debug:Log (object)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:129)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Warning][2025-11-30 01:11:29]Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning][2025-11-30 01:11:29]UnityEngine.Transform:set_parent (UnityEngine.Transform)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:353)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Error][2025-11-30 01:11:29]JsonException: Type itemInfo can't act as an array
+[Error][2025-11-30 01:11:29]LitJson.JsonMapper.ReadValue (System.Type inst_type, LitJson.JsonReader reader) (at Assets/Framework/ThirdParty/SDKs/LitJson/JsonMapper.cs:482)
+LitJson.JsonMapper.ToObject[T] (System.String json) (at Assets/Framework/ThirdParty/SDKs/LitJson/JsonMapper.cs:931)
+GameApp.TestRunningContent (System.Boolean success, UnityEngine.SceneManagement.Scene scene) (at Assets/Game/Scripts/GameApp.cs:466)
+SceneMgr+<AsyncLoadCoroutine>d__3.MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine.InvokeMoveNext (System.Collections.IEnumerator enumerator, System.IntPtr returnValueAddress) (at <d49bb38cc01a4cf4956e9bfaaa21a6be>:0)
+
+[log][2025-11-30 01:11:29]AddButtonListener执行！！!
+[log][2025-11-30 01:11:29]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+UICtrl:AddButtonListener (string,UnityEngine.Events.UnityAction) (at Assets/Framework/Scripts/Managers/UIMgr.cs:51)
+UIHomeUICtrl:Start () (at Assets/Game/Scripts/UIControllers/UIHomeUICtrl.cs:15)
+
+[log][2025-11-30 01:12:16]已正常进入游戏
+[log][2025-11-30 01:12:16]UnityEngine.Debug:Log (object)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:23)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 01:12:16]异步场景加载进度：0%
+[log][2025-11-30 01:12:16]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:477)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+SceneMgr:LoadSceneAsync (string,System.Action`2<bool, UnityEngine.SceneManagement.Scene>,System.Action`1<single>,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Framework/Scripts/Managers/SceneMgr.cs:98)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:71)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 01:12:16]异步场景加载进度：90%
+[log][2025-11-30 01:12:16]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:477)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Warning][2025-11-30 01:12:16]The referenced script (Unknown) on this Behaviour is missing!
+[Warning][2025-11-30 01:12:16]
+[Warning][2025-11-30 01:12:16]The referenced script on this Behaviour (Game Object 'Joystick') is missing!
+[Warning][2025-11-30 01:12:16]
+[log][2025-11-30 01:12:16]异步加载场景成功，场景名为：Main
+[log][2025-11-30 01:12:16]UnityEngine.Debug:Log (object)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:129)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Warning][2025-11-30 01:12:16]Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning][2025-11-30 01:12:16]UnityEngine.Transform:set_parent (UnityEngine.Transform)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:353)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 01:12:16]itemInfo[]
+[log][2025-11-30 01:12:16]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:468)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 01:12:16]AddButtonListener执行！！!
+[log][2025-11-30 01:12:16]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+UICtrl:AddButtonListener (string,UnityEngine.Events.UnityAction) (at Assets/Framework/Scripts/Managers/UIMgr.cs:51)
+UIHomeUICtrl:Start () (at Assets/Game/Scripts/UIControllers/UIHomeUICtrl.cs:15)
+
+[log][2025-11-30 01:14:54]已正常进入游戏
+[log][2025-11-30 01:14:54]UnityEngine.Debug:Log (object)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:23)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 01:14:54]异步场景加载进度：0%
+[log][2025-11-30 01:14:54]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:480)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+SceneMgr:LoadSceneAsync (string,System.Action`2<bool, UnityEngine.SceneManagement.Scene>,System.Action`1<single>,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Framework/Scripts/Managers/SceneMgr.cs:98)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:71)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 01:14:54]异步场景加载进度：90%
+[log][2025-11-30 01:14:54]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:480)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Warning][2025-11-30 01:14:54]The referenced script (Unknown) on this Behaviour is missing!
+[Warning][2025-11-30 01:14:54]
+[Warning][2025-11-30 01:14:54]The referenced script on this Behaviour (Game Object 'Joystick') is missing!
+[Warning][2025-11-30 01:14:54]
+[log][2025-11-30 01:14:54]异步加载场景成功，场景名为：Main
+[log][2025-11-30 01:14:54]UnityEngine.Debug:Log (object)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:129)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Warning][2025-11-30 01:14:54]Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning][2025-11-30 01:14:54]UnityEngine.Transform:set_parent (UnityEngine.Transform)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:353)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 01:14:54]itemInfo
+[log][2025-11-30 01:14:54]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:469)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 01:14:54]itemInfo
+[log][2025-11-30 01:14:54]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:469)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 01:14:54]itemInfo
+[log][2025-11-30 01:14:54]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:469)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 01:14:54]itemInfo
+[log][2025-11-30 01:14:54]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:469)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 01:14:54]itemInfo
+[log][2025-11-30 01:14:54]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:469)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 01:14:54]itemInfo
+[log][2025-11-30 01:14:54]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:469)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 01:14:54]itemInfo
+[log][2025-11-30 01:14:54]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:469)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 01:14:54]itemInfo
+[log][2025-11-30 01:14:54]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:469)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 01:14:54]itemInfo
+[log][2025-11-30 01:14:54]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:469)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 01:14:54]itemInfo
+[log][2025-11-30 01:14:54]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:469)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 01:14:54]itemInfo
+[log][2025-11-30 01:14:54]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:469)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 01:14:54]itemInfo
+[log][2025-11-30 01:14:54]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:469)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 01:14:54]itemInfo
+[log][2025-11-30 01:14:54]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:469)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 01:14:54]itemInfo
+[log][2025-11-30 01:14:54]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:469)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 01:14:54]itemInfo
+[log][2025-11-30 01:14:54]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:469)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 01:14:54]itemInfo
+[log][2025-11-30 01:14:54]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:469)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 01:14:54]itemInfo
+[log][2025-11-30 01:14:54]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:469)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 01:14:54]itemInfo
+[log][2025-11-30 01:14:54]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:469)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 01:14:54]itemInfo
+[log][2025-11-30 01:14:54]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:469)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 01:14:54]itemInfo
+[log][2025-11-30 01:14:54]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:469)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 01:14:54]itemInfo
+[log][2025-11-30 01:14:54]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:469)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 01:14:54]itemInfo
+[log][2025-11-30 01:14:54]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:469)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 01:14:54]itemInfo
+[log][2025-11-30 01:14:54]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:469)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 01:14:54]itemInfo
+[log][2025-11-30 01:14:54]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:469)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 01:14:54]itemInfo
+[log][2025-11-30 01:14:54]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:469)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 01:14:54]itemInfo
+[log][2025-11-30 01:14:54]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:469)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 01:14:54]itemInfo
+[log][2025-11-30 01:14:54]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:469)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 01:14:54]itemInfo
+[log][2025-11-30 01:14:54]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:469)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 01:14:54]itemInfo
+[log][2025-11-30 01:14:54]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:469)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 01:14:54]AddButtonListener执行！！!
+[log][2025-11-30 01:14:54]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+UICtrl:AddButtonListener (string,UnityEngine.Events.UnityAction) (at Assets/Framework/Scripts/Managers/UIMgr.cs:51)
+UIHomeUICtrl:Start () (at Assets/Game/Scripts/UIControllers/UIHomeUICtrl.cs:15)
+
+[log][2025-11-30 01:15:55]已正常进入游戏
+[log][2025-11-30 01:15:55]UnityEngine.Debug:Log (object)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:23)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 01:15:55]异步场景加载进度：0%
+[log][2025-11-30 01:15:55]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:480)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+SceneMgr:LoadSceneAsync (string,System.Action`2<bool, UnityEngine.SceneManagement.Scene>,System.Action`1<single>,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Framework/Scripts/Managers/SceneMgr.cs:98)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:71)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 01:15:55]异步场景加载进度：90%
+[log][2025-11-30 01:15:55]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:480)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Warning][2025-11-30 01:15:55]The referenced script (Unknown) on this Behaviour is missing!
+[Warning][2025-11-30 01:15:55]
+[Warning][2025-11-30 01:15:55]The referenced script on this Behaviour (Game Object 'Joystick') is missing!
+[Warning][2025-11-30 01:15:55]
+[log][2025-11-30 01:15:55]异步加载场景成功，场景名为：Main
+[log][2025-11-30 01:15:55]UnityEngine.Debug:Log (object)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:129)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Warning][2025-11-30 01:15:55]Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning][2025-11-30 01:15:55]UnityEngine.Transform:set_parent (UnityEngine.Transform)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:353)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 01:15:55]木箭
+[log][2025-11-30 01:15:55]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:469)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 01:15:55]破损菜刀
+[log][2025-11-30 01:15:55]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:469)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 01:15:55]羽毛箭
+[log][2025-11-30 01:15:55]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:469)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 01:15:55]斧头
+[log][2025-11-30 01:15:55]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:469)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 01:15:55]稿子
+[log][2025-11-30 01:15:55]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:469)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 01:15:55]鼠肉
+[log][2025-11-30 01:15:55]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:469)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 01:15:55]烤鼠
+[log][2025-11-30 01:15:55]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:469)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 01:15:55]鸡肉
+[log][2025-11-30 01:15:55]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:469)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 01:15:55]烤鸡
+[log][2025-11-30 01:15:55]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:469)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 01:15:55]羽毛
+[log][2025-11-30 01:15:55]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:469)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 01:15:55]兔肉
+[log][2025-11-30 01:15:55]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:469)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 01:15:55]烤兔
+[log][2025-11-30 01:15:55]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:469)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 01:15:55]野猪肉
+[log][2025-11-30 01:15:55]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:469)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 01:15:55]烧烤串
+[log][2025-11-30 01:15:55]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:469)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 01:15:55]竹笋
+[log][2025-11-30 01:15:55]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:469)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 01:15:55]竹笋炒肉
+[log][2025-11-30 01:15:55]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:469)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 01:15:55]蛇肉
+[log][2025-11-30 01:15:55]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:469)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 01:15:55]蛇羹
+[log][2025-11-30 01:15:55]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:469)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 01:15:55]毒莲花
+[log][2025-11-30 01:15:55]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:469)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 01:15:55]虎尾酒
+[log][2025-11-30 01:15:55]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:469)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 01:15:55]白酒
+[log][2025-11-30 01:15:55]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:469)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 01:15:55]草药
+[log][2025-11-30 01:15:55]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:469)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 01:15:55]蛇胆
+[log][2025-11-30 01:15:55]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:469)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 01:15:55]铁矿
+[log][2025-11-30 01:15:55]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:469)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 01:15:55]树枝
+[log][2025-11-30 01:15:55]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:469)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 01:15:55]铁锭
+[log][2025-11-30 01:15:55]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:469)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 01:15:55]木头
+[log][2025-11-30 01:15:55]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:469)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 01:15:55]石头
+[log][2025-11-30 01:15:55]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:469)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 01:15:55]弓
+[log][2025-11-30 01:15:55]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:469)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 01:15:55]AddButtonListener执行！！!
+[log][2025-11-30 01:15:55]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+UICtrl:AddButtonListener (string,UnityEngine.Events.UnityAction) (at Assets/Framework/Scripts/Managers/UIMgr.cs:51)
+UIHomeUICtrl:Start () (at Assets/Game/Scripts/UIControllers/UIHomeUICtrl.cs:15)
+
+[log][2025-11-30 01:19:15]已正常进入游戏
+[log][2025-11-30 01:19:15]UnityEngine.Debug:Log (object)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:23)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 01:19:15]异步场景加载进度：22%
+[log][2025-11-30 01:19:15]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:480)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+SceneMgr:LoadSceneAsync (string,System.Action`2<bool, UnityEngine.SceneManagement.Scene>,System.Action`1<single>,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Framework/Scripts/Managers/SceneMgr.cs:98)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:71)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 01:19:15]异步场景加载进度：90%
+[log][2025-11-30 01:19:15]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:480)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 01:19:15]异步场景加载进度：90%
+[log][2025-11-30 01:19:15]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:480)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 01:19:15]异步场景加载进度：90%
+[log][2025-11-30 01:19:15]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:480)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Warning][2025-11-30 01:19:15]The referenced script (Unknown) on this Behaviour is missing!
+[Warning][2025-11-30 01:19:15]
+[Warning][2025-11-30 01:19:15]The referenced script on this Behaviour (Game Object 'Joystick') is missing!
+[Warning][2025-11-30 01:19:15]
+[log][2025-11-30 01:19:15]异步加载场景成功，场景名为：Main
+[log][2025-11-30 01:19:15]UnityEngine.Debug:Log (object)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:129)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Warning][2025-11-30 01:19:15]Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning][2025-11-30 01:19:15]UnityEngine.Transform:set_parent (UnityEngine.Transform)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:353)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 01:19:15]木箭
+[log][2025-11-30 01:19:15]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:469)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 01:19:15]破损菜刀
+[log][2025-11-30 01:19:15]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:469)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 01:19:15]羽毛箭
+[log][2025-11-30 01:19:15]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:469)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 01:19:15]斧头
+[log][2025-11-30 01:19:15]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:469)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 01:19:15]稿子
+[log][2025-11-30 01:19:15]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:469)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 01:19:15]鼠肉
+[log][2025-11-30 01:19:15]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:469)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 01:19:15]烤鼠
+[log][2025-11-30 01:19:15]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:469)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 01:19:15]鸡肉
+[log][2025-11-30 01:19:15]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:469)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 01:19:15]烤鸡
+[log][2025-11-30 01:19:15]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:469)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 01:19:15]羽毛
+[log][2025-11-30 01:19:15]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:469)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 01:19:15]兔肉
+[log][2025-11-30 01:19:15]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:469)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 01:19:15]烤兔
+[log][2025-11-30 01:19:15]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:469)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 01:19:15]野猪肉
+[log][2025-11-30 01:19:15]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:469)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 01:19:15]烧烤串
+[log][2025-11-30 01:19:15]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:469)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 01:19:15]竹笋
+[log][2025-11-30 01:19:15]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:469)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 01:19:15]竹笋炒肉
+[log][2025-11-30 01:19:15]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:469)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 01:19:15]蛇肉
+[log][2025-11-30 01:19:15]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:469)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 01:19:15]蛇羹
+[log][2025-11-30 01:19:15]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:469)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 01:19:15]毒莲花
+[log][2025-11-30 01:19:15]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:469)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 01:19:15]虎尾酒
+[log][2025-11-30 01:19:15]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:469)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 01:19:15]白酒
+[log][2025-11-30 01:19:15]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:469)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 01:19:15]草药
+[log][2025-11-30 01:19:15]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:469)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 01:19:15]蛇胆
+[log][2025-11-30 01:19:15]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:469)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 01:19:15]铁矿
+[log][2025-11-30 01:19:15]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:469)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 01:19:15]树枝
+[log][2025-11-30 01:19:15]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:469)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 01:19:15]铁锭
+[log][2025-11-30 01:19:15]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:469)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 01:19:15]木头
+[log][2025-11-30 01:19:15]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:469)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 01:19:15]石头
+[log][2025-11-30 01:19:15]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:469)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 01:19:15]弓
+[log][2025-11-30 01:19:15]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:469)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 01:19:15]AddButtonListener执行！！!
+[log][2025-11-30 01:19:15]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+UICtrl:AddButtonListener (string,UnityEngine.Events.UnityAction) (at Assets/Framework/Scripts/Managers/UIMgr.cs:51)
+UIHomeUICtrl:Start () (at Assets/Game/Scripts/UIControllers/UIHomeUICtrl.cs:15)
+
+[log][2025-11-30 03:06:29]已正常进入游戏
+[log][2025-11-30 03:06:29]UnityEngine.Debug:Log (object)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:23)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 03:06:29]异步场景加载进度：0%
+[log][2025-11-30 03:06:29]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:480)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+SceneMgr:LoadSceneAsync (string,System.Action`2<bool, UnityEngine.SceneManagement.Scene>,System.Action`1<single>,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Framework/Scripts/Managers/SceneMgr.cs:98)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:71)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 03:06:29]异步场景加载进度：90%
+[log][2025-11-30 03:06:29]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:480)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Warning][2025-11-30 03:06:29]The referenced script (Unknown) on this Behaviour is missing!
+[Warning][2025-11-30 03:06:29]
+[Warning][2025-11-30 03:06:29]The referenced script on this Behaviour (Game Object 'Joystick') is missing!
+[Warning][2025-11-30 03:06:29]
+[log][2025-11-30 03:06:29]异步加载场景成功，场景名为：Main
+[log][2025-11-30 03:06:29]UnityEngine.Debug:Log (object)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:129)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Warning][2025-11-30 03:06:29]Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning][2025-11-30 03:06:29]UnityEngine.Transform:set_parent (UnityEngine.Transform)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:353)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 03:06:29]木箭
+[log][2025-11-30 03:06:29]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:469)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 03:06:29]破损菜刀
+[log][2025-11-30 03:06:29]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:469)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 03:06:29]羽毛箭
+[log][2025-11-30 03:06:29]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:469)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 03:06:29]斧头
+[log][2025-11-30 03:06:29]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:469)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 03:06:29]稿子
+[log][2025-11-30 03:06:29]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:469)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 03:06:29]鼠肉
+[log][2025-11-30 03:06:29]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:469)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 03:06:29]烤鼠
+[log][2025-11-30 03:06:29]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:469)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 03:06:29]鸡肉
+[log][2025-11-30 03:06:29]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:469)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 03:06:29]烤鸡
+[log][2025-11-30 03:06:29]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:469)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 03:06:29]羽毛
+[log][2025-11-30 03:06:29]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:469)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 03:06:29]兔肉
+[log][2025-11-30 03:06:29]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:469)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 03:06:29]烤兔
+[log][2025-11-30 03:06:29]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:469)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 03:06:29]野猪肉
+[log][2025-11-30 03:06:29]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:469)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 03:06:29]烧烤串
+[log][2025-11-30 03:06:29]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:469)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 03:06:29]竹笋
+[log][2025-11-30 03:06:29]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:469)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 03:06:29]竹笋炒肉
+[log][2025-11-30 03:06:29]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:469)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 03:06:29]蛇肉
+[log][2025-11-30 03:06:29]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:469)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 03:06:29]蛇羹
+[log][2025-11-30 03:06:29]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:469)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 03:06:29]毒莲花
+[log][2025-11-30 03:06:29]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:469)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 03:06:29]虎尾酒
+[log][2025-11-30 03:06:29]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:469)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 03:06:29]白酒
+[log][2025-11-30 03:06:29]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:469)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 03:06:29]草药
+[log][2025-11-30 03:06:29]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:469)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 03:06:29]蛇胆
+[log][2025-11-30 03:06:29]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:469)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 03:06:29]铁矿
+[log][2025-11-30 03:06:29]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:469)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 03:06:29]树枝
+[log][2025-11-30 03:06:29]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:469)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 03:06:29]铁锭
+[log][2025-11-30 03:06:29]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:469)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 03:06:29]木头
+[log][2025-11-30 03:06:29]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:469)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 03:06:29]石头
+[log][2025-11-30 03:06:29]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:469)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 03:06:29]弓
+[log][2025-11-30 03:06:29]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:469)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 03:06:29]AddButtonListener执行！！!
+[log][2025-11-30 03:06:29]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+UICtrl:AddButtonListener (string,UnityEngine.Events.UnityAction) (at Assets/Framework/Scripts/Managers/UIMgr.cs:51)
+UIHomeUICtrl:Start () (at Assets/Game/Scripts/UIControllers/UIHomeUICtrl.cs:15)
+
+[log][2025-11-30 10:23:53]已正常进入游戏
+[log][2025-11-30 10:23:53]UnityEngine.Debug:Log (object)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:23)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 10:23:53]异步场景加载进度：0%
+[log][2025-11-30 10:23:53]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:476)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+SceneMgr:LoadSceneAsync (string,System.Action`2<bool, UnityEngine.SceneManagement.Scene>,System.Action`1<single>,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Framework/Scripts/Managers/SceneMgr.cs:98)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:71)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 10:23:53]异步场景加载进度：90%
+[log][2025-11-30 10:23:53]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:476)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Warning][2025-11-30 10:23:53]The referenced script (Unknown) on this Behaviour is missing!
+[Warning][2025-11-30 10:23:53]
+[Warning][2025-11-30 10:23:53]The referenced script on this Behaviour (Game Object 'Joystick') is missing!
+[Warning][2025-11-30 10:23:53]
+[log][2025-11-30 10:23:53]异步加载场景成功，场景名为：Main
+[log][2025-11-30 10:23:53]UnityEngine.Debug:Log (object)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:129)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Warning][2025-11-30 10:23:53]Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning][2025-11-30 10:23:53]UnityEngine.Transform:set_parent (UnityEngine.Transform)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:353)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Error][2025-11-30 10:23:53]JsonException: Type itemInfo can't act as an array
+[Error][2025-11-30 10:23:53]LitJson.JsonMapper.ReadValue (System.Type inst_type, LitJson.JsonReader reader) (at Assets/Framework/ThirdParty/SDKs/LitJson/JsonMapper.cs:482)
+LitJson.JsonMapper.ToObject[T] (System.String json) (at Assets/Framework/ThirdParty/SDKs/LitJson/JsonMapper.cs:931)
+JsonMgr.LoadData[T] (System.String fileName, JsonType type) (at Assets/Framework/Scripts/Managers/JsonMgr.cs:98)
+GameApp.TestRunningContent (System.Boolean success, UnityEngine.SceneManagement.Scene scene) (at Assets/Game/Scripts/GameApp.cs:466)
+SceneMgr+<AsyncLoadCoroutine>d__3.MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine.InvokeMoveNext (System.Collections.IEnumerator enumerator, System.IntPtr returnValueAddress) (at <d49bb38cc01a4cf4956e9bfaaa21a6be>:0)
+
+[log][2025-11-30 10:23:53]AddButtonListener执行！！!
+[log][2025-11-30 10:23:53]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+UICtrl:AddButtonListener (string,UnityEngine.Events.UnityAction) (at Assets/Framework/Scripts/Managers/UIMgr.cs:51)
+UIHomeUICtrl:Start () (at Assets/Game/Scripts/UIControllers/UIHomeUICtrl.cs:15)
+
+[log][2025-11-30 10:29:45]已正常进入游戏
+[log][2025-11-30 10:29:45]UnityEngine.Debug:Log (object)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:23)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 10:29:45]异步场景加载进度：0%
+[log][2025-11-30 10:29:45]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:481)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+SceneMgr:LoadSceneAsync (string,System.Action`2<bool, UnityEngine.SceneManagement.Scene>,System.Action`1<single>,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Framework/Scripts/Managers/SceneMgr.cs:98)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:71)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 10:29:45]异步场景加载进度：90%
+[log][2025-11-30 10:29:45]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:481)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Warning][2025-11-30 10:29:45]The referenced script (Unknown) on this Behaviour is missing!
+[Warning][2025-11-30 10:29:45]
+[Warning][2025-11-30 10:29:45]The referenced script on this Behaviour (Game Object 'Joystick') is missing!
+[Warning][2025-11-30 10:29:45]
+[log][2025-11-30 10:29:45]异步加载场景成功，场景名为：Main
+[log][2025-11-30 10:29:45]UnityEngine.Debug:Log (object)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:129)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Warning][2025-11-30 10:29:45]Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning][2025-11-30 10:29:45]UnityEngine.Transform:set_parent (UnityEngine.Transform)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:353)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 10:29:45]木箭
+[log][2025-11-30 10:29:45]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:470)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 10:29:45]破损菜刀
+[log][2025-11-30 10:29:45]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:470)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 10:29:45]羽毛箭
+[log][2025-11-30 10:29:45]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:470)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 10:29:45]斧头
+[log][2025-11-30 10:29:45]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:470)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 10:29:45]稿子
+[log][2025-11-30 10:29:45]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:470)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 10:29:45]鼠肉
+[log][2025-11-30 10:29:45]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:470)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 10:29:45]烤鼠
+[log][2025-11-30 10:29:45]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:470)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 10:29:45]鸡肉
+[log][2025-11-30 10:29:45]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:470)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 10:29:45]烤鸡
+[log][2025-11-30 10:29:45]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:470)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 10:29:45]羽毛
+[log][2025-11-30 10:29:45]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:470)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 10:29:45]兔肉
+[log][2025-11-30 10:29:45]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:470)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 10:29:45]烤兔
+[log][2025-11-30 10:29:45]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:470)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 10:29:45]野猪肉
+[log][2025-11-30 10:29:45]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:470)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 10:29:45]烧烤串
+[log][2025-11-30 10:29:45]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:470)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 10:29:45]竹笋
+[log][2025-11-30 10:29:45]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:470)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 10:29:45]竹笋炒肉
+[log][2025-11-30 10:29:45]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:470)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 10:29:45]蛇肉
+[log][2025-11-30 10:29:45]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:470)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 10:29:45]蛇羹
+[log][2025-11-30 10:29:45]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:470)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 10:29:45]毒莲花
+[log][2025-11-30 10:29:45]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:470)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 10:29:45]虎尾酒
+[log][2025-11-30 10:29:45]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:470)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 10:29:45]白酒
+[log][2025-11-30 10:29:45]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:470)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 10:29:45]草药
+[log][2025-11-30 10:29:45]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:470)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 10:29:45]蛇胆
+[log][2025-11-30 10:29:45]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:470)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 10:29:45]铁矿
+[log][2025-11-30 10:29:45]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:470)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 10:29:45]树枝
+[log][2025-11-30 10:29:45]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:470)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 10:29:45]铁锭
+[log][2025-11-30 10:29:45]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:470)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 10:29:45]木头
+[log][2025-11-30 10:29:45]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:470)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 10:29:45]石头
+[log][2025-11-30 10:29:45]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:470)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 10:29:45]弓
+[log][2025-11-30 10:29:45]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:470)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 10:29:45]AddButtonListener执行！！!
+[log][2025-11-30 10:29:45]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+UICtrl:AddButtonListener (string,UnityEngine.Events.UnityAction) (at Assets/Framework/Scripts/Managers/UIMgr.cs:51)
+UIHomeUICtrl:Start () (at Assets/Game/Scripts/UIControllers/UIHomeUICtrl.cs:15)
+
+[log][2025-11-30 19:08:47]已正常进入游戏
+[log][2025-11-30 19:08:47]UnityEngine.Debug:Log (object)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:23)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:08:47]异步场景加载进度：0%
+[log][2025-11-30 19:08:47]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:481)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+SceneMgr:LoadSceneAsync (string,System.Action`2<bool, UnityEngine.SceneManagement.Scene>,System.Action`1<single>,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Framework/Scripts/Managers/SceneMgr.cs:98)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:71)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:08:47]异步场景加载进度：90%
+[log][2025-11-30 19:08:47]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:481)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Warning][2025-11-30 19:08:47]The referenced script (Unknown) on this Behaviour is missing!
+[Warning][2025-11-30 19:08:47]
+[Warning][2025-11-30 19:08:47]The referenced script on this Behaviour (Game Object 'Joystick') is missing!
+[Warning][2025-11-30 19:08:47]
+[log][2025-11-30 19:08:47]异步加载场景成功，场景名为：Main
+[log][2025-11-30 19:08:47]UnityEngine.Debug:Log (object)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:129)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Warning][2025-11-30 19:08:47]Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning][2025-11-30 19:08:47]UnityEngine.Transform:set_parent (UnityEngine.Transform)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:353)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:08:47]木箭
+[log][2025-11-30 19:08:47]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:470)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:08:47]破损菜刀
+[log][2025-11-30 19:08:47]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:470)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:08:47]羽毛箭
+[log][2025-11-30 19:08:47]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:470)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:08:47]斧头
+[log][2025-11-30 19:08:47]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:470)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:08:47]稿子
+[log][2025-11-30 19:08:47]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:470)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:08:47]鼠肉
+[log][2025-11-30 19:08:47]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:470)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:08:47]烤鼠
+[log][2025-11-30 19:08:47]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:470)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:08:47]鸡肉
+[log][2025-11-30 19:08:47]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:470)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:08:47]烤鸡
+[log][2025-11-30 19:08:47]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:470)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:08:47]羽毛
+[log][2025-11-30 19:08:47]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:470)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:08:47]兔肉
+[log][2025-11-30 19:08:47]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:470)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:08:47]烤兔
+[log][2025-11-30 19:08:47]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:470)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:08:47]野猪肉
+[log][2025-11-30 19:08:47]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:470)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:08:47]烧烤串
+[log][2025-11-30 19:08:47]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:470)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:08:47]竹笋
+[log][2025-11-30 19:08:47]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:470)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:08:47]竹笋炒肉
+[log][2025-11-30 19:08:47]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:470)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:08:47]蛇肉
+[log][2025-11-30 19:08:47]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:470)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:08:47]蛇羹
+[log][2025-11-30 19:08:47]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:470)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:08:47]毒莲花
+[log][2025-11-30 19:08:47]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:470)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:08:47]虎尾酒
+[log][2025-11-30 19:08:47]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:470)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:08:47]白酒
+[log][2025-11-30 19:08:47]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:470)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:08:47]草药
+[log][2025-11-30 19:08:47]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:470)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:08:47]蛇胆
+[log][2025-11-30 19:08:47]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:470)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:08:47]铁矿
+[log][2025-11-30 19:08:47]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:470)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:08:47]树枝
+[log][2025-11-30 19:08:47]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:470)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:08:47]铁锭
+[log][2025-11-30 19:08:47]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:470)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:08:47]木头
+[log][2025-11-30 19:08:47]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:470)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:08:47]石头
+[log][2025-11-30 19:08:47]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:470)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:08:47]弓
+[log][2025-11-30 19:08:47]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:470)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:08:47]AddButtonListener执行！！!
+[log][2025-11-30 19:08:47]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+UICtrl:AddButtonListener (string,UnityEngine.Events.UnityAction) (at Assets/Framework/Scripts/Managers/UIMgr.cs:51)
+UIHomeUICtrl:Start () (at Assets/Game/Scripts/UIControllers/UIHomeUICtrl.cs:15)
+
+[log][2025-11-30 19:19:18]已正常进入游戏
+[log][2025-11-30 19:19:18]UnityEngine.Debug:Log (object)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:23)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:19:18]异步场景加载进度：0%
+[log][2025-11-30 19:19:18]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:497)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+SceneMgr:LoadSceneAsync (string,System.Action`2<bool, UnityEngine.SceneManagement.Scene>,System.Action`1<single>,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Framework/Scripts/Managers/SceneMgr.cs:98)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:71)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:19:18]异步场景加载进度：90%
+[log][2025-11-30 19:19:18]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:497)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:19:18]异步场景加载进度：90%
+[log][2025-11-30 19:19:18]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:497)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Warning][2025-11-30 19:19:18]The referenced script (Unknown) on this Behaviour is missing!
+[Warning][2025-11-30 19:19:18]
+[Warning][2025-11-30 19:19:18]The referenced script on this Behaviour (Game Object 'Joystick') is missing!
+[Warning][2025-11-30 19:19:18]
+[log][2025-11-30 19:19:18]异步加载场景成功，场景名为：Main
+[log][2025-11-30 19:19:18]UnityEngine.Debug:Log (object)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:129)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Warning][2025-11-30 19:19:18]Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning][2025-11-30 19:19:18]UnityEngine.Transform:set_parent (UnityEngine.Transform)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:353)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:19:18]木箭
+[log][2025-11-30 19:19:18]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:19:18]破损菜刀
+[log][2025-11-30 19:19:18]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:19:18]羽毛箭
+[log][2025-11-30 19:19:18]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:19:18]斧头
+[log][2025-11-30 19:19:18]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:19:18]稿子
+[log][2025-11-30 19:19:18]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:19:18]鼠肉
+[log][2025-11-30 19:19:18]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:19:18]烤鼠
+[log][2025-11-30 19:19:18]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:19:18]鸡肉
+[log][2025-11-30 19:19:18]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:19:18]烤鸡
+[log][2025-11-30 19:19:18]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:19:18]羽毛
+[log][2025-11-30 19:19:18]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:19:18]兔肉
+[log][2025-11-30 19:19:18]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:19:18]烤兔
+[log][2025-11-30 19:19:18]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:19:18]野猪肉
+[log][2025-11-30 19:19:18]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:19:18]烧烤串
+[log][2025-11-30 19:19:18]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:19:18]竹笋
+[log][2025-11-30 19:19:18]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:19:18]竹笋炒肉
+[log][2025-11-30 19:19:18]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:19:18]蛇肉
+[log][2025-11-30 19:19:18]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:19:18]蛇羹
+[log][2025-11-30 19:19:18]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:19:18]毒莲花
+[log][2025-11-30 19:19:18]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:19:18]虎尾酒
+[log][2025-11-30 19:19:18]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:19:18]白酒
+[log][2025-11-30 19:19:18]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:19:18]草药
+[log][2025-11-30 19:19:18]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:19:18]蛇胆
+[log][2025-11-30 19:19:18]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:19:18]铁矿
+[log][2025-11-30 19:19:18]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:19:18]树枝
+[log][2025-11-30 19:19:18]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:19:18]铁锭
+[log][2025-11-30 19:19:18]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:19:18]木头
+[log][2025-11-30 19:19:18]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:19:18]石头
+[log][2025-11-30 19:19:18]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:19:18]弓
+[log][2025-11-30 19:19:18]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:19:18]AddButtonListener执行！！!
+[log][2025-11-30 19:19:18]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+UICtrl:AddButtonListener (string,UnityEngine.Events.UnityAction) (at Assets/Framework/Scripts/Managers/UIMgr.cs:51)
+UIHomeUICtrl:Start () (at Assets/Game/Scripts/UIControllers/UIHomeUICtrl.cs:15)
+
+[log][2025-11-30 19:26:47]已正常进入游戏
+[log][2025-11-30 19:26:47]UnityEngine.Debug:Log (object)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:23)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:26:47]异步场景加载进度：0%
+[log][2025-11-30 19:26:47]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:497)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+SceneMgr:LoadSceneAsync (string,System.Action`2<bool, UnityEngine.SceneManagement.Scene>,System.Action`1<single>,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Framework/Scripts/Managers/SceneMgr.cs:98)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:71)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:26:47]异步场景加载进度：90%
+[log][2025-11-30 19:26:47]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:497)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Warning][2025-11-30 19:26:47]The referenced script (Unknown) on this Behaviour is missing!
+[Warning][2025-11-30 19:26:47]
+[Warning][2025-11-30 19:26:47]The referenced script on this Behaviour (Game Object 'Joystick') is missing!
+[Warning][2025-11-30 19:26:47]
+[log][2025-11-30 19:26:47]异步加载场景成功，场景名为：Main
+[log][2025-11-30 19:26:47]UnityEngine.Debug:Log (object)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:129)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Warning][2025-11-30 19:26:47]Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning][2025-11-30 19:26:47]UnityEngine.Transform:set_parent (UnityEngine.Transform)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:353)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:26:47]木箭
+[log][2025-11-30 19:26:47]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:26:47]破损菜刀
+[log][2025-11-30 19:26:47]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:26:47]羽毛箭
+[log][2025-11-30 19:26:47]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:26:47]斧头
+[log][2025-11-30 19:26:47]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:26:47]稿子
+[log][2025-11-30 19:26:47]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:26:47]鼠肉
+[log][2025-11-30 19:26:47]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:26:47]烤鼠
+[log][2025-11-30 19:26:47]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:26:47]鸡肉
+[log][2025-11-30 19:26:47]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:26:47]烤鸡
+[log][2025-11-30 19:26:47]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:26:47]羽毛
+[log][2025-11-30 19:26:47]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:26:47]兔肉
+[log][2025-11-30 19:26:47]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:26:47]烤兔
+[log][2025-11-30 19:26:47]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:26:47]野猪肉
+[log][2025-11-30 19:26:47]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:26:47]烧烤串
+[log][2025-11-30 19:26:47]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:26:47]竹笋
+[log][2025-11-30 19:26:47]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:26:47]竹笋炒肉
+[log][2025-11-30 19:26:47]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:26:47]蛇肉
+[log][2025-11-30 19:26:47]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:26:47]蛇羹
+[log][2025-11-30 19:26:47]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:26:47]毒莲花
+[log][2025-11-30 19:26:47]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:26:47]虎尾酒
+[log][2025-11-30 19:26:47]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:26:47]白酒
+[log][2025-11-30 19:26:47]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:26:47]草药
+[log][2025-11-30 19:26:47]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:26:47]蛇胆
+[log][2025-11-30 19:26:47]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:26:47]铁矿
+[log][2025-11-30 19:26:47]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:26:47]树枝
+[log][2025-11-30 19:26:47]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:26:47]铁锭
+[log][2025-11-30 19:26:47]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:26:47]木头
+[log][2025-11-30 19:26:47]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:26:47]石头
+[log][2025-11-30 19:26:47]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:26:47]弓
+[log][2025-11-30 19:26:47]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:26:47]文件储存成功！路径在C:/Users/lth/AppData/LocalLow/DefaultCompany/CYFramework/玩家的背包数据.json
+[log][2025-11-30 19:26:47]UnityEngine.Debug:Log (object)
+JsonMgr:SaveData (object,string,JsonType) (at Assets/Framework/Scripts/Managers/JsonMgr.cs:56)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:484)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:26:47]AddButtonListener执行！！!
+[log][2025-11-30 19:26:47]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+UICtrl:AddButtonListener (string,UnityEngine.Events.UnityAction) (at Assets/Framework/Scripts/Managers/UIMgr.cs:51)
+UIHomeUICtrl:Start () (at Assets/Game/Scripts/UIControllers/UIHomeUICtrl.cs:15)
+
+[log][2025-11-30 19:28:03]已正常进入游戏
+[log][2025-11-30 19:28:03]UnityEngine.Debug:Log (object)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:23)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:28:03]异步场景加载进度：0%
+[log][2025-11-30 19:28:03]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:497)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+SceneMgr:LoadSceneAsync (string,System.Action`2<bool, UnityEngine.SceneManagement.Scene>,System.Action`1<single>,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Framework/Scripts/Managers/SceneMgr.cs:98)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:71)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:28:03]异步场景加载进度：90%
+[log][2025-11-30 19:28:03]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:497)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Warning][2025-11-30 19:28:03]The referenced script (Unknown) on this Behaviour is missing!
+[Warning][2025-11-30 19:28:03]
+[Warning][2025-11-30 19:28:03]The referenced script on this Behaviour (Game Object 'Joystick') is missing!
+[Warning][2025-11-30 19:28:03]
+[log][2025-11-30 19:28:03]异步加载场景成功，场景名为：Main
+[log][2025-11-30 19:28:03]UnityEngine.Debug:Log (object)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:129)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Warning][2025-11-30 19:28:03]Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning][2025-11-30 19:28:03]UnityEngine.Transform:set_parent (UnityEngine.Transform)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:353)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:28:03]木箭
+[log][2025-11-30 19:28:03]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:28:03]破损菜刀
+[log][2025-11-30 19:28:03]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:28:03]羽毛箭
+[log][2025-11-30 19:28:03]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:28:03]斧头
+[log][2025-11-30 19:28:03]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:28:03]稿子
+[log][2025-11-30 19:28:03]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:28:03]鼠肉
+[log][2025-11-30 19:28:03]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:28:03]烤鼠
+[log][2025-11-30 19:28:03]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:28:03]鸡肉
+[log][2025-11-30 19:28:03]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:28:03]烤鸡
+[log][2025-11-30 19:28:03]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:28:03]羽毛
+[log][2025-11-30 19:28:03]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:28:03]兔肉
+[log][2025-11-30 19:28:03]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:28:03]烤兔
+[log][2025-11-30 19:28:03]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:28:03]野猪肉
+[log][2025-11-30 19:28:03]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:28:03]烧烤串
+[log][2025-11-30 19:28:03]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:28:03]竹笋
+[log][2025-11-30 19:28:03]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:28:03]竹笋炒肉
+[log][2025-11-30 19:28:03]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:28:03]蛇肉
+[log][2025-11-30 19:28:03]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:28:03]蛇羹
+[log][2025-11-30 19:28:03]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:28:03]毒莲花
+[log][2025-11-30 19:28:03]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:28:03]虎尾酒
+[log][2025-11-30 19:28:03]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:28:03]白酒
+[log][2025-11-30 19:28:03]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:28:03]草药
+[log][2025-11-30 19:28:03]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:28:03]蛇胆
+[log][2025-11-30 19:28:03]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:28:03]铁矿
+[log][2025-11-30 19:28:03]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:28:03]树枝
+[log][2025-11-30 19:28:03]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:28:03]铁锭
+[log][2025-11-30 19:28:03]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:28:03]木头
+[log][2025-11-30 19:28:03]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:28:03]石头
+[log][2025-11-30 19:28:03]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:28:03]弓
+[log][2025-11-30 19:28:03]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:28:03]文件储存成功!路径在C:/Users/lth/AppData/LocalLow/DefaultCompany/CYFramework/玩家的背包数据.json
+[log][2025-11-30 19:28:03]UnityEngine.Debug:Log (object)
+JsonMgr:SaveData (object,string,JsonType) (at Assets/Framework/Scripts/Managers/JsonMgr.cs:56)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:484)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:28:03]AddButtonListener执行！！!
+[log][2025-11-30 19:28:03]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+UICtrl:AddButtonListener (string,UnityEngine.Events.UnityAction) (at Assets/Framework/Scripts/Managers/UIMgr.cs:51)
+UIHomeUICtrl:Start () (at Assets/Game/Scripts/UIControllers/UIHomeUICtrl.cs:15)
+
+[log][2025-11-30 19:28:21]已正常进入游戏
+[log][2025-11-30 19:28:21]UnityEngine.Debug:Log (object)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:23)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:28:21]异步场景加载进度：0%
+[log][2025-11-30 19:28:21]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:497)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+SceneMgr:LoadSceneAsync (string,System.Action`2<bool, UnityEngine.SceneManagement.Scene>,System.Action`1<single>,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Framework/Scripts/Managers/SceneMgr.cs:98)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:71)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:28:21]异步场景加载进度：90%
+[log][2025-11-30 19:28:21]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:497)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Warning][2025-11-30 19:28:21]The referenced script (Unknown) on this Behaviour is missing!
+[Warning][2025-11-30 19:28:21]
+[Warning][2025-11-30 19:28:21]The referenced script on this Behaviour (Game Object 'Joystick') is missing!
+[Warning][2025-11-30 19:28:21]
+[log][2025-11-30 19:28:21]异步加载场景成功，场景名为：Main
+[log][2025-11-30 19:28:21]UnityEngine.Debug:Log (object)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:129)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Warning][2025-11-30 19:28:21]Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning][2025-11-30 19:28:21]UnityEngine.Transform:set_parent (UnityEngine.Transform)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:353)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:28:21]木箭
+[log][2025-11-30 19:28:21]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:28:21]破损菜刀
+[log][2025-11-30 19:28:21]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:28:21]羽毛箭
+[log][2025-11-30 19:28:21]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:28:21]斧头
+[log][2025-11-30 19:28:21]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:28:21]稿子
+[log][2025-11-30 19:28:21]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:28:21]鼠肉
+[log][2025-11-30 19:28:21]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:28:21]烤鼠
+[log][2025-11-30 19:28:21]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:28:21]鸡肉
+[log][2025-11-30 19:28:21]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:28:21]烤鸡
+[log][2025-11-30 19:28:21]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:28:21]羽毛
+[log][2025-11-30 19:28:21]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:28:21]兔肉
+[log][2025-11-30 19:28:21]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:28:21]烤兔
+[log][2025-11-30 19:28:21]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:28:21]野猪肉
+[log][2025-11-30 19:28:21]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:28:21]烧烤串
+[log][2025-11-30 19:28:21]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:28:21]竹笋
+[log][2025-11-30 19:28:21]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:28:21]竹笋炒肉
+[log][2025-11-30 19:28:21]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:28:21]蛇肉
+[log][2025-11-30 19:28:21]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:28:21]蛇羹
+[log][2025-11-30 19:28:21]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:28:21]毒莲花
+[log][2025-11-30 19:28:21]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:28:21]虎尾酒
+[log][2025-11-30 19:28:21]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:28:21]白酒
+[log][2025-11-30 19:28:21]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:28:21]草药
+[log][2025-11-30 19:28:21]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:28:21]蛇胆
+[log][2025-11-30 19:28:21]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:28:21]铁矿
+[log][2025-11-30 19:28:21]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:28:21]树枝
+[log][2025-11-30 19:28:21]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:28:21]铁锭
+[log][2025-11-30 19:28:21]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:28:21]木头
+[log][2025-11-30 19:28:21]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:28:21]石头
+[log][2025-11-30 19:28:21]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:28:21]弓
+[log][2025-11-30 19:28:21]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Warning][2025-11-30 19:28:21]文件储存成功!路径在C:/Users/lth/AppData/LocalLow/DefaultCompany/CYFramework/玩家的背包数据.json
+[Warning][2025-11-30 19:28:21]UnityEngine.Debug:LogWarning (object)
+JsonMgr:SaveData (object,string,JsonType) (at Assets/Framework/Scripts/Managers/JsonMgr.cs:56)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:484)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:28:21]AddButtonListener执行！！!
+[log][2025-11-30 19:28:21]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+UICtrl:AddButtonListener (string,UnityEngine.Events.UnityAction) (at Assets/Framework/Scripts/Managers/UIMgr.cs:51)
+UIHomeUICtrl:Start () (at Assets/Game/Scripts/UIControllers/UIHomeUICtrl.cs:15)
+
+[log][2025-11-30 19:29:17]已正常进入游戏
+[log][2025-11-30 19:29:17]UnityEngine.Debug:Log (object)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:23)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:29:17]异步场景加载进度：0%
+[log][2025-11-30 19:29:17]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:497)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+SceneMgr:LoadSceneAsync (string,System.Action`2<bool, UnityEngine.SceneManagement.Scene>,System.Action`1<single>,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Framework/Scripts/Managers/SceneMgr.cs:98)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:71)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:29:17]异步场景加载进度：90%
+[log][2025-11-30 19:29:17]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:497)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Warning][2025-11-30 19:29:17]The referenced script (Unknown) on this Behaviour is missing!
+[Warning][2025-11-30 19:29:17]
+[Warning][2025-11-30 19:29:17]The referenced script on this Behaviour (Game Object 'Joystick') is missing!
+[Warning][2025-11-30 19:29:17]
+[log][2025-11-30 19:29:17]异步加载场景成功，场景名为：Main
+[log][2025-11-30 19:29:17]UnityEngine.Debug:Log (object)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:129)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Warning][2025-11-30 19:29:17]Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning][2025-11-30 19:29:17]UnityEngine.Transform:set_parent (UnityEngine.Transform)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:353)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:29:17]木箭
+[log][2025-11-30 19:29:17]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:29:17]破损菜刀
+[log][2025-11-30 19:29:17]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:29:17]羽毛箭
+[log][2025-11-30 19:29:17]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:29:17]斧头
+[log][2025-11-30 19:29:17]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:29:17]稿子
+[log][2025-11-30 19:29:17]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:29:17]鼠肉
+[log][2025-11-30 19:29:17]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:29:17]烤鼠
+[log][2025-11-30 19:29:17]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:29:17]鸡肉
+[log][2025-11-30 19:29:17]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:29:17]烤鸡
+[log][2025-11-30 19:29:17]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:29:17]羽毛
+[log][2025-11-30 19:29:17]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:29:17]兔肉
+[log][2025-11-30 19:29:17]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:29:17]烤兔
+[log][2025-11-30 19:29:17]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:29:17]野猪肉
+[log][2025-11-30 19:29:17]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:29:17]烧烤串
+[log][2025-11-30 19:29:17]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:29:17]竹笋
+[log][2025-11-30 19:29:17]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:29:17]竹笋炒肉
+[log][2025-11-30 19:29:17]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:29:17]蛇肉
+[log][2025-11-30 19:29:17]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:29:17]蛇羹
+[log][2025-11-30 19:29:17]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:29:17]毒莲花
+[log][2025-11-30 19:29:17]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:29:17]虎尾酒
+[log][2025-11-30 19:29:17]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:29:17]白酒
+[log][2025-11-30 19:29:17]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:29:17]草药
+[log][2025-11-30 19:29:17]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:29:17]蛇胆
+[log][2025-11-30 19:29:17]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:29:17]铁矿
+[log][2025-11-30 19:29:17]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:29:17]树枝
+[log][2025-11-30 19:29:17]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:29:17]铁锭
+[log][2025-11-30 19:29:17]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:29:17]木头
+[log][2025-11-30 19:29:17]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:29:17]石头
+[log][2025-11-30 19:29:17]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:29:17]弓
+[log][2025-11-30 19:29:17]UnityEngine.MonoBehaviour:print (object)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:472)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Warning][2025-11-30 19:29:17]文件储存成功!路径在C:/Users/lth/AppData/LocalLow/DefaultCompany/CYFramework/玩家的背包数据.json
+[Warning][2025-11-30 19:29:17]UnityEngine.Debug:LogWarning (object)
+JsonMgr:SaveData (object,string,JsonType) (at Assets/Framework/Scripts/Managers/JsonMgr.cs:56)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:484)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-11-30 19:29:17]AddButtonListener执行！！!
+[log][2025-11-30 19:29:17]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+UICtrl:AddButtonListener (string,UnityEngine.Events.UnityAction) (at Assets/Framework/Scripts/Managers/UIMgr.cs:51)
+UIHomeUICtrl:Start () (at Assets/Game/Scripts/UIControllers/UIHomeUICtrl.cs:15)
+
+[log][2025-12-01 00:35:55]已正常进入游戏
+[log][2025-12-01 00:35:55]UnityEngine.Debug:Log (object)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:23)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-12-01 00:35:55]异步场景加载进度：0%
+[log][2025-12-01 00:35:55]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:496)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+SceneMgr:LoadSceneAsync (string,System.Action`2<bool, UnityEngine.SceneManagement.Scene>,System.Action`1<single>,UnityEngine.SceneManagement.LoadSceneMode) (at Assets/Framework/Scripts/Managers/SceneMgr.cs:98)
+GameApp:EnterGame () (at Assets/Game/Scripts/GameApp.cs:71)
+Boot/<BootStartup>d__1:MoveNext () (at Assets/Boot/Scripts/Boot.cs:23)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-12-01 00:35:55]异步场景加载进度：90%
+[log][2025-12-01 00:35:55]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:496)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-12-01 00:35:55]异步场景加载进度：90%
+[log][2025-12-01 00:35:55]UnityEngine.Debug:Log (object)
+GameApp:AsynLoadProgress (single) (at Assets/Game/Scripts/GameApp.cs:496)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:117)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Warning][2025-12-01 00:35:55]The referenced script (Unknown) on this Behaviour is missing!
+[Warning][2025-12-01 00:35:55]
+[Warning][2025-12-01 00:35:55]The referenced script on this Behaviour (Game Object 'Joystick') is missing!
+[Warning][2025-12-01 00:35:55]
+[log][2025-12-01 00:35:55]异步加载场景成功，场景名为：Main
+[log][2025-12-01 00:35:55]UnityEngine.Debug:Log (object)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:129)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Warning][2025-12-01 00:35:55]Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning][2025-12-01 00:35:55]UnityEngine.Transform:set_parent (UnityEngine.Transform)
+GameApp:TestRunningContent (bool,UnityEngine.SceneManagement.Scene) (at Assets/Game/Scripts/GameApp.cs:353)
+SceneMgr/<AsyncLoadCoroutine>d__3:MoveNext () (at Assets/Framework/Scripts/Managers/SceneMgr.cs:132)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[log][2025-12-01 00:35:55]AddButtonListener执行！！!
+[log][2025-12-01 00:35:55]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+UICtrl:AddButtonListener (string,UnityEngine.Events.UnityAction) (at Assets/Framework/Scripts/Tools/UICtrl.cs:52)
+UIHomeUICtrl:Start () (at Assets/Game/Scripts/UIControllers/UIHomeUICtrl.cs:15)
+
+[log][2025-12-01 00:35:56]UI按钮执行回调！！！
+[log][2025-12-01 00:35:56]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+UIHomeUICtrl:ButtonCallback () (at Assets/Game/Scripts/UIControllers/UIHomeUICtrl.cs:29)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-12-01 00:35:56]UI按钮执行回调！！！
+[log][2025-12-01 00:35:56]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+UIHomeUICtrl:ButtonCallback () (at Assets/Game/Scripts/UIControllers/UIHomeUICtrl.cs:29)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-12-01 00:35:57]UI按钮执行回调！！！
+[log][2025-12-01 00:35:57]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+UIHomeUICtrl:ButtonCallback () (at Assets/Game/Scripts/UIControllers/UIHomeUICtrl.cs:29)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-12-01 00:35:57]UI按钮执行回调！！！
+[log][2025-12-01 00:35:57]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+UIHomeUICtrl:ButtonCallback () (at Assets/Game/Scripts/UIControllers/UIHomeUICtrl.cs:29)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
+[log][2025-12-01 00:35:57]UI按钮执行回调！！！
+[log][2025-12-01 00:35:57]UnityEngine.Debug:Log (object)
+LogMgr:Log (string) (at Assets/Framework/Scripts/Managers/LogMgr.cs:132)
+UIHomeUICtrl:ButtonCallback () (at Assets/Game/Scripts/UIControllers/UIHomeUICtrl.cs:29)
+UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+
