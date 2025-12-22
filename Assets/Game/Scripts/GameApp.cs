@@ -335,6 +335,9 @@ public class GameApp : UnitySingleton<GameApp>
 
         #region//测试UI管理
 
+        //后面这块考虑放到UIMGr Init里面初始化
+        //不然没控制好脚本执行顺序容易报错
+
         GameObject uiObject = new GameObject("UI");  //创建空物体并命名为"UI" 
         //@生成Canvas物体，并命名为MainCanvas
         GameObject mainCanvasObj = new GameObject("MainCanvas");  //创建空物体并命名为"MainCanvas"
@@ -353,6 +356,7 @@ public class GameApp : UnitySingleton<GameApp>
         mainCanvasObj.transform.parent = uiObject.transform;
 
         GameObject windowsCanvasObj = new GameObject("WindowsCanvas");  //创建空物体并命名为"windowsCanvas"
+        //UIMgr.Instance.canvas =  windowsCanvasObj.transform;//将自身位置交给UI管理器管理
         windowsCanvasObj.transform.parent = uiObject.transform;
 
 
@@ -363,9 +367,15 @@ public class GameApp : UnitySingleton<GameApp>
             eventSystem.AddComponent<StandaloneInputModule>(); // 处理输入
         }
 
-        UIMgr.Instance.ShowUIView("Assets/Game/Resources/UI/Prefabs/UIHome.prefab");  //显示UIHome界面
+        UIMgr.Instance.ShowUIView("Assets/Game/Resources/UI/3DBlood/Prefabs/UIHome.prefab");  //显示UIHome界面
                                                                                       ////UIMgr.Instance.ShowUIViewWithCanvas 这个还没有测试。
-                                                                                      //// end
+       
+        UIMgr.Instance.ClosePanel<UIHomeUICtrl>();//关闭UIHome界面
+
+
+
+
+        //// end
 
         #endregion
 

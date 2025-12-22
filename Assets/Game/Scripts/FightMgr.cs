@@ -14,7 +14,7 @@ public class FightMgr : MonoBehaviour
     // test
     public GameObject uiBloodPrefab = null;
 
-    private void Awake() 
+    public void Awake() 
     {
         FightMgr.Instance = this;
 
@@ -26,4 +26,5 @@ public class FightMgr : MonoBehaviour
         this.player = this.transform.Find("Player").gameObject.AddComponent<Player>();
         this.player.Init();
     }
+    
 }

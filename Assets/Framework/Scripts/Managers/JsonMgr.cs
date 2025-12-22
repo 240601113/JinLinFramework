@@ -18,9 +18,14 @@ public enum JsonType
     LitJson,
 }
 
-public class JsonMgr : Singleton<JsonMgr>
+public class JsonMgr : UnitySingleton<JsonMgr>
 {
 
+
+    public void Init()
+    {
+
+    }
 
     //提供两个外部接口来共外部使用实现写入和读取  序列化和反序列化都在这执行
 

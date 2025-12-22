@@ -33,7 +33,7 @@ public class Boot : UnitySingleton<Boot>
     {
         yield break;
     }
-
+   
     /// <summary>
     /// 初始化游戏框架
     /// </summary>
@@ -49,7 +49,10 @@ public class Boot : UnitySingleton<Boot>
         ////this.gameObject.AddComponent<GameObjectPoolMgr>().Init();  //游戏对象池管理器初始化
         this.gameObject.AddComponent<UIMgr>().Init();  //UI管理器初始化
         this.gameObject.AddComponent<GameApp>().Init();  //游戏管理器（入口）初始化（这个一般都在框架管理器之后初始化）
+        this.gameObject.AddComponent<JsonMgr>().Init(); //数据管理器 全局游戏数据的读取和存储
+        //this.gameObject.AddComponent<FightMgr>().Init();
 
+       
 
         yield break;
     }

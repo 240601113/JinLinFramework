@@ -9,7 +9,7 @@ public class Player : MonoBehaviour
 
     private bool isMoving = false;
     private float speed = 5.0f;  //移动速度，可以从配置配件中读取
-    private UIBlood uiBlood;
+    private UIBloodUICtrl uiBlood;
     private Transform mountPoint = null;
 
     public void Init() 
@@ -21,11 +21,12 @@ public class Player : MonoBehaviour
         this.speed = 5;
 
         //血条
-        this.uiBlood = UIBloodUICtrl.CreateUIBlood();
+        this.uiBlood = UIMgr.Instance.ShowUIBlood();
         this.uiBlood.SetPercent(0.3f);
        // end
 
        this.mountPoint = this.transform.Find("mountPoint");
+        Debug.Log(mountPoint.name);
     }
 
     public void Move(int dirx, int diry) 

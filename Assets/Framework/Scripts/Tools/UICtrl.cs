@@ -35,6 +35,32 @@ public class UICtrl : MonoBehaviour
         this.LoadUIAllObject(this.gameObject, "");
     }
 
+
+    /// <summary>
+    /// 显示面板
+    /// </summary>
+    public virtual void ShowUIViewMe()
+    {
+        if (this.gameObject.activeSelf)
+        {
+            return;
+        }
+        this.gameObject.SetActive(true);
+    }
+    /// <summary>
+    /// 关闭面板
+    /// </summary>
+    public virtual void CloseUIViewMe()
+    {
+        if (!this.gameObject.activeSelf)
+        {
+            return;
+        }
+        this.gameObject.SetActive(false);
+    }
+
+
+
     /// <summary>
     /// 添加UI界面按钮监听事件
     /// </summary>
@@ -51,6 +77,7 @@ public class UICtrl : MonoBehaviour
         }
         LogMgr.Instance.Log("AddButtonListener执行！！!");
         button.onClick.AddListener(onClick);
+
     }
 
     /// <summary>

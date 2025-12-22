@@ -8,30 +8,33 @@ using System.Collections.Generic;
 public class UIBloodUICtrl : UICtrl
 {
 
-    private static Transform uiBloodRoot;//实例化到这个节点
-
+   
     public override void Awake() 
 	{
 		base.Awake();
 	}
-	private void Start()
-	{
-        uiBloodRoot = this.transform.Find("UIBloodRoot");
-        
-    }
+    Image value = null;
 
-
-    public static UIBlood  CreateUIBlood()
+    public void Init()
     {
-        // 代码加载资源，实例化一个; 
-        GameObject blood = GameObject.Instantiate(FightMgr.Instance.uiBloodPrefab);
-        blood.transform.SetParent(uiBloodRoot, false);
-
-        UIBlood uiBlood = blood.AddComponent<UIBlood>();
-        uiBlood.Init();
-        // end
-
-        return uiBlood;
+        this.value = UIView["IT_value"].GetComponent<Image>();
+    //    this.value = this.transform.Find("value").GetComponent<Image>();
     }
 
+    public void SetPercent(float per)
+    {
+        //限制安全取值范围
+        per = (per < 0) ? 0 : per;//如果值小于0 就等于0 否则就是值是安全取值范围 直接取传进来的值
+        per = (per > 1) ? 1 : per;//如果值大于一那直接等于1 否则就是安全取值范围 直接取传进来的值
+
+        this.value.fillAmount = per;
+    }
+
+    public void ShowAt(Vector3 screenPos)
+    {
+        // UGUI ---> ovverlad模式，sceenPos == UI元素的世界坐标;
+        this.gameObject.transform.position = screenPos;
+        // UGUI--->摄像机---》摄像机转sceenTo世界;
+
+    }
 }
